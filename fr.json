@@ -15,6 +15,7 @@
     "Confirm": "Confirmer",
     "Command": "Commande",
     "Collapse": "Réduire",
+    "Coordinates": "Coordonnées",
     "Close": "Fermer",
     "Deactivate": "Désactiver",
     "Degrees": "Degrés",
@@ -162,7 +163,8 @@
       },
       "LABELS": {
         "radius": "Rayon de lumière",
-        "radiusHint": "Configure la distance d’émission de lumière de cette source où le rayon de la lumière vive est inclus dans le rayon de la lumière tamisée."
+        "radiusHint": "Configure la distance d’émission de lumière de cette source où le rayon de la lumière vive est inclus dans le rayon de la lumière tamisée.",
+        "darknessAdvancedWarning": "Les options de configuration avancée ne sont prises en charge que pour les sources sans obscurité."
       },
       "SECTIONS": {
         "BASIC": "Configuration de base",
@@ -458,7 +460,6 @@
     "COMPENDIUM.Delete": "Supprimer le compendium",
     "COMPENDIUM.DeleteWarning": "Ce compendium sera définitivement supprimé et ne pourra pas être restauré.",
     "COMPENDIUM.DeleteEntry": "Supprimer l’entité",
-    "COMPENDIUM.DeleteEntryWarning": "Cette entité du compendium et ses données seront définitivement supprimées.",
     "COMPENDIUM.Duplicate": "Dupliquer le compendium",
     "COMPENDIUM.DuplicateTitle": "Nouveau titre",
     "COMPENDIUM.DuplicateHint": "Vous pouvez dupliquer ce compendium dans votre monde afin de disposer d’une copie locale de son contenu que vous pouvez modifier en toute sécurité.",
@@ -2178,7 +2179,7 @@
     "SHEETS.DocumentSheetPrivate": "Vous n’avez pas l’autorisation suffisante pour voir la fiche de ce {type}.",
     "SHEETS.Save": "Sauver la configuration de la feuille",
     "SHEETS.FormNavLabel": "Navigation dans l’onglet des feuilles de personnages",
-    "SHEETS.CopyId": "Copier l’ID du document",
+    "SHEETS.CopyUuid": "Copier l’UUID du document",
 
     "SOUND": {
       "ConfigTitle": "Configuration du son ambiant",
@@ -2462,7 +2463,7 @@
           "FIELDS": {
             "mode": {
               "label": "Mode",
-              "hint": "Comment le niveau d’obscurité est modifié dans cette région."
+              "hint": "Comment le niveau d’obscurité est modifié dans cette région. Ce comportement respecte le seuil d'illumination globale de la scène. Si le niveau d'obscurité totale d'une zone dépasse la valeur seuil, l'illumination globale est empêchée dans cette zone."
             },
             "modifier": {
               "label": "Modificateur",
@@ -2612,6 +2613,9 @@
     "TABLE.Roll": "Lancer",
     "TABLE.ToggleDrawn": "Retirer des résultats possibles",
     "TABLE.Update": "Mettre à jour",
+    "TABLE.RESULT_TYPES.TEXT.label": "Texte",
+    "TABLE.RESULT_TYPES.DOCUMENT.label": "Document",
+    "TABLE.RESULT_TYPES.COMPENDIUM.label": "Compendium",
 
     "TEMPLATE.BorderColor": "Couleur de la bordure",
     "TEMPLATE.ConeTypeSetting": "Type de gabarit cône",
@@ -2717,7 +2721,7 @@
     "TOKEN.TintColor": "Teinte",
     "TOKEN.Update": "Mettre à jour le token",
     "TOKEN.VisionEnabled": "Vision activée",
-    "TOKEN.VisionEnabledHint": "Permet au token de voir les espaces éclairés dans sa ligne de vue.",
+    "TOKEN.VisionEnabledHint": "Une source lumineuse avec cette option activée sert de point de vision supplémentaire pour les tokens. Activez cette option pour permettre aux jetons de toujours voir la zone qu'elle éclaire, même si cette zone se trouve derrière un mur ou en dehors du champ de vision du token.",
     "TOKEN.VisionRange": "Distance de vision",
     "TOKEN.VisionRangeHint": "La distance à laquelle un token peut voir sans aucune lumière.",
     "TOKEN.VisionAngle": "Angle de vision",
@@ -2905,10 +2909,10 @@
       }
     },
 
+    "TYPES.Base": "Base",
     "TYPES.Cards.deck": "Pioche",
     "TYPES.Cards.hand": "Main",
     "TYPES.Cards.pile": "Défausse",
-    "TYPES.Card.base": "Base",
     "TYPES.JournalEntryPage.image": "Image",
     "TYPES.JournalEntryPage.pdf": "PDF",
     "TYPES.JournalEntryPage.text": "Texte",
