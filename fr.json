@@ -853,8 +853,8 @@
     "EFFECT.TabDuration": "Durée",
     "EFFECT.TabEffects": "Effets",
     "EFFECT.Name": "Nom de l’effet",
-    "EFFECT.Image": "Effect Image",
-    "EFFECT.Tint": "Icon Tint Color",
+    "EFFECT.Image": "Icône de l'effet",
+    "EFFECT.Tint": "Teinte de l'icône",
     "EFFECT.Disabled": "Effet suspendu",
     "EFFECT.Origin": "Origine de l’effet",
     "EFFECT.Transfer": "Appliquer un effet à un acteur",
@@ -2997,8 +2997,8 @@
       "RoleNone": "Aucun",
       "RolePlayer": "Joueur",
       "RoleTrusted": "Joueur de confiance",
-      "RoleAssistant": "Assistant MJ",
-      "RoleGamemaster": "Maître de jeu",
+      "RoleAssistant": "Assistant Maître de Jeu",
+      "RoleGamemaster": "Maître de Jeu",
       "GM": "MJ"
     },
 
@@ -3011,9 +3011,9 @@
     "USERS.Launch": "Valider",
     "USERS.ManageTitle": "Gestion des joueurs",
     "USERS.UpdateSuccess": "Mise à jour des joueurs réussie, retour au monde de jeu.",
-    "USERS.NoGMError": "Vous devez avoir au moins un Maître de Jeu (Game Master) de configuré pour votre monde.",
-    "USERS.DeleteWarning": "Ce joueur sera définitivement supprimé de l’univers du jeu.",
-    "USERS.DeleteGMWarning": "Vous êtes sur le point de supprimer un maître du Jeu !",
+    "USERS.NoGMError": "Vous devez avoir configuré au moins un Maître de Jeu dans votre monde.",
+    "USERS.DeleteWarning": "Ce joueur sera définitivement supprimé du monde de jeu.",
+    "USERS.DeleteGMWarning": "Vous êtes sur le point de supprimer un Maître de Jeu !",
 
 
     "VISION.ModeBlindness": "Aveugle",
