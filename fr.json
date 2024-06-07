@@ -1626,7 +1626,7 @@
     "SETTINGS.DocsHeader": "Aide & Documentation",
     "SETTINGS.AccessHeader": "Invitations",
     "SETTINGS.Wiki": "Wiki Communautaire",
-    "SETTINGS.AnimVisionN": "Vision l’animation du token",
+    "SETTINGS.AnimVisionN": "Animation de la vision du token",
     "SETTINGS.AnimVisionL": "Animer le token et les changements de lumière lors des déplacements des tokens. Désactiver cette option peut améliorer les performances pour les petites configurations.",
     "SETTINGS.AnimLightN": "Animation des lumières",
     "SETTINGS.AnimLightL": "Autoriser les animations de lumières. Désactiver cette option améliorera les performances pour les petites configurations.",
