@@ -853,8 +853,8 @@
     "EFFECT.TabDuration": "Durée",
     "EFFECT.TabEffects": "Effets",
     "EFFECT.Name": "Nom de l’effet",
-    "EFFECT.Image": "Icône de l'effet",
-    "EFFECT.Tint": "Teinte de l'icône",
+    "EFFECT.Image": "Icône de l’effet",
+    "EFFECT.Tint": "Teinte de l’icône",
     "EFFECT.Disabled": "Effet suspendu",
     "EFFECT.Origin": "Origine de l’effet",
     "EFFECT.Transfer": "Appliquer un effet à un acteur",
@@ -1399,7 +1399,7 @@
     "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Ce message peut être extrait en cliquant dessus avec le bouton droit de la souris, vous pouvez également extraire tout l’onglet de chat en cliquant avec le bouton droit de la souris sur l’icône de la bulle de dialogue (menu du haut). Cette dernière méthode (clic droit sur les icones du menu) permet de la même manière de faire apparaître n’importe quel autre onglet de la barre latérale dans une fenêtre indépendante.",
     "NUE.FirstLaunchInvite": "Inviter vos joueurs",
     "NUE.FirstLaunchInviteBody": "Lorsque tout est configuré et que vous êtes prêt à inviter vos joueurs, vous pouvez leur envoyer un lien vers votre monde depuis le <a class=\"nue-action\" data-action=\"invite\">Liens d’invitation</a>.",
-    "NUE.FirstLaunchKB": "N’oubliez pas d’explorer tous les onglets disponibles dans cette barre latérale, et pour plus d’informations, vous pouvez consulter la série <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a> (en Anglais) dans la <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\" >Base de connaissances</a>.",
+    "NUE.FirstLaunchKB": "N’oubliez pas d’explorer tous les onglets disponibles dans cette barre latérale, et pour plus d’informations, vous pouvez consulter la série <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a> (en Anglais) dans la <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\">Base de connaissances</a>.",
     "NUE.FirstLaunchTroubleshooting": "Si la boîte de dialogue Liens d’invitation indique que votre connexion est fermée, vous devrez peut-être configurer la redirection de port. Vous trouverez des instructions à ce sujet sur le site officiel : <a href=\"https://foundryvtt.com/article/port-forwarding/\" target=\"_blank\">Port Forwarding Guide</a> (en Anglais) ou sur le wiki en Français : <a href=\"https://foundryvtt.wiki/fr/pour-commencer/pbcnx/\" target=\"_blank\">Impossible de se connecter à distance</a>. Si vous avez toujours besoin d’aide, vous êtes invité à rejoindre soit le Discord officiel <b>Anglais</b> et à poster un message dans <a href=\"https://discord.com/channels/170995199584108546/689889940590690323\" target=\"_blank\">#install-and-connection</a> pour les problèmes d’invitation, <a href=\"https://discord.com/channels/170995199584108546/486930822465716249\" target=\"_blank\">#troubleshooting</a> pour les problèmes généraux avec le logiciel, ou <a href=\"https://discord.com/channels/170995199584108546/713259405667205193\" target=\"_blank\">#core-how-to</a> pour une aide plus générique sur Foundry VTT. Soit également trouver de l’aide sur le discord <b>francophone</b> de FoundryVTT : <a href=\"https://discord.gg/pPSDNJk\" target=\"_blank\">La Fonderie</a>.",
 
     "PLAYERS.Title": "Joueurs",
@@ -1779,8 +1779,8 @@
     "SETUP.WarningsNone": "Vous n’avez pas d’avertissements !",
     "SETUP.WarningsManage": "Gérer les packages",
 
-    "SETUP.ManifestUpdate": "Version plus récente disponible à une nouvelle URL d'installation",
-    "SETUP.ManifestUpdateAvailable": "Une version plus récente de \"{package}\" est disponible à une URL d'installation différente. Cela se produit lorsque l'emplacement d'hébergement du package ou l'auteur a changé.",
+    "SETUP.ManifestUpdate": "Version plus récente disponible à une nouvelle URL d’installation",
+    "SETUP.ManifestUpdateAvailable": "Une version plus récente de « {package} » est disponible à une URL d’installation différente. Cela se produit lorsque l’emplacement d’hébergement du package ou l’auteur a changé.",
     "SETUP.PriorManifestUrl": "URL du manifeste précédent (Version {version})",
     "SETUP.UpdatedManifestUrl": "URL du manifeste mise à jour (Version {version})",
     "SETUP.SwapToTheUpdatedManifest": "Souhaitez-vous passer à la nouvelle URL du manifeste ? (ceci est recommandé)",
@@ -1794,8 +1794,8 @@
     "SETUP.ForceUpdate": "Forcer la mise à jour ?",
     "SETUP.DependencyNotInstalled": "Cette dépendance n’est pas installée",
     "SETUP.CompatibilityUnknown": "Compatibilité inconnue",
-    "SETUP.CompatibilityRiskUnknown": "Risque d' incompatibilité : aucune donnée de compatibilité spécifiée",
-    "SETUP.CompatibilityRiskWithVersion": "Risque d'incompatibilité : dernière vérification pour la version {version}",
+    "SETUP.CompatibilityRiskUnknown": "Risque d’incompatibilité : aucune donnée de compatibilité spécifiée",
+    "SETUP.CompatibilityRiskWithVersion": "Risque d’incompatibilité : dernière vérification pour la version {version}",
     "SETUP.CompatibilityRequireUpgrade": "Cette dépendance est plus ancienne que la version minimale requise : {version}",
     "SETUP.CompatibilityRequireDowngrade": "Cette dépendance est plus récente que la version minimale requise : {version}",
     "SETUP.ManifestURL": "URL du Manifeste",
@@ -2041,7 +2041,7 @@
     "SETUP.COMPAT.CompatibleTooltip": "Packages vérifiés comme compatibles avec la version {version}.",
     "SETUP.COMPAT.Incompatible": "{count} Incompatible",
     "SETUP.COMPAT.IncompatibleTooltip": "Packages vérifiés comme incompatibles avec la version {version}.",
-    "SETUP.COMPAT.Warning": "{count} Risque d'incompatibilité",
+    "SETUP.COMPAT.Warning": "{count} Risque d’incompatibilité",
     "SETUP.COMPAT.WarningTooltip": "Packages dont la compatibilité a été vérifiée pour une version antérieure et qui peuvent ne pas être compatibles avec la version {version}.",
     "SETUP.COMPAT.Unverified": "{count} Non vérifié",
     "SETUP.COMPAT.UnverifiedTooltip": "Packages dont la compatibilité a été vérifiée pour une version antérieure et qui sont probablement encore compatibles avec la version {version}.",
@@ -2463,7 +2463,7 @@
           "FIELDS": {
             "mode": {
               "label": "Mode",
-              "hint": "Comment le niveau d’obscurité est modifié dans cette région. Ce comportement respecte le seuil d'illumination globale de la scène. Si le niveau d'obscurité totale d'une zone dépasse la valeur seuil, l'illumination globale est empêchée dans cette zone."
+              "hint": "Comment le niveau d’obscurité est modifié dans cette région. Ce comportement respecte le seuil d’illumination globale de la scène. Si le niveau d’obscurité totale d’une zone dépasse la valeur seuil, l’illumination globale est empêchée dans cette zone."
             },
             "modifier": {
               "label": "Modificateur",
@@ -2721,7 +2721,7 @@
     "TOKEN.TintColor": "Teinte",
     "TOKEN.Update": "Mettre à jour le token",
     "TOKEN.VisionEnabled": "Vision activée",
-    "TOKEN.VisionEnabledHint": "Une source lumineuse avec cette option activée sert de point de vision supplémentaire pour les tokens. Activez cette option pour permettre aux jetons de toujours voir la zone qu'elle éclaire, même si cette zone se trouve derrière un mur ou en dehors du champ de vision du token.",
+    "TOKEN.VisionEnabledHint": "Une source lumineuse avec cette option activée sert de point de vision supplémentaire pour les tokens. Activez cette option pour permettre aux jetons de toujours voir la zone qu’elle éclaire, même si cette zone se trouve derrière un mur ou en dehors du champ de vision du token.",
     "TOKEN.VisionRange": "Distance de vision",
     "TOKEN.VisionRangeHint": "La distance à laquelle un token peut voir sans aucune lumière.",
     "TOKEN.VisionAngle": "Angle de vision",
