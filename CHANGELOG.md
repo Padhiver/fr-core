@@ -1,3 +1,6 @@
+12.330.1
+- Mise à jour pour la version 12.330
+
 12.328.1
 - Mise à jour pour la version 12.328
 
