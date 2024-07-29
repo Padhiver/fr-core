@@ -1,3 +1,7 @@
+12.330.3
+- Correction Intensity / quelques {clé}
+- Déploiement automatique d'une release via Github actions
+
 12.330.2
 - Correctifs mineurs pour les régions
 
