@@ -1549,7 +1549,7 @@
   "SCENES.GridStyle": "Style de la grille",
   "SCENES.GridThickness": "Épaisseur de la grille",
   "SCENES.HeaderAmbience": "Ambiance",
-  "SCENES.HeaderAmbienceBasic": "Basic Options",
+  "SCENES.HeaderAmbienceBasic": "Options de base",
   "SCENES.HeaderDetails": "Détails",
   "SCENES.HeaderGrid": "Grille",
   "SCENES.HeaderVision": "Éclairage",
@@ -1598,7 +1598,7 @@
     "ShadowsHint":"En augmentant ce curseur, les ombres et les éléments plus sombres de la scène sont plus foncés et plus profonds.",
     "Hue":"Teinte",
     "HueHint":"Choisissez une teinte (couleur) pour l'intégrer à l'ensemble de la scène. Pour activer le curseur de couleur, vous devez avoir une intensité supérieure à 0",
-    "Intensité" : "Intensité de la teinte.",
+    "Intensity" : "Intensité de la teinte.",
     "IntensityHint":"Permet de régler l'intensité avec laquelle la teinte choisie se fond dans la scène. Une intensité de teinte élevée sature la scène avec la couleur, ce qui risque d'écraser les couleurs existantes. Une intensité de teinte plus faible permet d'intégrer la couleur choisie de manière plus subtile.",
     "ResetEnvironment":"Réinitialiser les options par défaut",
     "BlendAmbience": "Mélanger l'ambiance",
@@ -2574,7 +2574,7 @@
           }
         },
         "Confirm": "Voulez-vous téléporter {token} ?",
-        "ConfirmGM": "Voulez-vous téléporter {token} dans {région} dans {scène} ?"
+        "ConfirmGM": "Voulez-vous téléporter {token} dans {region} dans {scene} ?"
       },
       "toggleBehavior": {
         "FIELDS": {
