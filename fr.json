@@ -2293,7 +2293,7 @@
   "PERMISSION.JournalCreateHint": "Permettre aux joueurs ayant ce rôle de créer de nouvelles entrées de journal dans la barre latérale du journal.",
   "PERMISSION.MacroScript": "Autoriser les Macros scriptées",
   "PERMISSION.MacroScriptHint": "Permettre aux joueurs ayant ce rôle d’utiliser des macros JavaScript qui accèdent à l’API.",
-  "PERMISSION.ManualRolls": "Faire des jets manuels Manual Rolls",
+  "PERMISSION.ManualRolls": "Faire des jets manuels",
   "PERMISSION.ManualRollsHint": "Permettre aux joueurs ayant ce rôle de faire des jets manuels.",
   "PERMISSION.MessageWhisper": "Chuchoter des messages privés",
   "PERMISSION.MessageWhisperHint": "Permettre aux joueurs ayant ce rôle de chuchoter des messages privés que le maître de jeu ne peut pas voir.",
