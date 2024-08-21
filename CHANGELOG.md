@@ -1,3 +1,9 @@
+12.331.1
+- Mise à jour pour la version 12.331
+- Correction de PERMISSION.ManualRolls
+- Correction sur les types de document et le message de suppression d'un document
+- Correction sur le résultat de la mise à jour des packages
+
 12.330.3
 - Correction Intensity / quelques {clé}
 - Déploiement automatique d'une release via Github actions
