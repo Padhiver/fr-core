@@ -1,4 +1,8 @@
-12.331.1
+12.331.2
+- Traduction de Update pour les mises à jour
+- Remplacement de la traduction pour la création depuis la sidebar
+
+12.331.0 (tag 12.331.1)
 - Mise à jour pour la version 12.331
 - Correction de PERMISSION.ManualRolls
 - Correction sur les types de document et le message de suppression d'un document
