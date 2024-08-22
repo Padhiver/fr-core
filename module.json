@@ -65,7 +65,9 @@
       "name": "DjLeChuck"
     }
   ],
-  "scripts": [],
+  "scripts": [
+    "./scripts/bouton-sidebar.js"
+  ],
   "styles": [],
   "packs": [],
   "languages": [
