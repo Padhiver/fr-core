@@ -117,6 +117,7 @@ jobs:
             fr.json                          \
             README.md                            \
             CHANGELOG.md                         \
+            scripts/                           \  
             tours/                              
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
@@ -143,4 +144,5 @@ jobs:
           method: 'POST'
           contentType: 'application/json'
           customHeaders: '{"Authorization": "${{ secrets.FVTT_PACKAGE_RELEASE_TOKEN }}"}'
+          preventFailureOnNoResponse: 'true'
           data: '{"id": "fr-core","dry-run":false,"release":{"version":"${{github.event.release.tag_name}}","manifest":"https://github.com/Fonderie-VTT/fr-core/releases/download/${{github.event.release.tag_name}}/module.json","notes":"https://github.com/Fonderie-VTT/fr-core/blob/main/CHANGELOG.md","compatibility":{"minimum":"12","verified":"12","maximum":"12"}}}'

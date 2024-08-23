@@ -1,3 +1,6 @@
+12.331.3
+- Correction du packaging avec le script
+
 12.331.2
 - Traduction de Update pour les mises à jour
 - Remplacement de la traduction pour la création depuis la sidebar
