@@ -78,35 +78,35 @@
     },
     {
       "lang": "fr",
-      "path": "tours/backups-overview.json"
+      "path": "tours/fr/backups-overview.json"
     },
     {
       "lang": "fr",
-      "path": "tours/canvas-controls.json"
+      "path": "tours/fr/canvas-controls.json"
     },
     {
       "lang": "fr",
-      "path": "tours/compatibility-preview-overview.json"
+      "path": "tours/fr/compatibility-preview-overview.json"
     },
     {
       "lang": "fr",
-      "path": "tours/creating-a-world.json"
+      "path": "tours/fr/creating-a-world.json"
     },
     {
       "lang": "fr",
-      "path": "tours/installing-a-system.json"
+      "path": "tours/fr/installing-a-system.json"
     },
     {
       "lang": "fr",
-      "path": "tours/sidebar.json"
+      "path": "tours/fr/sidebar.json"
     },
     {
       "lang": "fr",
-      "path": "tours/ui-overview.json"
+      "path": "tours/fr/ui-overview.json"
     },
     {
       "lang": "fr",
-      "path": "tours/welcome.json"
+      "path": "tours/fr/welcome.json"
     }
   ],
   "url": "#{URL}#",
