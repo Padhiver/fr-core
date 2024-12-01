@@ -1110,7 +1110,7 @@
   "ITEM.ViewArt": "Voir l’image de l’objet",
 
   "HUD.Elevation": "Elevation",
-  "HUD.OpenConfig": "Open Configuration",
+  "HUD.OpenConfig": "Ouvrir la configuration",
   "HUD.AssignStatusEffects": "Attribuer des effets d’état",
   "HUD.ToggleTargetState": "Toggle Target State",
   "HUD.ToggleCombatState": "Modifier l’état de combat",
