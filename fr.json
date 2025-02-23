@@ -96,43 +96,56 @@
   "XCoord": "Coordonnée-X",
   "YCoord": "Coordonnée-Y",
   "Yes": "Oui",
-
-  "ADVENTURE.ImportSubmit": "Importer l’aventure",
-  "ADVENTURE.ImportProgress": "En cours d’importation",
-  "ADVENTURE.ImportHeaderOverview": "Vue d’ensemble",
-  "ADVENTURE.ImportHeaderContents": "Contenus",
-  "ADVENTURE.ImportOverwriteTitle": "Écraser le contenu existant ?",
-  "ADVENTURE.ImportOverwriteWarning": "Certains contenus de l’aventure {name} existent déjà dans votre Monde. Si vous importez l’aventure, ce contenu sera écrasé. Voulez-vous continuer ?",
-  "ADVENTURE.ImportAll": "Tout importer",
-  "ADVENTURE.ImportContent": "Importer {label}",
-
-  "ADVENTURE.Name": "Nom de l’aventure",
-  "ADVENTURE.NameHint": "Choisissez un nom pour cette aventure qui sera unique dans le package qui la contient.",
-  "ADVENTURE.Image": "Image de la bannière",
-  "ADVENTURE.ImageHint": "L’image de la bannière doit être d’au moins 768px de largeur et 300px de hauteur.",
-  "ADVENTURE.Caption": "Légende de la bannière",
-  "ADVENTURE.CaptionHint": "Fournissez une légende qui sera affichée sous l’image de la bannière. Cette légende peut contenir du HTML ou du texte brut.",
-  "ADVENTURE.Description": "Description de l’aventure",
-  "ADVENTURE.DescriptionHint": "Fournissez une description HTML qui contient un aperçu et un synopsis de l’aventure.",
-
-  "ADVENTURE.Create": "Créer une aventure",
-  "ADVENTURE.ExportEdit": "Modifier l’aventure",
-  "ADVENTURE.ExportSubmit": "Générer l’aventure",
-  "ADVENTURE.ExportTabSummary": "Résumé",
-  "ADVENTURE.ExportTabContents": "Contenus",
-  "ADVENTURE.ExportDropZone": "Glisser et déposer le contenu de votre Monde pour qu’il alimente le contenu de l’Aventure.",
-  "ADVENTURE.ExportPackNoSystem": "Vous tentez d’exporter des acteurs ou des éléments dans une aventure qui ne tient pas compte du système. Le compendium de l’aventure doit avoir un champ système qui correspond au système de jeu d’où proviennent ces acteurs ou éléments.",
-  "ADVENTURE.ExportPrimaryDocumentsOnly": "Vous ne pouvez ajouter que des documents primaires qui existent dans le monde",
-  "ADVENTURE.CreateSuccess": "L’aventure « {name} » a été créée avec succès !",
-  "ADVENTURE.UpdateSuccess": "L’aventure « {name} » a été mise à jour avec succès !",
-
-  "ADVENTURE.DocumentUpdate": "Ce document sera mis à jour au fur et à mesure de la construction de l’Aventure",
-  "ADVENTURE.DocumentAdd": "Ce document sera ajouté lors de la construction de l’Aventure",
-  "ADVENTURE.DocumentMissing": "Ce document est absent du Monde et ne sera pas mis à jour lorsque l’Aventure sera construite",
-  "ADVENTURE.DocumentRemove": "Ce document sera supprimé une fois l’Aventure générée",
-
+  "ADVENTURE": {
+    "ImportSubmit": "Importer l’aventure",
+    "ImportProgress": "En cours d’importation",
+    "ImportHeaderOverview": "Vue d’ensemble",
+    "ImportHeaderContents": "Contenus",
+    "ImportHeaderOptions": "Paramètres",
+    "ImportOverwriteTitle": "Écraser le contenu existant ?",
+    "ImportOverwriteWarning": "Certains contenus de l’aventure {name} existent déjà dans votre Monde. Si vous importez l’aventure, ce contenu sera écrasé. Voulez-vous continuer ?",
+    "ImportAll": "Tout importer",
+    "ImportContent": "Importer {label}",
+    "Create": "Créer une aventure",
+    "ExportEdit": "Modifier l’aventure",
+    "ExportSubmit": "Générer l’aventure",
+    "ExportDropZone": "Glisser et déposer le contenu de votre Monde pour qu’il alimente le contenu de l’Aventure.",
+    "ExportPackNoSystem": "Vous tentez d’exporter des acteurs ou des éléments dans une aventure qui ne tient pas compte du système. Le compendium de l’aventure doit avoir un champ système qui correspond au système de jeu d’où proviennent ces acteurs ou éléments.",
+    "ExportPrimaryDocumentsOnly": "Vous ne pouvez ajouter que des documents primaires qui existent dans le monde",
+    "CreateSuccess": "L’aventure « {name} » a été créée avec succès !",
+    "UpdateSuccess": "L’aventure « {name} » a été mise à jour avec succès !",
+    "DocumentUpdate": "Ce document sera mis à jour au fur et à mesure de la construction de l’Aventure",
+    "DocumentAdd": "Ce document sera ajouté lors de la construction de l’Aventure",
+    "DocumentMissing": "Ce document est absent du Monde et ne sera pas mis à jour lorsque l’Aventure sera construite",
+    "DocumentRemove": "Ce document sera supprimé une fois l’Aventure générée",
+    "FIELDS": {
+      "name": {
+        "label": "Nom de l'aventure",
+        "hint": "Choisissez un nom pour cette aventure qui sera unique dans le package qui la contient."
+      },
+      "img": {
+        "label": "Image de bannière",
+        "hint": "Choisir une image de bannière avec au moins 768px de largeur et 300px de hauteur qui sera affichée pour cette aventure."
+      },
+      "caption": {
+        "label": "Légende de la bannière",
+        "hint": "Fournissez une légende qui sera affichée sous l’image de la bannière. Cette légende peut contenir du HTML ou du texte brut."
+      },
+      "description": {
+        "label": "Description de l’aventure",
+        "hint": "Fournissez une description contenant une vue d'ensemble et un résumé de l'aventure."
+      }
+    },
+    "TABS": {
+      "summary": "Résumé",
+      "contents": "Contenu"
+    },
+    "ACTIONS": {
+      "ClearSection": "Vider la section",
+      "RestoreSection": "Restaurer la section"
+    }
+  },
   "APP.NavigateBackConfirm": "Etes-vous sûr de vouloir quitter Foundry Virtual Tabletop ?",
-
   "AMBIENT_LIGHT": {
     "ACTIONS": {
       "CREATE": "Créer une lumière ambiante",
@@ -167,15 +180,15 @@
       "darknessAdvancedWarning": "Les options de configuration avancée ne sont prises en charge que pour les sources sans obscurité."
     },
     "SECTIONS": {
-      "BASIC": "Configuration de base",
-      "ADVANCED": "Options avancées",
-      "ANIMATION": "Animation de la lumière",
-      "APPEARANCE": "Apparence de la lumière",
-      "PLACEMENT": "Placement de la lumière"
+      "appearance": "Apparence de la lumière",
+      "placement": "Placement de la lumière"
+    },
+    "TABS": {
+      "basic": "Configuration standard",
+      "animation": "Animation de la lumière",
+      "advanced": "Paramètres avancés"
     }
   },
-
-
   "AMBIENT_SOUND": {
     "ACTIONS": {
       "CREATE": "Créer un son ambiant",
@@ -254,15 +267,14 @@
       "EFFECTS": "Effets spéciaux"
     }
   },
-
   "APPLICATION": {
     "TOOLS": {
       "ControlsMenu": "Contrôles de l’application",
       "ToggleControls": "Basculer les contrôles",
       "Close": "Fermer la fenêtre"
-    }
+    },
+    "IMAGE_POPOUT.AltText": "A featured image: the subject is not known."
   },
-
   "AUDIO": {
     "CHANNELS": {
       "MUSIC": {
@@ -279,96 +291,113 @@
       }
     }
   },
-
-  "CARDS.CardsDeck": "Pioche",
-  "CARDS.CardsHand": "Main de cartes",
-  "CARDS.CardsPile": "Défausse",
-  "CARDS.DeckPreset": "Configuration prédéfinie",
-  "CARDS.DeckPresetPokerDark": "Jeu de Poker (Sombre)",
-  "CARDS.DeckPresetPokerLight": "Jeu de Poker (Clair)",
-  "CARDS.Deal": "Distribuer",
-  "CARDS.DealHint": "Choisissez les mains ou les défausses où des cartes seront distribuées. Le même nombre de cartes sera distribué à toutes les mains/défausses sélectionnées.",
-  "CARDS.DealTitle": "Distribuer des cartes",
-  "CARDS.DealTo": "Distribuer à",
-  "CARDS.DealWarnNoTargets": "Vous devez créer une main ou une défausse à laquelle distribuer des cartes.",
-  "CARDS.DeleteCannot": "Ne peut être supprimé",
-  "CARDS.DeleteCannotHint": "Des cartes ont été tirées depuis les pioches suivantes qui ne peuvent donc pas être supprimés, veuillez d’abord les réinitialiser : {decks}",
-  "CARDS.DeleteMustReset": "Cet ensemble de cartes de type « {type} » doit être réinitialisé avant de pouvoir être supprimé, voulez-vous continuer ?",
-  "CARDS.DeleteReset": "Réinitialiser & supprimer",
-  "CARDS.Description": "Description de l’ensemble de cartes",
-  "CARDS.Dimensions": "Dimensions par défaut",
-  "CARDS.Draw": "Piocher",
-  "CARDS.DrawFrom": "Piocher depuis",
-  "CARDS.DrawTitle": "Piocher des cartes",
-  "CARDS.DrawHint": "Choisissez une pioche depuis laquelle tirer un certain nombre de cartes.",
-  "CARDS.DrawMode": "Mode de tirage",
-  "CARDS.DrawModeTop": "Dessus (premier)",
-  "CARDS.DrawModeBottom": "Dessous (dernier)",
-  "CARDS.DrawModeRandom": "Aléatoire",
-  "CARDS.DrawWarnNoSources": "Aucune pioche depuis laquelle tirer des cartes n’est disponible.",
-  "CARDS.Facedown": "Face cachée",
-  "CARDS.HeaderDetails": "Configuration",
-  "CARDS.HeaderCards": "Cartes",
-  "CARDS.Image": "Image de fond par défaut",
-  "CARDS.Number": "Numéro",
-  "CARDS.NoCards": "Aucune carte présente",
-  "CARDS.Pass": "Passer",
-  "CARDS.PassTo": "Passer à",
-  "CARDS.PassTitle": "Passer des cartes",
-  "CARDS.PassHint": "Passer des cartes à une autre main ou défausse.",
-  "CARDS.PassWarnNoTargets": "Il n’y a ni main ni défausse disponible à laquelle passer.",
-  "CARDS.Type": "Type d’ensemble de cartes",
-  "CARDS.TypeDeck": "Pioche",
-  "CARDS.TypeHand": "Main",
-  "CARDS.TypePile": "Défausse",
-  "CARDS.Save": "Sauvegarder",
-  "CARDS.Shuffle": "Mélanger",
-  "CARDS.SortMode": "Mode de tri",
-  "CARDS.Reset": "Réinitialiser",
-  "CARDS.ResetConfirm": "Êtes-vous sûr(e) de vouloir réinitialiser {name} ? Toutes les cartes distribuées seront rappelées.",
-  "CARDS.ReturnConfirm": "Êtes-vous sûr(e) ? Toutes les cartes de {name} seront retournées dans leur pioche d’origine.",
-
-  "CARDS.NotifyShuffle": "Mélange de : {link}",
-  "CARDS.NotifyPass": "{number} carte(s) passée(s) vers : {link}",
-  "CARDS.NotifyPlay": "{number} carte(s) jouée(s) vers : {link}",
-  "CARDS.NotifyDiscard": "{number} carte(s) défaussée(s) vers : {link}",
-  "CARDS.NotifyDraw": "{number} carte(s) piochée(s) depuis : {link}",
-  "CARDS.NotifyDeal": "{number} carte(s) distribuées(s) chacune(s) vers : {link}",
-  "CARDS.NotifyReset": "Rappel de toutes les cartes de : {link}",
-  "CARDS.NotifyReturn": "Restitution de toutes les cartes de : {link}",
-
-  "CARD.Create": "Créer une carte",
-  "CARD.Delete": "Supprimer la carte",
-  "CARD.Edit": "Éditer la carte",
-  "CARD.HeaderDetails": "Détails de la carte",
-  "CARD.HeaderBack": "Dos de la carte",
-  "CARD.HeaderFaces": "Faces de la carte",
-  "CARD.BackName": "Nom du dos",
-  "CARD.BackImage": "Image de dos",
-  "CARD.BackText": "Texte du dos",
-  "CARD.FaceName": "Nom de la face",
-  "CARD.FaceImage": "Image de la face",
-  "CARD.FaceText": "Texte de la face",
-  "CARD.FaceAdd": "Ajouter une face",
-  "CARD.FaceDelete": "Effacer la face",
-  "CARD.FaceNext": "Face suivante",
-  "CARD.FacePrevious": "Face précédente",
-  "CARD.FaceDeleteWarning": "Supprimer cette face de carte supprimera définitivement ses données de la carte.",
-  "CARD.Description": "Description",
-  "CARD.Dimensions": "Dimensions par défaut",
-  "CARD.Drawn": "Piochée(s)",
-  "CARD.Face": "Face",
-  "CARD.Type": "Type",
-  "CARD.Name": "Nom",
-  "CARD.Suit": "Couleur",
-  "CARD.Value": "Valeur",
-  "CARD.Save": "Sauvegarder la carte",
-  "CARD.Unknown": "Inconnu ({source})",
-  "CARD.Play": "Jouer la carte",
-  "CARD.PlayHint": "Jouer cette carte en la passant à une autre main ou défausse.",
-
+  "CARDS": {
+    "CardsDeck": "Pioche",
+    "CardsHand": "Main de cartes",
+    "CardsPile": "Défausse",
+    "DeckPreset": "Configuration prédéfinie",
+    "DeckPresetPokerDark": "Jeu de Poker (Sombre)",
+    "DeckPresetPokerLight": "Jeu de Poker (Clair)",
+    "DealHint": "Choisissez les mains ou les défausses où des cartes seront distribuées. Le même nombre de cartes sera distribué à toutes les mains/défausses sélectionnées.",
+    "DealTitle": "Distribuer des cartes",
+    "DealTo": "Distribuer à",
+    "DealWarnNoTargets": "Vous devez créer une main ou une défausse à laquelle distribuer des cartes.",
+    "DeleteCannot": "Ne peut être supprimé",
+    "DeleteCannotHint": "Des cartes ont été tirées depuis les pioches suivantes qui ne peuvent donc pas être supprimés, veuillez d’abord les réinitialiser : {decks}",
+    "DeleteMustReset": "Cet ensemble de cartes de type « {type} » doit être réinitialisé avant de pouvoir être supprimé, voulez-vous continuer ?",
+    "Dimensions": "Dimensions par défaut",
+    "DrawFrom": "Piocher depuis",
+    "DrawTitle": "Piocher des cartes",
+    "DrawHint": "Choisissez une pioche depuis laquelle tirer un certain nombre de cartes.",
+    "DrawMode": "Mode de tirage",
+    "DrawModeTop": "Dessus (premier)",
+    "DrawModeBottom": "Dessous (dernier)",
+    "DrawModeRandom": "Aléatoire",
+    "DrawWarnNoSources": "Aucune pioche depuis laquelle tirer des cartes n’est disponible.",
+    "Facedown": "Face cachée",
+    "HeaderDetails": "Configuration",
+    "HeaderCards": "Cartes",
+    "Number": "Numéro",
+    "NoCards": "Aucune carte présente",
+    "PassTo": "Passer à",
+    "PassTitle": "Passer des cartes",
+    "PassHint": "Passer des cartes à une autre main ou défausse.",
+    "PassWarnNoTargets": "Il n’y a ni main ni défausse disponible à laquelle passer.",
+    "ResetConfirm": "Êtes-vous sûr(e) de vouloir réinitialiser {name} ? Toutes les cartes distribuées seront rappelées.",
+    "ReturnConfirm": "Êtes-vous sûr(e) ? Toutes les cartes de {name} seront retournées dans leur pioche d’origine.",
+    "NotifyShuffle": "Mélange de : {link}",
+    "NotifyPass": "{number} carte(s) passée(s) vers : {link}",
+    "NotifyPlay": "{number} carte(s) jouée(s) vers : {link}",
+    "NotifyDiscard": "{number} carte(s) défaussée(s) vers : {link}",
+    "NotifyDraw": "{number} carte(s) piochée(s) depuis : {link}",
+    "NotifyDeal": "{number} carte(s) distribuées(s) chacune(s) vers : {link}",
+    "NotifyReset": "Rappel de toutes les cartes de : {link}",
+    "NotifyReturn": "Restitution de toutes les cartes de : {link}",
+    "FIELDS": {
+      "img.label": "Default Back Image",
+      "type.label": "Card Stack Type"
+    },
+    "ACTIONS": {
+      "Create": "Create Card",
+      "Delete": "Delete Card",
+      "Deal": "Deal",
+      "Draw": "Draw",
+      "Edit": "Edit Card",
+      "NextFace": "Next Face",
+      "Pass": "Pass",
+      "PreviousFace": "Previous Face",
+      "Reset": "Reset",
+      "ResetDelete": "Reset & Delete",
+      "Save": "Save",
+      "Shuffle": "Shuffle",
+      "ToggleSortMode": "Toggle Sort Mode"
+    },
+    "TABS": {
+      "details": "Details",
+      "cards": "Cards"
+    }
+  },
+  "CARD": {
+    "Image": "Card Image",
+    "Dimensions": "Dimensions par défaut",
+    "Save": "Sauvegarder la carte",
+    "Unknown": "Inconnu ({source})",
+    "Play": "Jouer la carte",
+    "PlayHint": "Jouer cette carte en la passant à une autre main ou défausse.",
+    "ACTIONS": {
+      "AddFace": "Add Face",
+      "DeleteFace": {
+        "Title": "Delete Face",
+        "Warning": "Deleting this card face will permanently remove its data from the Card."
+      }
+    },
+    "TABS": {
+      "details": "Details",
+      "faces": "Faces",
+      "back": "Back"
+    },
+    "FIELDS": {
+      "type.label": "Type",
+      "suit.label": "Suit",
+      "value.label": "Value",
+      "drawn.label": "Drawn",
+      "face.label": "Face",
+      "faces": {
+        "name.label": "Face Name",
+        "img.label": "Face Image",
+        "text.label": "Face Text"
+      },
+      "back": {
+        "name.label": "Back Name",
+        "img.label": "Back Image",
+        "text.label": "Back Text"
+      }
+    }
+  },
   "CHAT.Chat": "Tchat",
   "CHAT.Clear": "Effacer le tchat",
+  "CHAT.Dismiss": "Dismiss",
+  "CHAT.EnterMessage": "Enter message",
   "CHAT.Export": "Exporter le contenu du tchat",
   "CHAT.FlushTitle": "Supprimer le contenu du tchat",
   "CHAT.FlushWarning": "Tous les messages contenus dans le tchat seront définitivement supprimés.",
@@ -388,7 +417,6 @@
   "CHAT.JumpToBottom": "Aller en bas de la page",
   "CHAT.PrivateRollContent": "{user} a effectué un lancer de dés de type privé",
   "CHAT.UnknownUser": "Utilisateur inconnu",
-
   "COMBAT.NavLabel": "Navigation des rencontres de combat",
   "COMBAT.Begin": "Commencer le combat",
   "COMBAT.Create": "Créer une rencontre",
@@ -399,6 +427,7 @@
   "COMBAT.End": "Terminer le Combat",
   "COMBAT.InitiativeRoll": "Jet d’initiative",
   "COMBAT.InitiativeReset": "Réinitialiser l’initiative",
+  "COMBAT.InitiativeScore": "Initiative Score",
   "COMBAT.EndTitle": "Rencontre terminée ?",
   "COMBAT.EndConfirmation": "Mettre fin à cette rencontre et abandonner le suivi des tours ?",
   "COMBAT.Linked": "Lié à la scène, cliquez pour délier",
@@ -409,8 +438,6 @@
   "COMBAT.PanToCombatant": "Centrer sur le combattant",
   "COMBAT.PingCombatant": "Pointer (ping) le Combattant",
   "COMBAT.WarnNonVisibleToken": "Ce combattant n’est pas visible pour vous.",
-  "COMBAT.Resource": "Ressource suivie",
-  "COMBAT.ResourceHint": "Choisir une ressource à suivre pour chaque combattant.",
   "COMBAT.Round": "Round",
   "COMBAT.Rounds": "Rounds",
   "COMBAT.RoundPrev": "Round précédent",
@@ -418,11 +445,9 @@
   "COMBAT.RollNPC": "Lancer pour tous les PNJ",
   "COMBAT.RollAll": "Lancer pour tous",
   "COMBAT.RollsInitiative": "{name} lance l’initiative !",
-  "COMBAT.Settings": "Paramètres du Traqueur de combat",
-  "COMBAT.SettingsSave": "Sauvegarder les paramètres du Traqueur de combat",
-  "COMBAT.SidebarTitle": "Traqueur de combat",
-  "COMBAT.SkipDefeated": "Passer les vaincus ?",
-  "COMBAT.SkipDefeatedHint": "Ignorer automatiquement les combattants marqués vaincus.",
+  "COMBAT.Settings": "Paramètres du Combat Tracker",
+  "COMBAT.SettingsSave": "Sauvegarder les paramètres du Combat Tracker",
+  "COMBAT.SidebarTitle": "Combat Tracker",
   "COMBAT.Sounds.Epic": "Épique",
   "COMBAT.Sounds.MC": "Commentateur de combat",
   "COMBAT.ToggleVis": "Basculer le mode de visibilité",
@@ -435,7 +460,6 @@
   "COMBAT.UnknownCombatant": "Combattant inconnu",
   "COMBAT.Unlinked": "Combat non lié, cliquez pour lier à la scène",
   "COMBAT.CannotLinkToScene": "Vous ne pouvez pas lier le combat à une scène qui ne contient pas tous ses combattants.",
-
   "COMBAT.CombatantActor": "Acteur représenté",
   "COMBAT.CombatantCreate": "Créer un combattant",
   "COMBAT.CombatantDefeated": "Vaincu",
@@ -444,36 +468,95 @@
   "COMBAT.CombatantInitiative": "Valeur d’initiative",
   "COMBAT.CombatantStatus": "Statut",
   "COMBAT.CombatantUpdate": "Mettre à jour le combattant",
+  "COMBAT.CombatantUpdateNamed": "Update Combatant: {name}",
   "COMBAT.CombatantName": "Nom affiché",
   "COMBAT.CombatantRemove": "Enlever le combattant",
   "COMBAT.CombatantClear": "Réinitialiser l’initiative",
   "COMBAT.CombatantReroll": "Relancer l’initiative",
+  "COMBAT.CombatantClearMovementHistory": "Clear Movement History",
+  "COMBAT.CombatantMovementHistoryCleared": "Cleared movement history for Token \"{name}\".",
   "COMBAT.CombatantToken": "Token lié",
   "COMBAT.CombatantScene": "Scène du combattant",
   "COMBAT.CombatantNotInScene": "Le combattant {name} n’est pas présent sur la scène active que vous affichez",
-
+  "COMBAT.TURN_MARKERS": {
+    "ANIMATIONS": {
+      "SPIN": "Spin",
+      "SPIN_PULSE": "Spin Pulse",
+      "PULSE": "Pulse"
+    }
+  },
+  "COMBAT.CONFIG": {
+    "SHEET": {
+      "TURN_MARKERS": "Token Turn Markers"
+    },
+    "FIELDS": {
+      "core.combatTrackerConfig": {
+        "skipDefeated": {
+          "label": "Skip Defeated",
+          "hint": "Automatically bypass combatants marked as defeated."
+        },
+        "resource": {
+          "label": "Tracked Resource",
+          "hint": "Choose an attribute to track for each combatant."
+        },
+        "turnMarker": {
+          "enabled": {
+            "label": "Activer les marqueurs",
+            "hint": "Activer les marqueurs de tour de combat par défaut pour tous les tokens."
+          },
+          "src": {
+            "label": "Source du média",
+            "hint": "Un fichier image ou vidéo à utiliser par défaut comme marqueur de tour du token."
+          },
+          "animation": {
+            "label": "Animation",
+            "hint": "Le type d'animation à utiliser par défaut pour chaque marqueur de tour de token."
+          },
+          "disposition": {
+            "label": "Teinte de disposition",
+            "hint": "Appliquez une teinte au marqueur de tour en fonction de la disposition du token."
+          }
+        }
+      }
+    }
+  },
   "COMPENDIUM.Name": "Nom du compendium",
   "COMPENDIUM.Create": "Créer un compendium",
   "COMPENDIUM.CreateHint": "Créer un nouveau compendium pour le monde actuel.",
   "COMPENDIUM.FilterDocuments": "Filtrer les documents par type",
   "COMPENDIUM.ClearFilters": "Effacer les filtres",
-  "COMPENDIUM.Delete": "Supprimer le compendium",
-  "COMPENDIUM.DeleteWarning": "Ce compendium sera définitivement supprimé et ne pourra pas être restauré.",
+  "COMPENDIUM.Delete": {
+    "Option": "Supprimer le compendium",
+    "Title": "Supprimer le compendium : {compendium}",
+    "Warning": "This Compendium Pack will be permanently deleted and cannot be recovered."
+  },
   "COMPENDIUM.DeleteEntry": "Supprimer l’entité",
-  "COMPENDIUM.Duplicate": "Dupliquer le compendium",
-  "COMPENDIUM.DuplicateTitle": "Nouveau titre",
-  "COMPENDIUM.DuplicateHint": "Vous pouvez dupliquer ce compendium dans votre monde afin de disposer d’une copie locale de son contenu que vous pouvez modifier en toute sécurité.",
+  "COMPENDIUM.Duplicate": {
+    "Option": "Duplicate Compendium",
+    "Title": "Duplicate Compendium: {compendium}",
+    "Label": "New Compendium Title",
+    "Hint": "You may duplicate this compendium into your World to have a local copy of its content which is safe to edit.",
+    "Submit": "Duplicate"
+  },
   "COMPENDIUM.ErrorRequireTitle": "Vous devez donner un titre pour créer un compendium de monde.",
-  "COMPENDIUM.ImportAll": "Importer tout le contenu",
-  "COMPENDIUM.ImportAllHint": "Importer tout le contenu de ce compendium dans un dossier existant ou un nouveau dossier. Notez bien qu’importer un gros compendium aura un impact négatif sur les performances de l’application.",
-  "COMPENDIUM.ImportAllStart": "Importation en cours de {number} {type} dans le dossier {folder}. Soyez patient.",
-  "COMPENDIUM.ImportAllFinish": "Importation réussie de {number} {type} dans le dossier {folder}.",
+  "COMPENDIUM.ImportAll": {
+    "Option": "Import All Content",
+    "Title": "Import All Content: {compendium}",
+    "Submit": "Import",
+    "Hint": "Import the complete content from this Compendium pack into a new or existing Folder. Please note that importing large Compendium packs will have a negative impact on application performance.",
+    "Start": "Importing {number} {type} Documents and {folderNumber} Folders into the {folder} folder. Please be patient.",
+    "Finish": "Successfully imported {number} {type} Documents and {folderNumber} Folders into the {folder} folder."
+  },
   "COMPENDIUM.ImportEntry": "Importer l’entité",
+  "COMPENDIUM.Locked": "{title} [Locked]",
   "COMPENDIUM.SidebarTitle": "Compendium",
   "COMPENDIUM.Type": "Type d’entité",
   "COMPENDIUM.TypeHint": "Chaque compendium ne porte qu’un type spécifique d’entité.",
-  "COMPENDIUM.ToggleLocked": "Modifier le verrouillage",
-  "COMPENDIUM.ToggleLockedWarning": "Vous allez débloquer l’édition de ce compendium qui n’est pas lié à ce Monde. Toute modification que vous apportez à ce compendium peut être perdue si le système ou le module qui en est propriétaire est mis à jour. Vous pouvez dupliquer ce compendium pour en avoir une version liée à votre monde et donc indépendante des évolutions de systèmes ou de modules. Souhaitez-vous poursuivre ?",
+  "COMPENDIUM.ToggleLocked": {
+    "Option": "Toggle Edit Lock",
+    "Title": "Toggle Edit Lock: {compendium}",
+    "Warning": "You are attempting to unlock for editing a compendium that does not belong to this World. Any changes you make in this compendium pack may be lost if the system or module which owns it is updated. You may wish to duplicate the compendium to your World instead. Do you wish to proceed?"
+  },
   "COMPENDIUM.CannotViewWarning": "Vous ne disposez pas d’autorisations suffisantes pour consulter ce compendium.",
   "COMPENDIUM.OwnershipInheritBelow": "Héritage de l’origine",
   "COMPENDIUM.OwnershipReset": "Rétablissement des valeurs par défaut",
@@ -487,11 +570,10 @@
     },
     "SETTING": {
       "Hint": "Configure quel art fourni par le système et le module doit être utilisé",
-      "Label": "Configurer les arts",
+      "Label": "Configure Art",
       "Title": "Compendium Art"
     }
   },
-
   "CONTROLS.Title": "Liste des raccourcis",
   "CONTROLS.NavLabel": "Palette des contrôles de la scène",
   "CONTROLS.Instructions": "Décrit les commandes courantes du clavier et de la souris. Certaines commandes surlignées en violet clair ne sont accessibles qu’à un utilisateur ayant les droits de niveau « Maître du Jeu ».",
@@ -635,9 +717,9 @@
   "CONTROLS.CtrlClickDrag": "CTRL + clic + glisser",
   "CONTROLS.Alt": "ALT",
   "CONTROLS.AltClick": "ALT + clic",
-  "CONTROLS.AltClickDrag": "{alt} + clic + glisser",
+  "CONTROLS.AltClickDrag": "{alt} + Click + Drag",
   "CONTROLS.CtrlClick": "CTRL + clic",
-  "CONTROLS.ShiftClick": "MAJ + clic",
+  "CONTROLS.ShiftClick": "MAJ + Clic",
   "CONTROLS.ChainCtrlClick": "Maintenir <span class=\"reference\">CTRL</span> puis <span class=\"reference\">Cliquer</span>",
   "CONTROLS.DoubleClick": "Double clic",
   "CONTROLS.DoubleRightClick": "Double clic droit",
@@ -677,6 +759,7 @@
   "CONTROLS.ObjectNoSnap": "Ne pas tenir compte du positionnement attaché à la grille",
   "CONTROLS.MouseWheel": "Molette",
   "CONTROLS.DragDrop": "Glisser-déposer",
+  "CONTROLS.UnconstrainedMovement": "Unconstrained Movement",
   "CONTROLS.TokenHeader": "Contrôles des tokens",
   "CONTROLS.TokenPlaceHidden": "Placer un token caché (MJ)",
   "CONTROLS.TokenTarget": "Sélectionner un token comme cible (non possédé)",
@@ -719,7 +802,6 @@
   "CONTROLS.EmptyUndoHistory": "Il n’y a plus d’historique suivi pour les objets {type} à annuler !",
   "CONTROLS.ObjectIsLocked": "Vous ne pouvez pas effectuer cette action tant que l’objet {type} est verrouillé.",
   "CONTROLS.ObjectConfigured": "Vous ne pouvez pas effectuer cette action pendant la configuration d’un autre objet.",
-
   "DICE.ErrorNonNumeric": "La formule du lancer de dés {formula} n’a pas produit de résultat numérique.",
   "DICE.ManualRoll": "Jet manuel",
   "DICE.RollResolution": "Résolution du jet",
@@ -736,13 +818,12 @@
     "Mersenne": "Lancer numérique (Mersenne Twister)",
     "Manual": "Saisie manuelle"
   },
-
   "DOCUMENT.Create": "Créer {type}",
   "DOCUMENT.Delete": "Supprimer {type}",
   "DOCUMENT.New": "Nouveau {type}",
+  "DOCUMENT.NewCount": "New {type} ({count})",
   "DOCUMENT.Update": "Mettre à jour {type}",
   "DOCUMENT.SkipCreate": "Passer la création",
-
   "DOCUMENT.ImportData": "Importer les données",
   "DOCUMENT.ImportDataError": "Vous n’avez pas téléchargé de fichier de données !",
   "DOCUMENT.ImportDataHint1": "Vous pouvez importer les données de ce/cette {document} à partir d’un fichier JSON exporté.",
@@ -752,7 +833,6 @@
   "DOCUMENT.SheetPermissionWarn": "Vous n’avez pas la permission de voir cette feuille de {document}.",
   "DOCUMENT.UsePermissionWarn": "Vous n’avez pas la permission d’utiliser ce {document}.",
   "DOCUMENT.IdCopiedClipboard": "{label} {type} « {id} » copié dans le presse-papiers.",
-
   "DOCUMENT.ActiveEffect": "Effet actif",
   "DOCUMENT.ActiveEffects": "Effets actifs",
   "DOCUMENT.ActorDelta": "Acteur Delta",
@@ -784,6 +864,8 @@
   "DOCUMENT.Items": "Objets",
   "DOCUMENT.JournalEntry": "Journal",
   "DOCUMENT.JournalEntries": "Journaux",
+  "DOCUMENT.JournalEntryCategory": "Category",
+  "DOCUMENT.JournalEntryCategories": "Categories",
   "DOCUMENT.JournalEntryPage": "Page",
   "DOCUMENT.JournalEntryPages": "Pages",
   "DOCUMENT.Macro": "Macro",
@@ -817,23 +899,31 @@
   "DOCUMENT.Wall": "Mur",
   "DOCUMENT.Walls": "Murs",
   "DOCUMENT.TypePageFormat": "{type} {page}",
-
+  "DOCUMENT.FIELDS": {
+    "name.label": "Name",
+    "img.label": "Image Path",
+    "description.label": "Description",
+    "width.label": "Width",
+    "height.label": "Height",
+    "hidden.label": "Hidden",
+    "elevation.label": "Elevation",
+    "rotation.label": "Rotation",
+    "sort": {
+      "label": "Sort Order",
+      "hint": "Configure the sorted order of this Document relative to others in its collection. Lower numbers are sorted first."
+    },
+    "x.label": "X",
+    "y.label": "Y"
+  },
   "DRAWING.ConfigDefaultTitle": "Configuration par défaut du dessin",
   "DRAWING.SubmitDefault": "Sauvegarder",
   "DRAWING.SubmitCreate": "Créer un dessin",
   "DRAWING.SubmitUpdate": "Mettre à jour le dessin",
   "DRAWING.SubmitReset": "Configuration par défaut",
-  "DRAWING.TabPosition": "Position",
-  "DRAWING.TabLines": "Lignes",
-  "DRAWING.TabFill": "Remplissage",
-  "DRAWING.TabText": "Texte",
   "DRAWING.NotePosition": "Ajuster les paramètres de position et de visibilité du dessin.",
   "DRAWING.NoteLines": "Ajuster les paramètres du contour extérieur du dessin.",
   "DRAWING.NoteFill": "Ajuster les paramètres de remplissage intérieur du dessin.",
   "DRAWING.NoteText": "Ajuster les paramètres de libellé texte appliqué au dessin (si existant).",
-  "DRAWING.Author": "Auteur",
-  "DRAWING.Width": "Largeur",
-  "DRAWING.Height": "Hauteur",
   "DRAWING.Rotation": "Rotation",
   "DRAWING.ZIndex": "Index Z",
   "DRAWING.LineWidth": "Largeur du trait",
@@ -859,36 +949,50 @@
   "DRAWING.Information": "Information",
   "DRAWING.JointValidationError": "Les dessins doivent avoir un texte visible, un remplissage visible ou une ligne visible.",
   "DRAWING.JointValidationErrorUI": "Les dessins doivent avoir un texte visible, un remplissage visible ou une ligne visible. Veuillez vérifier les paramètres de configuration par défaut des dessins.",
-
+  "DRAWING.TABS": {
+    "position": "Position",
+    "lines": "Lines",
+    "fill": "Fill",
+    "text": "Text"
+  },
   "EFFECT.MODE_CUSTOM": "Personnalisation",
   "EFFECT.MODE_MULTIPLY": "Multiplier",
   "EFFECT.MODE_ADD": "Ajouter",
   "EFFECT.MODE_DOWNGRADE": "Baisser",
   "EFFECT.MODE_UPGRADE": "Augmenter",
   "EFFECT.MODE_OVERRIDE": "Surcharger",
-  "EFFECT.TabDetails": "Détails",
-  "EFFECT.TabDuration": "Durée",
-  "EFFECT.TabEffects": "Effets",
-  "EFFECT.Name": "Nom de l’effet",
-  "EFFECT.Image": "Icône de l’effet",
-  "EFFECT.Tint": "Teinte de l’icône",
-  "EFFECT.Disabled": "Effet suspendu",
-  "EFFECT.Origin": "Origine de l’effet",
-  "EFFECT.Transfer": "Appliquer un effet à un acteur",
-  "EFFECT.TransferHint": "Si cette case est cochée, cet effet sera appliqué à tout acteur qui possède l’élément parent de cet effet.",
   "EFFECT.TransferLegacy": "Transférer l’effet à l’acteur",
   "EFFECT.TransferHintLegacy": "Si cette case est cochée, cet effet sera copié sur l’acteur lorsque l’élément parent de cet effet est créé sur un acteur, et supprimé si cet élément est supprimé.",
-  "EFFECT.DurationSecs": "Durée de l’effet (secondes)",
-  "EFFECT.StartTime": "Début de l’effet",
   "EFFECT.DurationTurns": "Durée de l’effet (tours)",
-  "EFFECT.Combat": "Rencontre",
   "EFFECT.StartTurns": "Tour de départ de l’effet",
   "EFFECT.ChangeKey": "Clé d’attribut",
   "EFFECT.ChangeMode": "Changer le mode",
   "EFFECT.ChangeValue": "Valeur de l’effet",
-  "EFFECT.Description": "Description de l’effet",
+  "EFFECT.ChangePriority": "Priority",
   "EFFECT.Submit": "Appliquer les changements",
-
+  "EFFECT.FIELDS": {
+    "name.label": "Effect Name",
+    "img.label": "Effect Icon",
+    "tint.label": "Icon Tint Color",
+    "description.label": "Effect Description",
+    "disabled.label": "Effect Suspended",
+    "origin.label": "Effect Origin",
+    "transfer": {
+      "label": "Apply Effect to Actor",
+      "hint": "If checked, this Effect will be applied to any Actor that owns this Effect's parent Item."
+    },
+    "statuses.label": "Status Conditions",
+    "duration": {
+      "seconds.label": "Effect Duration (Seconds)",
+      "startTime.label": "Effect Start Time",
+      "combat.label": "Combat Encounter"
+    }
+  },
+  "EFFECT.TABS": {
+    "details": "Details",
+    "duration": "Duration",
+    "changes": "Changes"
+  },
   "EFFECT.StatusAsleep": "Endormi",
   "EFFECT.StatusDead": "Mort",
   "EFFECT.StatusUnconscious": "Inconscient",
@@ -924,7 +1028,6 @@
   "EFFECT.StatusIceShield": "Protection contre le froid",
   "EFFECT.StatusMagicShield": "Protection magique",
   "EFFECT.StatusHolyShield": "Protection sacrée",
-
   "ERROR.BrowserVersion": "Foundry Virtual Tabletop nécessite les dernières fonctions JavaScript qui ne sont pas prises en charge pour la version de {browser} inférieure à {minimum}. Vous utilisez la version {version} de {browser}. Veuillez mettre à jour ou utiliser un autre navigateur.",
   "ERROR.ElectronVersion": "Vous utilisez une ancienne version du client Electron de Foundry Virtual Tabletop. Pour des performances optimales, nous vous recommandons de télécharger à nouveau la version de Foundry Virtual Tabletop que vous souhaitez et de procéder à une réinstallation complète du logiciel.",
   "ERROR.LowResolution": "Foundry Virtual Tabletop exige une résolution d’écran minimale de {reqWidth}px par {reqHeight}px ou plus. Votre écran est actuellement de largeur {width}px par hauteur {height}px. Avec vos paramètres d’affichage actuels, de nombreuses fonctions peuvent ne pas fonctionner correctement.",
@@ -938,22 +1041,19 @@
   "ERROR.RendererNotDetected": "Le moteur de rendu de votre GPU n’a pas pu être identifié, des problèmes de performance inattendus peuvent survenir.",
   "ERROR.NoHardwareAcceleration": "L’accélération matérielle n’est pas activée dans votre navigateur Web. Cela nuit gravement aux performances de Foundry Virtual Tabletop et provoque des erreurs et des anomalies graphiques. Veillez à activer l’accélération matérielle dans les paramètres de votre navigateur.",
   "ERROR.UpdateRequiresManualInstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible mais ne peut pas être installée directement à partir de l’interface de Foundry Virtual Tabletop car elle nécessite des mises à jour critiques du socle qui ne sont disponibles qu’en réinstallant le logiciel à partir du site Web <a href=\"https://foundryvtt/com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
-
   "WARNING.GridConfigNoBG": "Vous utilisez l’outil de configuration de la grille pour une scène sans image de fond. Cela n’est pas recommandé actuellement et peut produire des résultats imprévisibles.",
   "WARNING.ForegroundDimensionsMismatch": "Les dimensions de votre image du calque de premier plan configurée ne correspondent pas aux dimensions de l’image d’arrière-plan pour cette scène. Le premier plan a été redimensionné, ce qui peut avoir des résultats indésirables.",
   "WARNING.ObjectDoesNotExist": "{name} « {identifier} » n’existe pas.",
-  "WARNING.TilingSpriteDeprecation": "Un module ou un système utilise l'ancienne classe TilingSprite qui n'est plus prise en charge.",
-
+  "WARNING.TilingSpriteDeprecation": "A module or system is using the legacy TilingSprite class which is no longer supported.",
   "EULA": {
-    "Acknowledge": "Reconnaître l'accord",
-    "Agree": "Accepter",
-    "AgreeLabel": "J'accepte ces conditions",
-    "AgreeHint": "En cochant la case ci-dessus, vous indiquez que vous avez lu et acceptez les termes du contrat de licence utilisateur final de Foundry Virtual Tabletop.",
-    "Decline": "Refuser",
-    "Declined": "Vous avez refusé le contrat de licence utilisateur final et ne pouvez pas utiliser le logiciel.",
-    "ErrorAgreeRequired": "Vous devez cocher la case pour confirmer votre acceptation de cet accord afin de continuer."
+    "Acknowledge": "Acknowledge Agreement",
+    "Agree": "Agree",
+    "AgreeLabel": "I agree to these terms",
+    "AgreeHint": "By selecting the above checkbox you indicate that you have read and agree to the terms of the Foundry Virtual Tabletop End User License Agreement.",
+    "Decline": "Decline",
+    "Declined": "You have declined the End User License Agreement and cannot use the software.",
+    "ErrorAgreeRequired": "You must check the box to confirm your acceptance of this agreement to proceed."
   },
-
   "EDITOR.Format": "Format",
   "EDITOR.Font": "Police",
   "EDITOR.Inline": "Ligne",
@@ -1022,7 +1122,6 @@
   "EDITOR.TableDimensions": "Dimensions",
   "EDITOR.TableColumns": "Cols",
   "EDITOR.TableRows": "Lignes",
-
   "ELEMENTS": {
     "DOCUMENT_TAGS": {
       "Add": "Ajouter Document",
@@ -1035,9 +1134,12 @@
       "ErrorNonUnique": "Tag \"{tag}\" est déjà défini."
     }
   },
-
   "FILES.CreateDirectory": "Créer un dossier",
   "FILES.CreateSubfolder": "Créer un sous-dossier",
+  "FILES.DirectoryName": {
+    "Label": "Directory Name",
+    "Placeholder": "my-folder"
+  },
   "FILES.TogglePrivacy": "Basculer en mode privé cette arborescence",
   "FILES.DisplayMode": "Mode d’affichage",
   "FILES.DisplayModeList": "Liste",
@@ -1076,7 +1178,6 @@
   "FILES.InPixels": "En pixels",
   "FILES.UnitPixels": "(pixels)",
   "FILES.ErrorDisallowedExtension": "Le fichier « {nom} » a une extension invalide « {ext} » qui n’est pas autorisée pour ce type de FilePicker.\nLes extensions autorisées sont : {allowed}.",
-
   "FONTS.AddFont": "Ajouter une police",
   "FONTS.Type": "Type de police",
   "FONTS.TypeFile": "Fichier",
@@ -1088,15 +1189,12 @@
   "FONTS.RemoveFont": "Supprimer la police",
   "FONTS.Style": "Style de police",
   "FONTS.Weight": "Poids de la police",
-
   "GAME.Paused": "Jeu en pause",
   "GAME.PausedWarning": "Vous ne pouvez pas effectuer cette action tant que le jeu est en pause.",
   "GAME.ReturnSetup": "Retour à l’accueil",
   "GAME.ReturnSetupActiveUser": "Un autre utilisateur est actuellement actif dans ce monde et sera déconnecté. Souhaitez-vous continuer ?",
   "GAME.ReturnSetupActiveUsers": "Il y a {number} autres utilisateurs actuellement actifs dans ce monde et ils seront déconnectés. Souhaitez-vous continuer ?",
-
   "INFO.SceneViewCanvasDisabled": "La scène « {name} » est sélectionnée mais n’est pas affichée (option de la configuration générale « Scène du jeu désactivée » cochée).",
-
   "INVITATIONS.Copied": "Le lien d’invitation a été copié dans le presse-papier",
   "INVITATIONS.Instructions": "Partager les liens d’invitation ci-dessous avec les utilisateurs (joueurs). Le lien d’invitation local est destiné aux utilisateurs de votre réseau local tandis que le lien « Internet » permet de se connecter sur le port configuré depuis l’exterieur de votre réseau.",
   "INVITATIONS.Internet": "Internet",
@@ -1106,9 +1204,19 @@
   "INVITATIONS.ClosedConnection": "Votre connexion semble être fermée",
   "INVITATIONS.UnknownConnection": "Nous n’avons pas pu déterminer l’état de votre connexion",
   "INVITATIONS.DiscoveryFailed": "Notre service de détection d’IP n’a pas réussi à identifier correctement votre adresse IP, vous utilisez IPv6 ou vous n’êtes pas connecté à l’internet.",
-
   "ITEM.ViewArt": "Voir l’image de l’objet",
-
+  "HOTBAR": {
+    "LABEL": "Action Bar",
+    "MUTE": "Mute Volume",
+    "UNMUTE": "Unmute Volume",
+    "MENU": "Main Menu",
+    "LOCK": "Lock Hotbar",
+    "UNLOCK": "Unlock Hotbar",
+    "PAGE_NEXT": "Next Page",
+    "PAGE_PREV": "Previous Page",
+    "CLEAR": "Clear Hotbar",
+    "CLEAR_CONFIRM": "Clear all assigned Macros from your hotbar?"
+  },
   "HUD.Elevation": "Elévation",
   "HUD.OpenConfig": "Ouvrir la configuration",
   "HUD.AssignStatusEffects": "Attribuer des effets d’état",
@@ -1121,16 +1229,16 @@
   "HUD.TilePlay": "Jouer la vidéo",
   "HUD.TilePause": "Mettre en pause la vidéo",
   "HUD.WarningEffectNoActor": "Il n'est pas possible d'attribuer des effets d'état à un token qui n'a pas d'acteur associé.",
-
   "HTMLDocumentTagsElement.PLACEHOLDER": "Saisir UUID ou Déposer {type}",
-
   "JOURNAL.ModeText": "Texte",
   "JOURNAL.ModeImage": "Image",
   "JOURNAL.ActionShow": "Montrer aux joueurs",
   "JOURNAL.ActionShowSuccess": "{title} a été montré aux joueurs (éventuellement sélectionnés).",
+  "JOURNAL.ImageOptions": "Image Options",
   "JOURNAL.ImageShowSuccess": "Image montrée aux joueurs (éventuellement sélectionnés).",
   "JOURNAL.NavLabel": "Table des matières du journal",
   "JOURNAL.AddPage": "Ajouter une page",
+  "JOURNAL.EditPage": "Edit Page",
   "JOURNAL.NextPage": "Page suivante",
   "JOURNAL.PrevPage": "Page précédente",
   "JOURNAL.Submit": "Sauvegarder la saisie",
@@ -1140,6 +1248,8 @@
   "JOURNAL.AnchorLeft": "A gauche",
   "JOURNAL.AnchorRight": "A droite",
   "JOURNAL.EntryTitle": "Titre du journal",
+  "JOURNAL.ModeMultiple": "Multiple Page Mode",
+  "JOURNAL.ModeSingle": "Single Page Mode",
   "JOURNAL.ViewMultiple": "Visualisation de plusieurs pages",
   "JOURNAL.ViewSingle": "Visualisation de pages uniques",
   "JOURNAL.ViewCollapse": "Réduire la barre de menu latérale",
@@ -1149,7 +1259,12 @@
   "JOURNAL.ShowBadPermissions": "Vous ne pouvez afficher que les entrées du journal ou les pages qui vous appartiennent.",
   "JOURNAL.ShowNoPlayers": "Il n’y a pas d’autres joueurs connectés à qui montrer ça.",
   "JOURNAL.ShowOwnershipHint": "Si nécessaire, mettez à jour la propriété de ce document pour les joueurs auxquels il est présenté. Si un joueur possède déjà un niveau de propriété supérieur, il ne sera pas rétrogradé.",
-
+  "JOURNAL.LockModeLocked": "Table of contents locked. Click to unlock.",
+  "JOURNAL.LockModeUnlocked": "Table of contents unlocked. Click to lock.",
+  "JOURNAL.ConfigureCategories": "Configure Categories",
+  "JOURNAL.ConfigureCategoriesTitle": "{name} Categories",
+  "JOURNAL.CategoryName": "Category name",
+  "JOURNAL.Uncategorized": "Uncategorized",
   "JOURNALENTRYPAGE.DefaultPageSheet": "Type de page {page} par défaut",
   "JOURNALENTRYPAGE.Format": "Format",
   "JOURNALENTRYPAGE.Page": "Page",
@@ -1162,11 +1277,14 @@
   "JOURNALENTRYPAGE.TypeVideo": "Vidéo",
   "JOURNALENTRYPAGE.ImageSource": "Source de l’image",
   "JOURNALENTRYPAGE.ImageCaption": "Légende",
+  "JOURNALENTRYPAGE.VideoAutoplay": "Autoplay Video",
   "JOURNALENTRYPAGE.VideoControls": "Afficher les contrôles vidéo",
-  "JOURNALENTRYPAGE.VideoStartTime": "Heure de début de la vidéo",
   "JOURNALENTRYPAGE.VideoDimensions": "Dimensions de la vidéo",
+  "JOURNALENTRYPAGE.VideoLoop": "Loop Video",
+  "JOURNALENTRYPAGE.VideoStartTime": "Heure de début de la vidéo",
   "JOURNALENTRYPAGE.VideoSource": "Source de la vidéo",
   "JOURNALENTRYPAGE.VideoSourceHint": "Il peut s’agir d’un fichier local, d’une URL de fichier vidéo distant ou d’une URL YouTube.",
+  "JOURNALENTRYPAGE.VideoVolume": "Video Volume",
   "JOURNALENTRYPAGE.PDFLoad": "Charger le PDF",
   "JOURNALENTRYPAGE.PDFSource": "Source du PDF",
   "JOURNALENTRYPAGE.ShowImageOnly": "Afficher l’image uniquement",
@@ -1174,8 +1292,8 @@
   "JOURNALENTRYPAGE.ShowImageCaption": "Afficher la légende de l’image",
   "JOURNALENTRYPAGE.ShowTitle": "Afficher le titre",
   "JOURNALENTRYPAGE.HeadingLevel": "Niveau de titre",
+  "JOURNALENTRYPAGE.Category": "Page Category",
   "JOURNALENTRYPAGE.Level": "Niveau {level}",
-
   "KEYBINDINGS.NavLabel": "Onglets de configuration des touches de raccourcis",
   "KEYBINDINGS.ActionCategories": "Catégories des raccourcis",
   "KEYBINDINGS.AllActions": "Tous les raccourcis",
@@ -1197,7 +1315,6 @@
   "KEYBINDINGS.HowToEdit": "Utilisez {icon} ou le double-clic pour modifier la valeur.",
   "KEYBINDINGS.CycleView": "Parcourir la vue Canvas",
   "KEYBINDINGS.Dismiss": "Désactiver toutes les fenêtres",
-  "KEYBINDINGS.MoveAlongMeasuredRuler": "Avancer avec la règle",
   "KEYBINDINGS.Pause": "Pause",
   "KEYBINDINGS.Delete": "Supprimer",
   "KEYBINDINGS.Highlight": "Mettre en évidence",
@@ -1206,6 +1323,7 @@
   "KEYBINDINGS.Copy": "Copier",
   "KEYBINDINGS.Paste": "Coller",
   "KEYBINDINGS.Target": "Cible",
+  "KEYBINDINGS.Ruler": "Toggle Distance Ruler",
   "KEYBINDINGS.SendToBack": "Envoyer des objets derrière",
   "KEYBINDINGS.BringToFront": "Amener des objets devant",
   "KEYBINDINGS.ToggleCharacterSheet": "Basculer sur la feuille de personnage",
@@ -1227,7 +1345,6 @@
   "KEYBINDINGS.ErrorIllegalModifier": "La clé demandée « {key} » n’est pas une valeur valide pour KeyboardManager.MODIFIER_KEYS",
   "KEYBINDINGS.ErrorReservedModifier": "Impossible de définir « {key} » comme « bind » (association à un raccourcis), car cette action est réservée",
   "KEYBINDINGS.FocusChat": "Focus sur le tchat",
-
   "LIGHT.FIELDS": {
     "alpha": {
       "label": "Intensité de la couleur",
@@ -1284,6 +1401,10 @@
       "label": "Source de l’obscurité",
       "hint": "Une source d’obscurité bloque la lumière et la vision et supprime les sources de lumière ou de vision situées dans sa zone d’effet."
     },
+    "priority": {
+      "label": "Priority",
+      "hint": "Determines how light and darkness sources interact. Higher-priority light repels lower-priority darkness, but if priorities match, darkness prevails."
+    },
     "saturation": {
       "label": "Saturation",
       "hint": "Ajuste la saturation des surfaces éclairées par cette source de lumière. La valeur par défaut pour une source de lumière standard est de 0."
@@ -1303,7 +1424,6 @@
       }
     }
   },
-
   "LIGHT.LegacyColoration": "Coloration héritée",
   "LIGHT.AdaptiveLuminance": "Luminance adaptative",
   "LIGHT.InternalHalo": "Halo interne",
@@ -1315,8 +1435,6 @@
   "LIGHT.HighAbsorption": "Absorption élevée",
   "LIGHT.InvertAbsorption": "Inverser l’absorption",
   "LIGHT.NaturalLight": "Lumière naturelle",
-
-
   "LIGHT.AnimationTorch": "Lumière vacillante",
   "LIGHT.AnimationPulse": "Pulsation",
   "LIGHT.AnimationChroma": "Chroma",
@@ -1342,7 +1460,6 @@
   "LIGHT.AnimationRevolving": "Lumière tournante",
   "LIGHT.AnimationSiren": "Sirène lumineuse",
   "LIGHT.AnimationMagicalGloom": "Obscurité magique",
-
   "MACRO.Delete": "Effacer la Macro",
   "MACRO.DeleteWarning": "Cette macro sera définitivement supprimée pour tous les utilisateurs.",
   "MACRO.Edit": "Editer la Macro",
@@ -1359,12 +1476,15 @@
   "MACRO.UnlockBar": "Déverrouiller la barre d’outils",
   "MACRO.EmptySlot": "Emplacement vide {slot}",
   "MACRO.CannotOverwrite": "Impossible d’écraser cette macro car la barre d’outils est verrouillée.",
-
+  "MACRO.SCOPES": {
+    "actor": "Actor",
+    "actors": "Actors",
+    "global": "Global"
+  },
   "MENU.NavLabel": "Menu principal",
   "MENU.Reload": "Recharger",
   "MENU.Logout": "Déconnexion",
   "MENU.Players": "Gestion des joueurs",
-
   "MODMANAGE.Bugs": "Rapports sur les bugs ou les problèmes",
   "MODMANAGE.DeactivateAll": "Désactiver tous les Modules",
   "MODMANAGE.Readme": "Documentation du Module",
@@ -1388,7 +1508,6 @@
   "MODMANAGE.FilterAll": "Tous les Modules",
   "MODMANAGE.FilterActive": "Modules actifs",
   "MODMANAGE.FilterInactive": "Modules inactifs",
-  "MODMANAGE.Build": "Build",
   "MODMANAGE.RequiredModule": "Ce module nécessite d’être activé",
   "MODMANAGE.DependencyIssues": "Impossible de l’activer en raison de problèmes dans les dépendances requises",
   "MODMANAGE.SystemCompatibilityIssueMinimum": "Ce module requiert au moins la version {minimum} mais votre version est {version}. Mettez à jour le système.",
@@ -1396,25 +1515,40 @@
   "MODMANAGE.NavLabel": "Navigation et Organisation des modules",
   "MODMANAGE.UpstreamPackages": "Il y a {number} packages qui nécessitent que ce package soit actif. La désactivation de ce package entraînera également la désactivation de ces package.",
   "MODMANAGE.UnavailableDocuments": "Documents rendus indisponibles",
-
-  "NOTE.AnchorPoint": "Point d’ancrage du texte",
-  "NOTE.ConfigTitle": "Configuration de la note",
   "NOTE.Create": "Créer une note sur la scène",
   "NOTE.CreateJournal": "Créer le journal correspondant ?",
   "NOTE.Custom": "Personnalisé",
   "NOTE.CustomIcon": "Icône personnalisée",
-  "NOTE.EntryIcon": "Icône affichée",
-  "NOTE.FontSize": "Taille de la police",
-  "NOTE.FontFamily": "Famille de la police",
-  "NOTE.Global": "Visibilité globale",
-  "NOTE.GlobalHint": "Permet à cette note de carte d’être vue n’importe où sur la carte par un joueur ayant la permission de la voir.",
-  "NOTE.IconSize": "Taille de l’icône",
-  "NOTE.IconTint": "Teinte de l’icône",
-  "NOTE.TextLabel": "Titre affiché de la note",
-  "NOTE.TextColor": "Couleur du texte",
   "NOTE.Unknown": "Inconnue",
   "NOTE.Update": "Mise à jour de la note",
-
+  "NOTE.SECTIONS": {
+    "CONTENT": "Content",
+    "POSITION": "Position",
+    "ICON": "Icon",
+    "LABEL": "Label"
+  },
+  "NOTE.FIELDS": {
+    "entryId.label": "Journal Entry",
+    "pageId.label": "Page",
+    "text.label": "Text Label",
+    "x.label": "X-Coordinate",
+    "y.label": "Y-Coordinate",
+    "elevation.label": "Elevation",
+    "sort.label": "Sort",
+    "global": {
+      "label": "Globally Visible",
+      "hint": "Allow this map note to be seen anywhere on the map by a player with permission to view it."
+    },
+    "texture": {
+      "src.label": "Entry Icon",
+      "tint.label": "Icon Tint"
+    },
+    "iconSize.label": "Icon Size",
+    "fontFamily.label": "Font Family",
+    "fontSize.label": "Font Size",
+    "textColor.label": "Text Color",
+    "textAnchor.label": "Text Anchor Point"
+  },
   "NUE.FirstLaunchBody": "Il semble que ce soit un nouveau monde. Pour commencer, vous devez d’abord ajouter les joueurs supplémentaires attendus via le menu <a class=\"nue-tab\" data-tab=\"settings\">Configuration des Joueurs</a>. Ensuite vous pourrez créer des <a class=\"nue-tab\" data-tab=\"actors\">Acteurs</a> pour eux, ainsi que tout autre personnage important que vous devez représenter. Les cartes et autres visuels peuvent être configurés à l’aide des <a class=\"nue-tab\" data-tab=\"scenes\">Scènes</a>, et les documents, notes et autres informations peuvent être créés dans des <a class=\"nue-tab\" data-tab=\"journal\">journaux</a>.",
   "NUE.FirstLaunchHeader": "Pour commencer",
   "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Ce message peut être extrait en cliquant dessus avec le bouton droit de la souris, vous pouvez également extraire tout l’onglet de chat en cliquant avec le bouton droit de la souris sur l’icône de la bulle de dialogue (menu du haut). Cette dernière méthode (clic droit sur les icones du menu) permet de la même manière de faire apparaître n’importe quel autre onglet de la barre latérale dans une fenêtre indépendante.",
@@ -1422,25 +1556,27 @@
   "NUE.FirstLaunchInviteBody": "Lorsque tout est configuré et que vous êtes prêt à inviter vos joueurs, vous pouvez leur envoyer un lien vers votre monde depuis le <a class=\"nue-action\" data-action=\"invite\">Liens d’invitation</a>.",
   "NUE.FirstLaunchKB": "N’oubliez pas d’explorer tous les onglets disponibles dans cette barre latérale, et pour plus d’informations, vous pouvez consulter la série <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a> (en Anglais) dans la <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\">Base de connaissances</a>.",
   "NUE.FirstLaunchTroubleshooting": "Si la boîte de dialogue Liens d’invitation indique que votre connexion est fermée, vous devrez peut-être configurer la redirection de port. Vous trouverez des instructions à ce sujet sur le site officiel : <a href=\"https://foundryvtt.com/article/port-forwarding/\" target=\"_blank\">Port Forwarding Guide</a> (en Anglais) ou sur le wiki en Français : <a href=\"https://foundryvtt.wiki/fr/pour-commencer/pbcnx/\" target=\"_blank\">Impossible de se connecter à distance</a>. Si vous avez toujours besoin d’aide, vous êtes invité à rejoindre soit le Discord officiel <b>Anglais</b> et à poster un message dans <a href=\"https://discord.com/channels/170995199584108546/689889940590690323\" target=\"_blank\">#install-and-connection</a> pour les problèmes d’invitation, <a href=\"https://discord.com/channels/170995199584108546/486930822465716249\" target=\"_blank\">#troubleshooting</a> pour les problèmes généraux avec le logiciel, ou <a href=\"https://discord.com/channels/170995199584108546/713259405667205193\" target=\"_blank\">#core-how-to</a> pour une aide plus générique sur Foundry VTT. Soit également trouver de l’aide sur le discord <b>francophone</b> de FoundryVTT : <a href=\"https://discord.gg/pPSDNJk\" target=\"_blank\">La Fonderie</a>.",
-
-  "PLAYERS.Title": "Joueurs",
-  "PLAYERS.List": "Liste de joueurs",
-  "PLAYERS.CharSelect": "Sélectionner un personnage",
-  "PLAYERS.CharSelected": "Personnage sélectionné",
-  "PLAYERS.CharRelease": "Libérer le personnage",
-  "PLAYERS.ConfigTitle": "Configuration du joueur",
-  "PLAYERS.PlayerColor": "Couleur du joueur",
-  "PLAYERS.PlayerAvatar": "Avatar du joueur",
-  "PLAYERS.PlayerPronouns": "Pronoms du joueur",
-  "PLAYERS.PullToScene": "Amener à la scène",
-  "PLAYERS.ViewAvatar": "Avatar du joueur",
-  "PLAYERS.Kick": "Ejecter le joueur",
-  "PLAYERS.Ban": "Bannir le joueur",
-  "PLAYERS.UnBan": "Enlever le bannissement du joueur",
-
+  "PLAYERS": {
+    "Title": "Joueurs",
+    "List": "Liste de joueurs",
+    "CharSelect": "Sélectionner un personnage",
+    "CharSelected": "Personnage sélectionné",
+    "CharRelease": "Libérer le personnage",
+    "ConfigTitle": "Configuration du joueur",
+    "PlayerColor": "Couleur du joueur",
+    "PlayerAvatar": "Avatar du joueur",
+    "PlayerPronouns": "Pronoms du joueur",
+    "PullToScene": "Amener à la scène",
+    "ViewAvatar": "Avatar du joueur",
+    "Kick": "Ejecter le joueur",
+    "Ban": "Bannir le joueur",
+    "UnBan": "Enlever le bannissement du joueur",
+    "LATENCY": "Latency",
+    "FPS": "FPS"
+  },
   "PLAYLIST.Delete": "Supprimer la playlist",
   "PLAYLIST.Edit": "Éditer la playlist",
-  "PLAYLIST.Channel": "Canal audio",
+  "PLAYLIST.DefaultChannel": "Playlist Audio Channel",
   "PLAYLIST.CurrentlyPlaying": "En cours de lecture",
   "PLAYLIST.ModeDisabled": "Soundboard seulement",
   "PLAYLIST.ModeSequential": "Jouer dans l’ordre",
@@ -1453,162 +1589,250 @@
   "PLAYLIST.VolPlaylist": "Playlists",
   "PLAYLIST.VolAmbient": "Ambiance",
   "PLAYLIST.VolInterface": "Interface",
-  "PLAYLIST.Name": "Nom de la playlist",
-  "PLAYLIST.Mode": "Mode de lecture",
-  "PLAYLIST.Fade": "Durée du fondu (ms)",
-  "PLAYLIST.Description": "Description de la playlist",
   "PLAYLIST.Update": "Mettre à jour la playlist",
-  "PLAYLIST.SortMode": "Mode de tri",
   "PLAYLIST.SortAlphabetical": "Par ordre alphabétique",
   "PLAYLIST.SortManual": "Manuellement",
   "PLAYLIST.SoundCreate": "Créer une piste",
   "PLAYLIST.SoundEdit": "Éditer la piste",
   "PLAYLIST.SoundDelete": "Effacer la piste",
   "PLAYLIST.SoundLoop": "Jouer en boucle",
-  "PLAYLIST.SoundName": "Nom de la piste",
-  "PLAYLIST.SoundSrc": "Source audio",
-  "PLAYLIST.SoundDescription": "Description de la piste",
-  "PLAYLIST.SoundRepeat": "Répéter",
   "PLAYLIST.SoundStreaming": "Streaming de fichier volumineux",
-  "PLAYLIST.SoundUpdate": "Mettre à jour la piste",
   "PLAYLIST.SoundPlay": "Jouer la piste",
   "PLAYLIST.SoundPause": "Pause",
   "PLAYLIST.SoundPreload": "Précharger la piste",
   "PLAYLIST.SoundResume": "Reprendre la lecture",
-  "PLAYLIST.SoundVolume": "Volume de la piste",
   "PLAYLIST.SoundStop": "Couper le son de la piste",
-  "PLAYLIST.BulkImport": "Importation en masse",
-  "PLAYLIST.BulkImportWarning": "Aucun son de liste de lecture n’a été importé depuis le répertoire demandé « {path} »",
+  "PLAYLIST.BulkImport": {
+    "Title": "Bulk Import Sounds",
+    "Hint": "Select a folder containing the sounds to be imported.",
+    "Button": "Bulk Import",
+    "Warning": "No valid Playlist Sounds were imported from the requested \"{path}\" directory"
+  },
   "PLAYLIST.PinToTop": "Épingler en haut",
   "PLAYLIST.PinToBottom": "Épingler en bas",
+  "PLAYLIST.FIELDS": {
+    "name.label": "Playlist Name",
+    "mode.label": "Playback Mode",
+    "channel.label": "Audio Channel",
+    "sorting.label": "Sort Mode",
+    "fade.label": "Fade Duration",
+    "description.label": "Playlist Description"
+  },
   "PLAYLIST.VOLUME": {
     "CONTROLS": "Contrôles de volume utilisateur",
     "TOOLTIP": "Volume : {volume}%"
   },
-
-  "SCENES.Accessibility": "Restriction d’accès",
-  "SCENES.AccessibilityGM": "MJ Uniquement",
-  "SCENES.AccessibilityAll": "Tous les joueurs",
-  "SCENES.Activate": "Activer",
-  "SCENES.AudioPlaylist": "Playlist Audio",
-  "SCENES.AudioPlaylistHint": "Playlist qui commence à jouer lorsque cette Scène est activée.",
-  "SCENES.BackgroundColor": "Couleur d’arrière-plan",
-  "SCENES.BackgroundImage": "Image d’arrière-plan",
-  "SCENES.BackgroundImageHint": "Configurer l’image d’arrière-plan et les dimensions de la carte principale de la scène.",
-  "SCENES.FogOverlay": "Image du brouillard de guerre",
-  "SCENES.FogOverlayHint": "Une image du brouillard de guerre (facultative) qui sera dessinée au-dessus des parties inexplorées de la scène.",
-  "SCENES.ForegroundImage": "Image du premier plan",
-  "SCENES.ForegroundImageHint": "Une image de premier plan (facultative) qui sera dessinée au-dessus des autres objets de la scène.",
-  "SCENES.ForegroundElevation": "Altitude du premier plan",
-  "SCENES.ForegroundElevationHint": "Fixe la hauteur de l’image du premier plan et des tuiles de plafond (dans l’unité définie).",
-  "SCENES.BackgroundScale": "Échelle de l’image d’arrière-plan",
-  "SCENES.BackgroundScaleHint": "Utilisez SHIFT+Molette de la souris ou SHIFT+Flèche vers le haut et SHIFT+Flèche vers le bas pour régler la taille de l’image d’arrière-plan.",
-  "SCENES.CaptureInitialViewPosition": "Position du canvas capturée en tant que vue initiale dans le formulaire de configuration de la scène.",
-  "SCENES.Configure": "Configurer",
-  "SCENES.ConfigTitle": "Configuration de la scène",
-  "SCENES.Darkness": "Niveau d’obscurité",
-  "SCENES.DarknessHint": "Configurer un calque d’obscurité qui assombrit la scène pour simuler des conditions de nuit ou de faible luminosité.",
-  "SCENES.Dimensions": "Dimensions de la scène",
-  "SCENES.DimensionsHint": "Les dimensions de la scène sont automatiquement définies pour correspondre aux dimensions de l’image d’arrière-plan lorsqu’une image d’arrière-plan est configurée pour la première fois.",
-  "SCENES.DimensionChangeTitle": "Changer les dimensions de la scène ?",
-  "SCENES.DimensionChangeWarning": "Vous modifiez les dimensions primaires de cette scène. Si vous avez déjà placé des objets dans cette scène, cette opération peut entraîner un déplacement de la position de ces objets par rapport à l’image d’arrière-plan.",
-  "SCENES.DimensionLinked": "Les dimensions de la scène sont actuellement liées, la modification de l’une entraînera la modification de l’autre afin de maintenir le rapport d’aspect. Cliquez sur ce lien pour le dissocier.",
-  "SCENES.DimensionUnlinked": "Les dimensions de la scène ne sont actuellement pas liées, le fait de modifier l’une ne modifiera pas l’autre. Cliquez sur le lien.",
-  "SCENES.DistortedDimensionsTitle": "Dimensions de la scène déformée",
-  "SCENES.DistortedDimensionsWarning": "Vous avez choisi de nouvelles dimensions dont le rapport d’aspect est différent de celui de l’original. Souhaitez vous repositionner automatiquement les objets placés, tels que les tokens ? Le résultat risque d’apparaître déformé.",
-  "SCENES.FogExplore": "Exploration du brouillard",
-  "SCENES.FogExploreHint": "Suivre la progression de l’exploration des Tokens, en supprimant le brouillard de guerre pour les zones qui ont été explorées. Si ce paramètre est désactivé, seules la position actuelle d’un Token et les zones déjà explorées sont visibles.",
-  "SCENES.GenerateThumb": "Générer une image miniature",
-  "SCENES.GenerateThumbNoCanvas": "La miniature de la scène ne peut pas être générée lorsque le paramètre « Scène du jeu désactivée » est actif.",
-  "SCENES.GenerateThumbSuccess": "Image miniature générée pour la scène {name}.",
-  "SCENES.GlobalIllum": "Illumination globale",
-  "SCENES.GlobalIllumHint": "Illumine toute la scène, les Tokens contrôlés par un joueur et ayant un champ de vision ont une ligne de vue.",
-  "SCENES.GlobalLightThreshold": "Seuil d’illumination globale",
-  "SCENES.GlobalLightThresholdHint": "Désactive automatiquement l’Illumination Globale lorsque le niveau d’obscurité dépasse une certaine valeur de seuil.",
-  "SCENES.GridColor": "Couleur de la grille",
-  "SCENES.GridConfigTool": "Outils de configuration de la grille",
-  "SCENES.GridConfigToolHint": "Configure la position de la grille et de l’image de fond à l’aide de la molette de la souris et des touches fléchées, ou en définissant manuellement les champs suivants.",
-  "SCENES.GridOpacity": "Opacité de la grille",
-  "SCENES.GridType": "Type de grille",
-  "SCENES.GridGridless": "Sans grille",
-  "SCENES.GridSquare": "Carrée",
-  "SCENES.GridHexOddR": "Lignes hexagonales - impaires",
-  "SCENES.GridHexEvenR": "Lignes hexagonales - paires",
-  "SCENES.GridHexOddQ": "Colonnes hexagonales - impaires",
-  "SCENES.GridHexEvenQ": "Colonnes hexagonales - paires",
-  "SCENES.GridSize": "Taille d’une case",
-  "SCENES.GridSizeHint": "Utilisez ALT + molette de la souris ou ALT + Flèche vers le haut et ALT + Flèche vers le bas pour ajuster la taille de la grille.",
-  "SCENES.GridSizeError": "Ce redimensionnement réduirait la taille de la grille en dessous du minimum de 50px. Si vous souhaitez réduire la taille de votre grille à cette valeur, passez d’abord à la version sans grille et réinstallez une nouvelle grille après le redimensionnement.",
-  "SCENES.GridResizeHint": "Utilisez ALT + molette de la souris ou ALT + Flèche vers le haut et ALT + Flèche vers le bas pour ajuster la taille de la grille.",
-  "SCENES.GridPosition": "Position de l’offset de la grille",
-  "SCENES.GridPositionHint": "Utilisez les flèches pour déplacer le décalage de la grille.",
-  "SCENES.GridScale": "Echelle de la grille",
-  "SCENES.GridDistance": "Intervalle",
-  "SCENES.GridUnits": "Unité",
-  "SCENES.GridReset": "Annuler les modifications",
-  "SCENES.GridStyle": "Style de la grille",
-  "SCENES.GridThickness": "Épaisseur de la grille",
-  "SCENES.HeaderAmbience": "Ambiance",
-  "SCENES.HeaderAmbienceBasic": "Options de base",
-  "SCENES.HeaderDetails": "Détails",
-  "SCENES.HeaderGrid": "Grille",
-  "SCENES.HeaderVision": "Éclairage",
-  "SCENES.InitialView": "Position initiale de la vue",
-  "SCENES.InitialViewButton": "Capture de la vue actuelle",
-  "SCENES.InitialViewHint": "Définit la position par défaut de la caméra lors de la première ouverture de la scène.",
-  "SCENES.InvalidDimension": "La dimension fournie entraînerait une valeur non entière pour l’autre dimension. Veuillez essayer une autre valeur ou dissocier les dimensions.",
-  "SCENES.Loading": "Chargement de {name}",
-  "SCENES.NavName": "Nom de navigation",
-  "SCENES.NavNameHint": "Un nom alternatif pour la scène qui sera affiché dans la barre de navigation (en remplacement du nom réel de la scène).",
-  "SCENES.Notes": "Notes de la scène",
-  "SCENES.Padding": "Pourcentage de remplissage",
-  "SCENES.PaddingHint": "Ajoute un cadre accessible et utilisable autour de l’image d’arrière-plan de la scène (agrandit la scène au-delà de l’image d’un certain % tout autour).",
-  "SCENES.Pixels": "Pixels",
-  "SCENES.Preload": "Précharger",
-  "SCENES.SceneName": "Nom de scène",
-  "SCENES.View": "Afficher la scène",
-  "SCENES.JournalEntry": "Entrée du journal",
-  "SCENES.JournalEntryHint": "Une entrée de journal lié qui fournit des notes au maître du jeu sur cette scène.",
-  "SCENES.NavLabel": "Navigation dans la scène",
-  "SCENES.PlaylistSound": "Piste de la playlist",
-  "SCENES.PlaylistSoundHint": "Vous pouvez choisir une piste spécifique de la playlist qui doit être diffusé lorsque cette scène est active, sinon la playlist entière sera jouée.",
-  "SCENES.ShowNav": "Afficher dans la navigation",
-  "SCENES.ShiftBG": "Décalage (offset) de la grille",
-  "SCENES.ShiftHorizontal": "Décalage horizontal",
-  "SCENES.ShiftVertical": "Décalage vertical",
-  "SCENES.TokenVision": "Vision du token",
-  "SCENES.TokenVisionHint": "Limiter la visibilité dans cette scène en fonction des tokens contrôlés et de leur vision.",
-  "SCENES.ToggleNav": "Afficher/Masquer",
-  "SCENES.Units": "unités",
-  "SCENES.WeatherEffect": "Effet météorologique",
-  "SCENES.WeatherEffectHint": "Ajouter un effet météorologique sur la scène.",
-  "SCENES.ZoomLower": "Zoom",
-  "SCENES.FogExploredColor": "Couleur du brouillard de guerre des zones explorées",
-  "SCENES.FogExploredColorHint": "Une couleur appliquée à toutes les zones de la Scène qui ont été explorées mais qui sont en dehors de la zone de vision actuelle.",
-  "SCENES.FogUnexploredColor": "Couleur du brouillard de guerre des zones non explorées",
-  "SCENES.FogUnexploredColorHint": "Une couleur unie appliquée à toutes les zones inexplorées de la scène.",
-
-  "SCENES.ENVIRONMENT": {
-    "HeaderLabel":"Éclairage de l'environnement",
-    "Luminosity":"Luminosité",
-    "LuminosityHint":"Contrôlez la luminosité de la scène. Une luminosité plus élevée rend la scène lumineuse comme un jour ensoleillé, tandis qu'une luminosité plus faible la rend plus sombre et plus morose,",
-    "Saturation":"Saturation",
-    "SaturationHint":"Ajuste la pureté des couleurs de la scène. Les réglages supérieurs à 0 rendent les couleurs plus saturées (intenses et vibrantes), tandis que les réglages négatifs ternissent et atténuent les couleurs.",
-    "Shadows":"Ombres",
-    "ShadowsHint":"En augmentant ce curseur, les ombres et les éléments plus sombres de la scène sont plus foncés et plus profonds.",
-    "Hue":"Teinte",
-    "HueHint":"Choisissez une teinte (couleur) pour l'intégrer à l'ensemble de la scène. Pour activer le curseur de couleur, vous devez avoir une intensité supérieure à 0",
-    "Intensity" : "Intensité de la teinte.",
-    "IntensityHint":"Permet de régler l'intensité avec laquelle la teinte choisie se fond dans la scène. Une intensité de teinte élevée sature la scène avec la couleur, ce qui risque d'écraser les couleurs existantes. Une intensité de teinte plus faible permet d'intégrer la couleur choisie de manière plus subtile.",
-    "ResetEnvironment":"Réinitialiser les options par défaut",
-    "BlendAmbience": "Mélanger l'ambiance",
-    "BlendAmbienceHint": "Lorsque cette option est cochée, les valeurs d'ambiance de base sont fusionnées avec les valeurs d'ambiance d'obscurité en fonction du niveau d'obscurité.",
-    "BaseAmbience": "Ambience de base",
-    "DarkAmbience": "Ambiance sombre",
-    "DarknessLock": "Verrouillage du niveau d'obscurité",
-    "DarknessLockHint": "Lorsque cette option est cochée, le niveau d'obscurité ne peut être modifié."
+  "PLAYLIST_SOUND.Update": "Update Track",
+  "PLAYLIST_SOUND.FIELDS": {
+    "name.label": "Track Name",
+    "path.label": "Audio Source",
+    "channel.label": "Audio Channel",
+    "volume.label": "Sound Volume",
+    "repeat.label": "Repeat",
+    "fade.label": "Fade Duration",
+    "description.label": "Sound Description"
   },
-
+  "SCENE.Accessibility": "Restriction d’accès",
+  "SCENE.AccessibilityGM": "MJ Uniquement",
+  "SCENE.AccessibilityAll": "Tous les joueurs",
+  "SCENE.Activate": "Activer",
+  "SCENE.BackgroundScale": "Échelle de l'image d'arrière-plan",
+  "SCENE.BackgroundScaleHint": "Utilisez Maj + Molette de souris ou Maj + Flèche vers le haut et Maj + Flèche vers le bas pour ajuster la taille de l'image d'arrière-plan.",
+  "SCENE.CaptureInitialViewPosition": "Position du canvas capturée en tant que vue initiale dans le formulaire de configuration de la scène.",
+  "SCENE.Configure": "Configurer",
+  "SCENE.Dimensions": "Dimensions de la scène",
+  "SCENE.DimensionsHint": "Les dimensions de la scène sont automatiquement définies pour correspondre aux dimensions de l'image de fond lorsqu'une image de fond est configurée pour la première fois.",
+  "SCENE.DimensionChangeTitle": "Changer les dimensions de la scène ?",
+  "SCENE.DimensionChangeWarning": "Vous modifiez les dimensions sous-jacentes de cette scène, Si vous avez déjà placé des objets dans cette scène, cette opération peut entraîner le déplacement de la position de ces objets par rapport à l'image de fond.",
+  "SCENE.DimensionLinked": "Les dimensions de la scène sont actuellement liées : changer l'une changera l'autre pour maintenir le rapport d'aspect. Cliquez pour délier.",
+  "SCENE.DimensionUnlinked": "Les dimensions de la scène sont actuellement dissociées, changer l'une ne changera pas l'autre. Cliquez pour lier.",
+  "SCENE.DistortedDimensionsTitle": "Dimensions de la scène déformée",
+  "SCENE.DistortedDimensionsWarning": "Vous avez choisi de nouvelles dimensions dont le rapport d’aspect est différent de celui de l’original. Souhaitez-vous repositionner automatiquement les objets placés, tels que les tokens ? Le résultat risque d’apparaître déformé.",
+  "SCENE.GenerateThumb": "Générer une image miniature",
+  "SCENE.GenerateThumbNoCanvas": "La miniature de la scène ne peut pas être générée lorsque le paramètre « Scène du jeu désactivée » est actif.",
+  "SCENE.GenerateThumbUploadDenied": "La miniature de la scène n'a pas pu être générée car l'utilisateur n'a pas la permission de télécharger des fichiers.",
+  "SCENE.GenerateThumbProgress": "Génération de la miniature pour la scène {name}.",
+  "SCENE.GenerateThumbSuccess": "Miniature générée pour la scène {name}.",
+  "SCENE.GridConfigTool": "Outil de configuration de la grille",
+  "SCENE.GridConfigToolHint": "Configurez la position de la grille et de l’image de fond à l’aide de la molette de la souris et des touches fléchées, ou en définissant manuellement les champs suivants.",
+  "SCENE.GridGridless": "Sans grille",
+  "SCENE.GridSquare": "Carrée",
+  "SCENE.GridHexOddR": "Lignes hexagonales - impaires",
+  "SCENE.GridHexEvenR": "Lignes hexagonales - paires",
+  "SCENE.GridHexOddQ": "Colonnes hexagonales - impaires",
+  "SCENE.GridHexEvenQ": "Colonnes hexagonales - paires",
+  "SCENE.GridSizeError": "Ce redimensionnement réduirait la taille de la grille en dessous du minimum de 50px. Si vous souhaitez réduire la taille de votre grille à cette valeur, passez d’abord à la version sans grille et réinstallez une nouvelle grille après le redimensionnement.",
+  "SCENE.GridResizeHint": "Utilisez ALT + molette de la souris ou ALT + Flèche vers le haut et ALT + Flèche vers le bas pour ajuster la taille de la grille.",
+  "SCENE.GridPosition": "Décalage de l'image d'arrière-plan",
+  "SCENE.GridPositionHint": "Utilisez les touches fléchées pour déplacer le décalage de l'image d'arrière-plan.",
+  "SCENE.GridScale": "Échelle de la grille",
+  "SCENE.GridReset": "Annuler les modifications",
+  "SCENE.InitialView": "Position initiale de la vue",
+  "SCENE.InitialViewButton": "Capture la vue actuelle",
+  "SCENE.InitialViewHint": "Définit la position par défaut de la caméra lors de la première ouverture de la scène.",
+  "SCENE.InvalidDimension": "La dimension fournie résulterait en une valeur non entière pour l'autre dimension. Veuillez essayer une valeur différente ou dissocier les dimensions.",
+  "SCENE.Loading": "Chargement de {name}",
+  "SCENE.Notes": "Notes de la scène",
+  "SCENE.Pixels": "Pixels",
+  "SCENE.Preload": "Précharger la scène",
+  "SCENE.View": "Voir la scène",
+  "SCENE.ShiftBG": "Décalage de l'arrière-plan",
+  "SCENE.ToggleNav": "Toggle Navigation",
+  "SCENE.Ambience": {
+    "Base": "Base Ambience",
+    "Dark": "Dark Ambience",
+    "ResetEnvironment": "Reset to Default Options"
+  },
+  "SCENE.FIELDS": {
+    "name.label": "Scene Name",
+    "navigation.label": "Show in Navigation",
+    "navName": {
+      "label": "Navigation Name",
+      "hint": "An alternative name for the Scene that is displayed in the Navigation Bar instead of the actual Scene name."
+    },
+    "background": {
+      "src": {
+        "label": "Background Image",
+        "hint": "Configure the background image and dimensions of the scene's primary map."
+      },
+      "offsetX.label": "Horizontal",
+      "offsetY.label": "Vertical"
+    },
+    "backgroundColor.label": "Background Color",
+    "foreground": {
+      "label": "Foreground Image",
+      "hint": "An optional foreground image which is drawn above other objects in the Scene."
+    },
+    "foregroundElevation": {
+      "label": "Foreground Elevation",
+      "hint": "An elevation in distance units which configures the height of the foreground image and overhead tiles."
+    },
+    "initial.scale.label": "Zoom",
+    "grid": {
+      "type.label": "Grid Type",
+      "size": {
+        "label": "Grid Size",
+        "hint": "The pixel size of a single grid space. Use the Grid Configuration tool to visually adjust this."
+      },
+      "thickness.label": "Grid Thickness",
+      "color.label": "Grid Color",
+      "alpha.label": "Grid Opacity",
+      "distance.label": "Distance",
+      "units.label": "Units",
+      "style.label": "Grid Style"
+    },
+    "padding": {
+      "label": "Padding Percentage",
+      "hint": "An amount of additional padding around the Scene background image which provides usable canvas space."
+    },
+    "tokenVision": {
+      "label": "Token Vision",
+      "hint": "Restrict visibility within this Scene to the vision of controlled Tokens. If disabled, the entire Scene is visible."
+    },
+    "fog": {
+      "exploration": {
+        "label": "Fog Exploration",
+        "hint": "If this setting is enabled, fog-of-war exploration will be tracked on a per-User basis and stored to the database as the Scene is explored. Otherwise, fog exploration does not occur and instead Tokens are limited to only what they can currently see."
+      },
+      "overlay": {
+        "label": "Fog of War Image",
+        "hint": "An optional fog of war image to be drawn above unexplored parts of the scene."
+      },
+      "colors": {
+        "explored": {
+          "label": "Fog Explored Color",
+          "hint": "A color applied to all areas of the Scene which have been explored but are outside of the current vision area."
+        },
+        "unexplored": {
+          "label": "Fog Unexplored Color",
+          "hint": "A solid color applied to all unexplored areas of the Scene."
+        }
+      }
+    },
+    "environment": {
+      "globalLight": {
+        "enabled": {
+          "label": "Global Illumination",
+          "hint": "This Scene contains a global source of light that provides all areas of the Scene with a base level of illumination."
+        },
+        "darkness.max": {
+          "label": "Global Illumination Threshold",
+          "hint": "A darkness threshold between 0 and 1. When the Scene darkness level exceeds this threshold Global Illumination is automatically disabled."
+        }
+      },
+      "darknessLevel": {
+        "label": "Darkness Level",
+        "hint": "Apply an overlay that darkens the Scene and diminishes light sources to simulate nighttime or dimly illuminated conditions."
+      },
+      "darknessLock": {
+        "label": "Darkness Level Lock",
+        "hint": "When this option is checked, the darkness level can't be changed."
+      },
+      "cycle": {
+        "label": "Blend Ambience",
+        "hint": "When this option is checked, the base ambience values are merged with the darkness ambience values according to darkness level."
+      }
+    },
+    "environment.base": {
+      "luminosity": {
+        "label": "Luminosity",
+        "hint": "Control how bright the scene appears. Higher luminosity makes the scene bright like a sunny day, while lower luminosity makes it appear darker and gloomier."
+      },
+      "saturation": {
+        "label": "Saturation",
+        "hint": "Adjust the purity of colors in the scene. Settings above 0 make the colors more saturated (intense and vibrant) while negative settings dull and mute the colors."
+      },
+      "shadows": {
+        "label": "Shadows",
+        "hint": "Raising this slider causes the shadows and darker elements of the scene to be darker and deeper."
+      },
+      "hue": {
+        "label": "Hue",
+        "hint": "Choose a hue (color) to blend into the entire scene. To activate the color slider, you must have an intensity greater than 0."
+      },
+      "intensity": {
+        "label": "Hue Intensity",
+        "hint": "Adjust how intensely the chosen hue is blended into the scene. A high hue intensity saturates the scene with the color, possibly overwhelming existing colors. A lower hue intensity blends in the chosen color more subtly."
+      }
+    },
+    "journal": {
+      "label": "Journal Entry",
+      "hint": "A linked Journal Entry providing notes for the Game Master about this Scene."
+    },
+    "journalEntryPage": {
+      "label": "Journal Entry Page",
+      "hint": "A specific page from the linked Journal Entry."
+    },
+    "playlist": {
+      "label": "Scene Playlist",
+      "hint": "A Playlist that should automatically begin playing when this Scene is activated."
+    },
+    "playlistSound": {
+      "label": "Playlist Sound",
+      "hint": "A specific Sound within the Audio Playlist, which should play when this Scene is active."
+    },
+    "weather": {
+      "label": "Weather Effect",
+      "hint": "Display an active Weather Effect which is present within this Scene."
+    }
+  },
+  "SCENE.TABS": {
+    "SHEET": {
+      "basics": "Basics",
+      "grid": "Grid",
+      "lighting": "Lighting",
+      "ambience": "Ambience"
+    },
+    "AMBIENCE": {
+      "basic": "Basic Options",
+      "environment": "Environment Lighting"
+    }
+  },
+  "SCENE_NAVIGATION": {
+    "COLLAPSE": "Collapse Navigation",
+    "EXPAND": "Expand Navigation",
+    "LABEL": "Scene Navigation"
+  },
   "GRID.STYLES": {
     "SolidLines": "Lignes pleines",
     "DashedLines": "Lignes en tirets",
@@ -1617,25 +1841,14 @@
     "DiamondPoints": "Points en losange",
     "RoundPoints": "Points ronds"
   },
-
-  "SETTINGS.Configure": "Configuration des options",
   "SETTINGS.CombatConfigN": "Rencontre de combat",
   "SETTINGS.CombatConfigL": "Configurer le suivi de combat",
   "SETTINGS.CombatConfigH": "Paramètres relatifs au combat et au suivi.",
   "SETTINGS.CombatThemeN": "Thème du combat",
   "SETTINGS.CombatThemeL": "L’ensemble des sons qui seront joués lorsque le combat commence, lorsque votre tour sera le prochain, et pendant votre tour.",
-  "SETTINGS.Keybindings": "Configuration des raccourcis",
-  "SETTINGS.DemoMode": "Mode démo",
-  "SETTINGS.Docs": "Documentation en anglais",
-  "SETTINGS.Invite": "Liens d’invitation",
   "SETTINGS.Issues": "Problèmes/Questions",
-  "SETTINGS.ManageModules": "Gestionnaire de modules",
-  "SETTINGS.ViewModules": "Modules actifs",
   "SETTINGS.Title": "Configuration des options de la partie",
-  "SETTINGS.Tours": "Gestion des présentations",
   "SETTINGS.Update": "Mettre à jour le logiciel",
-  "SETTINGS.Logout": "Déconnexion",
-  "SETTINGS.Players": "Configuration des joueurs",
   "SETTINGS.Reset": "Réinitialiser",
   "SETTINGS.ResetInfo": "Réinitialisez tous les paramètres aux valeurs par défaut. Cliquez sur « Sauvegarder » pour confirmer.",
   "SETTINGS.Save": "Sauvegarder",
@@ -1643,11 +1856,6 @@
   "SETTINGS.ShowToolclips": "Afficher les clips d’outils au survol",
   "SETTINGS.ShowToolclipsH": "Permet de déterminer si les clips d’outils doivent apparaître lorsque l’on survole les outils dans la barre latérale.",
   "SETTINGS.None": "Aucun",
-  "SETTINGS.InfoHeader": "Informations générales",
-  "SETTINGS.SettingsHeader": "Configuration",
-  "SETTINGS.DocsHeader": "Aide & Documentation",
-  "SETTINGS.AccessHeader": "Invitations",
-  "SETTINGS.Wiki": "Wiki Communautaire",
   "SETTINGS.AnimVisionN": "Animation de la vision du token",
   "SETTINGS.AnimVisionL": "Animer le token et les changements de lumière lors des déplacements des tokens. Désactiver cette option peut améliorer les performances pour les petites configurations.",
   "SETTINGS.AnimLightN": "Animation des lumières",
@@ -1674,8 +1882,6 @@
   "SETTINGS.FontConfigN": "Polices supplémentaires",
   "SETTINGS.FontConfigL": "Configurer des polices supplémentaires",
   "SETTINGS.FontConfigH": "Configure les polices supplémentaires qui seront disponibles pour être utilisées dans ce monde.",
-  "SETTINGS.FontSizeN": "Taille de la police",
-  "SETTINGS.FontSizeL": "Agrandir ou réduire la taille de la police utilisée dans l’application.",
   "SETTINGS.PhotosensitiveModeN": "Mode de photosensibilité",
   "SETTINGS.PhotosensitiveModeL": "L’activation de ce mode réduit la prévalence et l’intensité des animations et effets clignotants, rapides et répétitifs.",
   "SETTINGS.MipMapN": "Anti-crénelage de la texture zoomée",
@@ -1690,15 +1896,30 @@
   "SETTINGS.ScrollStatusL": "Un texte d’état défilant peut apparaître au-dessus des tokens ou d’autres objets du canevas afin de fournir un retour d’information sur les modifications apportées à cet objet.",
   "SETTINGS.SoftSN": "Activer les ombres douces",
   "SETTINGS.SoftSL": "Activer les ombres douces pour un plus bel éclairage dynamique ou désactiver pour améliorer les performances pour les petites configurations.",
-  "SETTINGS.Support": "Support",
   "SETTINGS.TabCore": "Configuration générale",
   "SETTINGS.TabModule": "Modules",
   "SETTINGS.TabSystem": "Système de jeu",
   "SETTINGS.TokenDragPreviewN": "Vision des tokens lors du glisser",
   "SETTINGS.TokenDragPreviewL": "Lorsque cette option est activée, la vision et l’éclairage d’un Token sont générées en temps réel lors d’une opération de glisser-déposer. Cette option est désactivée par défaut car elle peut occasionner des comportements indésirables de meta-jeu.",
-  "SETTINGS.DefaultTokenN": "Configuration par défaut des tokens",
-  "SETTINGS.DefaultTokenL": "Configurer les paramètres par défaut des tokens",
-  "SETTINGS.DefaultTokenH": "Configurer les valeurs par défaut des tokens pour les acteurs nouvellement créés.",
+  "SETTINGS.PrototypeTokenOverrides": {
+    "Name": "Prototype Token Overrides",
+    "Label": "Configure Prototype Overrides",
+    "Hint": "Configure overrides of Prototype Token data for all Actors.",
+    "Reset": {
+      "Label": "Reset Defaults",
+      "Warning": "This action will remove all configured overrides."
+    },
+    "Disabled": "Disabled",
+    "Submit": "Save Overrides",
+    "TABS": {
+      "AllTypes": {
+        "Label": "[All Types]",
+        "Hint": "These overrides apply to all Prototype Tokens, regardless of parent Actor type. They can themselves be overridden for each Actor type in the subsequent tabs. A blank selection for a field indicates no override."
+      },
+      "Basics": "Basics",
+      "Marker": "Turn Marker"
+    }
+  },
   "SETTINGS.PermissionReset": "Réinitialiser les autorisations du rôle aux valeurs par défaut.",
   "SETTINGS.PermissionUpdate": "Mettre à jour la configuration des autorisations des rôles.",
   "SETTINGS.EditorAutosaveN": "Fréquence d’enregistrement automatique de l’éditeur",
@@ -1716,12 +1937,36 @@
   "SETTINGS.GridDiagonalsAlternating1": "Alterné (1/2/1)",
   "SETTINGS.GridDiagonalsAlternating2": "Alterné (2/1/2)",
   "SETTINGS.GridDiagonalsIllegal": "Illégal (∞)",
-  "SETTINGS.ColorSchemeN": "Schéma de couleurs préféré",
-  "SETTINGS.ColorSchemeH": "Indique si vous préférez que les éléments de l’interface utilisateur soient rendus en utilisant un thème clair ou un thème sombre. Tous les éléments de l’interface ne prennent pas en charge cette préférence.",
-  "SETTINGS.ColorSchemeDefault": "Défaut du navigateur",
-  "SETTINGS.ColorSchemeDark": "Sombre",
-  "SETTINGS.ColorSchemeLight": "Clair",
-
+  "SETTINGS.UI": {
+    "MENU": {
+      "name": "User Interface Configuration",
+      "label": "Configure Interface",
+      "hint": "Settings which affect how the Foundry Virtual Tabletop user interface appears or behaves."
+    },
+    "FIELDS": {
+      "uiScale": {
+        "label": "Interface Scale",
+        "hint": "Apply a global scaling factor to the overall user interface to make it larger or smaller."
+      },
+      "fontScale": {
+        "label": "Font Size",
+        "hint": "Enlarge or reduce the default font size used in the application."
+      },
+      "colorScheme": {
+        "label": "Preferred Color Scheme",
+        "hint": "Specify whether you prefer user interface elements to render using a light theme or a dark theme. Not all interface elements support this preference.",
+        "default": "Browser Default",
+        "dark": "Dark",
+        "light": "Light"
+      },
+      "chatNotifications": {
+        "label": "Chat Notifications",
+        "hint": "Choose whether notifications of new chat messages appear as full chat cards, or only as a pip on the chat tab.",
+        "cards": "Chat Cards",
+        "pip": "Notification Pip"
+      }
+    }
+  },
   "SETUP.NavLabel": "Onglets de configuration",
   "SETUP.CoreVersion": "Version du logiciel (core)",
   "SETUP.CoreVersionHint": "Si une mise à jour du logiciel (core) de Foundry Virtual Tabletop est disponible, vous pouvez l’appliquer ici. Vous utilisez actuellement la version {versionDisplay}.",
@@ -1797,22 +2042,18 @@
   "SETUP.CSSTheme": "Thème de l’accueil",
   "SETUP.CSSThemeHint": "Choisissez parmi plusieurs thèmes visuels celui qui configure l’apparence du menu d’accueil de l’application.",
   "SETUP.ErrorTimeout": "La requête vers {url} a expiré après {timeout}s",
-
   "SETUP.WarningsTitle": "Avertissements sur des packages",
   "SETUP.WarningsNone": "Vous n’avez pas d’avertissements !",
   "SETUP.WarningsManage": "Gérer les packages",
-
   "SETUP.ManifestUpdate": "Version plus récente disponible à une nouvelle URL d’installation",
   "SETUP.ManifestUpdateAvailable": "Une version plus récente de « {package} » est disponible à une URL d’installation différente. Cela se produit lorsque l’emplacement d’hébergement du package ou l’auteur a changé.",
   "SETUP.PriorManifestUrl": "URL du manifeste précédent (Version {version})",
   "SETUP.UpdatedManifestUrl": "URL du manifeste mise à jour (Version {version})",
   "SETUP.SwapToTheUpdatedManifest": "Souhaitez-vous passer à la nouvelle URL du manifeste ? (ceci est recommandé)",
-
   "SETUP.ConfigTitle": "Configuration de l’application",
   "SETUP.ConfigSave": "Sauvegarder la configuration",
   "SETUP.ConfigSaveWarning": "La modification de ces options de configuration entraînera l’arrêt du serveur et vous devrez le redémarrer. Souhaitez-vous continuer ?",
   "SETUP.ConfigSaveRestart": "Le serveur de Foundry Virtual Tabletop a été stoppé pour appliquer les changements. Vous devez le redémarrer.",
-
   "SETUP.CurrentVersion": "Version actuelle",
   "SETUP.ForceUpdate": "Forcer la mise à jour ?",
   "SETUP.DependencyNotInstalled": "Cette dépendance n’est pas installée",
@@ -1853,7 +2094,6 @@
   "SETUP.ExclusiveContent": "Contenu exclusif",
   "SETUP.ViewPackagePage": "Voir la page du package",
   "SETUP.ViewPackageChangelog": "Voir le journal des modifications (Changelog)",
-
   "SETUP.PackageHasDependenciesSingular": "{title} a une dépendance qui n’est pas encore installée.",
   "SETUP.PackageHasDependenciesPlural": "{title} a {number} dépendances qui n’ont pas encore été installées.",
   "SETUP.PackageRequiredDependencies": "Ces dépendances sont nécessaires et le package ne fonctionnera pas sans elles :",
@@ -1897,14 +2137,14 @@
   "SETUP.PackageIncompatibleSystemsBulkPrompt": "Les modules suivants n’ont pas été mis à jour car cela les aurait rendus incompatibles avec un ou plusieurs systèmes installés. Voulez-vous les mettre à jour quand même ?",
   "SETUP.PackageIncompatibleWithSystems": "{module} <em>incompatible avec</em> {systems}",
   "SETUP.ConfirmCodeLabel": "Tapez exactement « {code} » pour continuer",
-
   "SETUP.WorldLaunchConnect": "Chargement des données du monde",
   "SETUP.WorldLaunchMigrate": "Migration des données du monde",
   "SETUP.WorldLaunchConnectPackage": "Chargement des données du package",
   "SETUP.WorldLaunchMigratePackage": "Migration des données du package",
   "SETUP.WorldLaunchMigrateCore": "Effectuer la migration du core",
   "SETUP.WorldLaunchMigrateSystem": "Effectuer la migration du système",
-
+  "SETUP.WorldLaunchCleanWorld": "Cleaning World Data",
+  "SETUP.WorldLaunchExtractDemo": "Extracting Demo Data",
   "SETUP.UpdateDownloadingS": "Téléchargement de la mise à jour en cours",
   "SETUP.UpdateDownloadingC": "Téléchargement fini",
   "SETUP.UpdateExtractingS": "Extraction de la mise à jour en cours",
@@ -1915,7 +2155,6 @@
   "SETUP.UpdateInstallingC": "Installation finie",
   "SETUP.UpdateCompleteManual": "La mise à jour a été effectuée avec succès. Arrêt du serveur Foundry Virtual Tabletop pour un redémarrage manuel.",
   "SETUP.UpdateCompleteAuto": "La mise à jour a été effectuée avec succès. Redémarrage de l’application Foundry VTT.",
-
   "SETUP.UpdateNoInternetError": "Foundry Virtual Tabletop nécessite une connexion Internet active pour être mis à jour.",
   "SETUP.UpdateWebsiteUnreachableError": "Nous ne pouvons pas joindre https://foundryvtt.com pour le moment, veuillez réessayer plus tard.",
   "SETUP.UpdateWebsiteSlowWarning": "https://foundryvtt.com semble être très sollicité en ce moment, nous vous recommandons de réessayer plus tard.",
@@ -1929,7 +2168,6 @@
   "SETUP.UpdatedPackages": "Journal des mises à jour",
   "SETUP.Package": "Packages",
   "SETUP.VersionChange": "Changement de version",
-
   "SETUP.WorldMigrationRequiredTitle": "Migration des données du monde",
   "SETUP.WorldCoreMigrationRequired": "<p>En chargeant le monde <strong>{world}</strong>, celui-ci va migrer son modèle de données d’une ancienne version du logiciel (<code>{oldVersion}</code>) vers la version <strong>{newVersion}</strong> actuellement installé.</p>",
   "SETUP.WorldSystemMigrationRequired": "<p>Ce monde a été lancé pour la dernière fois avec une version du système plus ancienne (<code>{oldVersion}</code>) que la version du système actuellement installée <strong>{newVersion}</strong> et peut nécessiter une migration du système.</p>",
@@ -1939,7 +2177,6 @@
   "SETUP.WorldMigrationCreateBackup": "Créer une sauvegarde avant de migrer ?",
   "SETUP.WorldMigrationBegin": "Début de la migration",
   "SETUP.WorldMigrationInProcess": "Les données de votre monde sont en cours de migration pour être compatibles avec la {version}. Cela peut prendre un certain temps. Veuillez rester patient et ne pas fermer le logiciel.",
-
   "SETUP.AdminAccess": "Foundry Virtual Tabletop &bull; Accès Administrateur",
   "SETUP.AdminPasswordLabel": "Mot de passe Administrateur",
   "SETUP.AdminPasswordHint": "Le mot de passe Admininistrateur protège l’accès à cet écran de configuration. Il est fortement recommandé de le définir.",
@@ -1947,7 +2184,6 @@
   "SETUP.AdminPasswordForgot": "Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser en <a href=\"https://foundryvtt.com/article/reset-admin-password/\" target=\"_blank\">suivant ces instructions</a>.",
   "SETUP.AdminLogIn": "Connexion",
   "SETUP.AdminLogout": "Déconnexion (Admin)",
-
   "SETUP.AWSLabel": "Chemin de Configuration AWS",
   "SETUP.AWSHint": "Le chemin vers ce fichier de configuration AWS pour l’intégration S3 doit être absolu ou relatif au sous-répertoire « Config » des données utilisateur.",
   "SETUP.CompressStaticLabel": "Compresser les fichiers statiques",
@@ -1978,11 +2214,9 @@
   "SETUP.TelemetryDecline": "Refus du partage",
   "SETUP.HotReloadLabel": "Rechargement à chaud des fichiers des packages",
   "SETUP.HotReloadHint": "Permet aux packages de recharger à chaud certains fichiers, tels que les fichiers CSS, HTML et de localisation, sans rafraîchissement complet. Ce paramètre n’est recommandé qu’aux développeurs.",
-
   "SETUP.News": "Actualités",
   "SETUP.FeaturedContent": "Contenu à l’honneur",
   "SETUP.NoFeaturedContent": "Aucune recommandation de contenu n’a été reçue du serveur web de foundryvtt.com.",
-
   "SETUP.BACKUPS.Backup": "Sauvegarde",
   "SETUP.BACKUPS.BackingUp": "Sauvegarde en cours",
   "SETUP.BACKUPS.BulkActions": "Actions en masse",
@@ -2059,7 +2293,6 @@
   "SETUP.BACKUPS.Snapshotting.module": "Capture instantanée des modules",
   "SETUP.BACKUPS.Snapshotting.system": "Capture instantanée des systèmes",
   "SETUP.BACKUPS.CannotRestoreUnusable": "Cette sauvegarde ne peut pas être restaurée car cela rendrait le package inutilisable.",
-
   "SETUP.COMPAT.Compatible": "{count} Compatible",
   "SETUP.COMPAT.CompatibleTooltip": "Packages vérifiés comme compatibles avec la version {version}.",
   "SETUP.COMPAT.Incompatible": "{count} Incompatible",
@@ -2075,11 +2308,9 @@
   "SETUP.COMPAT.COMPATIBLE.World": "Le système utilisé par ce monde dispose d’une version compatible avec la mise à jour {version}.",
   "SETUP.COMPAT.RISK.Latest": "La dernière version de ce package a été vérifiée pour la version du core FVTT {verified}",
   "SETUP.COMPAT.RISK.World": "Le système de ce monde a été vérifié pour la dernière fois pour la version du core FVTT {verified}",
-
   "THEME.foundry": "Foundry Virtual Tabletop",
   "THEME.fantasy": "Fantasy classique",
   "THEME.scifi": "Science Fiction",
-
   "PACKAGE.Type.world": "Monde",
   "PACKAGE.Type.worldPl": "Mondes",
   "PACKAGE.Type.system": "Système",
@@ -2087,7 +2318,6 @@
   "PACKAGE.Type.module": "Module",
   "PACKAGE.Type.modulePl": "Modules",
   "PACKAGE.Type.allPl": "Tous",
-
   "PACKAGE.Id": "Identifiant du package",
   "PACKAGE.IdHint": "L’identifiant doit être une chaîne alphanumérique unique ne comportant pas de caractères spéciaux autres que des traits d’union.",
   "PACKAGE.Title": "Titre du package",
@@ -2098,14 +2328,12 @@
   "PACKAGE.DescriptionHint": "Une description en texte clair ou en HTML qui explique l’objectif et le contenu de ce package.",
   "PACKAGE.URL": "URL du package",
   "PACKAGE.URLHint": "URL d’un site web où l’on peut trouver plus de détails sur ce package.",
-
   "PACKAGE.Author.Name": "Nom de l’auteur",
   "PACKAGE.Author.Discord": "Nom d’utilisateur Discord",
   "PACKAGE.Author.Email": "Adresse électronique",
   "PACKAGE.Author.URL": "URL du site web",
   "PACKAGE.Author.Add": "Ajouter un auteur",
   "PACKAGE.Author.Remove": "Supprimer l’auteur",
-
   "PACKAGE.Compendium.Add": "Ajouter un pack Compendium",
   "PACKAGE.Compendium.Remove": "Supprimer Compendium Pack",
   "PACKAGE.Compendium.Name": "Nom",
@@ -2115,13 +2343,11 @@
   "PACKAGE.Compendium.Type": "Type d’entité",
   "PACKAGE.Compendium.System": "Système requis",
   "PACKAGE.Compendium.SystemHint": "Les compendiums d’acteurs, d’objets ou d’aventures (qui contiennent des acteurs ou des items) doivent indiquer le système de jeu spécifique pour lequel ils sont conçus.",
-
   "PACKAGE.TabBasics": "Détails de base",
   "PACKAGE.TabAuthors": "Auteurs",
   "PACKAGE.TabPacks": "Compendium",
   "PACKAGE.TabRelationships": "Dépendances",
   "PACKAGE.Create": "Créer un package",
-
   "PACKAGE.CompatibilityHint": "Vous pouvez éventuellement indiquer que ce package n’est compatible qu’avec une série de versions du logiciel Foundry Virtual Tabletop. La compatibilité peut être déclarée pour une version spécifique comme « 11.294 » ou pour une génération plus large comme « 11 ».",
   "PACKAGE.Compatibility.Minimum": "Version minimale",
   "PACKAGE.Compatibility.Verified": "Version vérifiée",
@@ -2137,8 +2363,6 @@
   "PACKAGE.PackageInstallTimedOut": "L’installation du package a expiré",
   "PACKAGE.UpdateCheckTimedOut": "Ne répond pas (expiration de l’attente)",
   "PACKAGE.WarmCacheTimedOut": "Le cache du package est expiré",
-  "PACKAGE.SetupErrors": "{number} erreurs critiques rencontrées avec les packages installés. Consultez le journal de votre console (F12) pour plus de détails.",
-  "PACKAGE.SetupWarnings": "{number} avertissements de compatibilité détectés avec les packages installés. Consultez le journal de votre console (F12) pour plus de détails.",
   "PACKAGE.Lock": "Verrouiller {type}",
   "PACKAGE.Locked": "Verrouillé",
   "PACKAGE.Unlock": "Déverrouiller {type}",
@@ -2170,13 +2394,11 @@
   "PACKAGE.VIEW_MODES.GALLERY": "Affichage galerie",
   "PACKAGE.VIEW_MODES.TILES": "Affichage tuiles",
   "PACKAGE.VIEW_MODES.DETAILS": "Affichage détails",
-
   "PACKAGECONFIG.All": "Tous",
   "PACKAGECONFIG.Reset": "Réinitialiser les valeurs par défaut",
   "PACKAGECONFIG.Filter": "Filtre",
   "PACKAGECONFIG.Core": "Core",
   "PACKAGECONFIG.Unmapped": "Non répertorié",
-
   "JOIN": {
     "CurrentPlayers": "Joueurs présents",
     "HeaderJoin": "Rejoindre la partie",
@@ -2192,9 +2414,10 @@
     "ErrorBanned": "{user} n’a pas la permission d’accéder à ce monde !",
     "LoginSuccess": "Connexion réussie en tant que {user}, chargement du monde !"
   },
-
   "SHEETS.ConfigureSheet": "Configurer la fiche",
+  "SHEETS.ConfigureTitle": "{prefix}: Sheet Configuration",
   "SHEETS.ThisSheet": "Cette fiche",
+  "SHEETS.Defaults": "Defaults",
   "SHEETS.DefaultSheet": "Fiche par défaut",
   "SHEETS.DefaultDocumentSheet": "Fiche par défaut de {document}",
   "SHEETS.DocumentSheetHint": "Remplacez le type de fiche que vous souhaitez utiliser pour ce document spécifique.",
@@ -2203,7 +2426,8 @@
   "SHEETS.Save": "Sauver la configuration de la feuille",
   "SHEETS.FormNavLabel": "Navigation dans l’onglet des feuilles de personnages",
   "SHEETS.CopyUuid": "Copier l’UUID du document",
-
+  "SHEETS.Theme": "Theme",
+  "SHEETS.ThemeHint": "Not all themes are available for each sheet.",
   "SOUND": {
     "ConfigTitle": "Configuration du son ambiant",
     "PathPlaceholder": "chemin/vers/audio.mp3",
@@ -2214,21 +2438,19 @@
       "REVERB": "Réverbération"
     }
   },
-
   "FOLDER.Clear": "Retirer du dossier",
-  "FOLDER.Color": "Couleur du dossier",
   "FOLDER.Create": "Créer un dossier",
   "FOLDER.Collapse": "Réduire tous les dossiers",
   "FOLDER.Delete": "Supprimer le dossier et son contenu",
+  "FOLDER.DeleteName": "Delete All: {name}",
   "FOLDER.DeleteWarning": "Ce dossier et son contenu seront définitivement supprimés et ne pourront pas être récupérés.",
   "FOLDER.Edit": "Éditer le dossier",
   "FOLDER.Export": "Exporter vers un Compendium",
-  "FOLDER.Name": "Nom du dossier",
   "FOLDER.Remove": "Supprimer uniquement le dossier",
+  "FOLDER.RemoveName": "Remove Folder: {name}",
   "FOLDER.RemoveWarning": "Ce dossier sera définitivement supprimé et son contenu sera déplacé vers son dossier parent.",
   "FOLDER.SortAlphabetical": "Alphabétique",
   "FOLDER.SortManual": "Manuel",
-  "FOLDER.SortMode": "Tri",
   "FOLDER.Update": "Mettre à jour le dossier",
   "FOLDER.ExportTitle": "Exporter",
   "FOLDER.ExportHint": "Vous pouvez exporter les entités contenues dans ce dossier vers un compendium débloqué du type approprié.",
@@ -2243,27 +2465,34 @@
   "FOLDER.Exporting": "Export en cours de {type} vers le Compendium {compendium}.",
   "FOLDER.ExportDone": "Export terminé de {type} vers le Compendium {compendium}.",
   "FOLDER.CreateTable": "Créer une table aléatoire",
-  "FOLDER.CreateTableConfirm": "Créer une nouvelle table aléatoire en utilisant le contenu de ce dossier comme résultat de la table ?",
+  "FOLDER.CreateTableConfirm": {
+    "Title": "Create Rollable Table: {folder}",
+    "Question": "Create a new Rollable Table document using the contents of this Folder as table results?"
+  },
   "FOLDER.InvalidDocumentType": "Le type de document « {type} » fourni pour ce dossier n’est pas valide.",
   "FOLDER.ExceededMaxDepth": "Vous ne pouvez pas imbriquer les dossiers à plus de {profondeur} niveaux.",
-
-  "FOLDER.DocumentSort": "Ordre de tri",
-  "FOLDER.DocumentSortHint": "Configure l’ordre de tri de ce dossier par rapport aux autres dossier. Les numéros les plus petits seront en premier (ordre croissant).",
-
-  "OWNERSHIP.Title": "Configuration des droits",
-  "OWNERSHIP.NONE": "Aucun",
-  "OWNERSHIP.LIMITED": "Limité",
-  "OWNERSHIP.OBSERVER": "Observateur",
-  "OWNERSHIP.OWNER": "Propriétaire",
-  "OWNERSHIP.DEFAULT": "Par défaut",
-  "OWNERSHIP.NOCHANGE": "Aucun changement",
-  "OWNERSHIP.INHERIT": "Hériter de",
-  "OWNERSHIP.AllPlayers": "Tous les joueurs",
-  "OWNERSHIP.HintFolder": "Configure l’accès pour tous les documents contenus dans ce dossier. Les modifications seront appliquées à tous les documents contenus, à l’exclusion du contenu des sous-dossiers.",
-  "OWNERSHIP.HintDocument": "Configure l’accès à ce document spécifique, en permettant à chaque utilisateur de se voir attribuer un niveau de visibilité différent.",
-  "OWNERSHIP.Configure": "Configurer les droits",
-  "OWNERSHIP.ShowGM": "Afficher les utilisateurs MJ",
-
+  "FOLDER.FIELDS": {
+    "name.label": "Folder Name",
+    "color.label": "Folder Color",
+    "sorting.label": "Sorting Mode"
+  },
+  "OWNERSHIP": {
+    "Title": "Configuration des droits",
+    "NONE": "Aucun",
+    "LIMITED": "Limité",
+    "OBSERVER": "Observateur",
+    "OWNER": "Propriétaire",
+    "DEFAULT": "Par défaut",
+    "NOCHANGE": "Aucun changement",
+    "INHERIT": "Hériter de",
+    "AllPlayers": "Tous les joueurs",
+    "HintFolder": "Configure l’accès pour tous les documents contenus dans ce dossier. Les modifications seront appliquées à tous les documents contenus, à l’exclusion du contenu des sous-dossiers.",
+    "HintDocument": "Configure l’accès à ce document spécifique, en permettant à chaque utilisateur de se voir attribuer un niveau de visibilité différent.",
+    "Configure": "Configurer les droits",
+    "ShowGM": "Afficher les utilisateurs MJ",
+    "Legend": "Ownership",
+    "Save": "Save Changes"
+  },
   "PERMISSION.Title": "Configuration des permissions utilisateur",
   "PERMISSION.Configure": "Configurer les droits",
   "PERMISSION.ConfigureLabel": "Ouvrir la Configuration des droits",
@@ -2319,13 +2548,14 @@
   "PERMISSION.TokenConfigureHint": "Permettre aux joueurs ayant ce rôle de configurer les paramètres des tokens qu’ils possèdent.",
   "PERMISSION.WallDoors": "Ouvrir et fermer les portes",
   "PERMISSION.WallDoorsHint": "Permettre aux joueurs ayant ce rôle d’interagir avec les portes (définies sur le calque des murs).",
+  "PERMISSION.QueryUser": "Query Users",
+  "PERMISSION.QueryUserHint": "Allow users with this role to query other users.",
   "PERMISSION.WarningNoCreate": "Vous n’avez pas de privilèges suffisants pour créer un {document}.",
-
   "REGION": {
-    "SECTIONS": {
-      "identity": "Identité",
-      "shapes": "Formes",
-      "behaviors": "Comportements"
+    "TABS": {
+      "identity": "Identity",
+      "shapes": "Shapes",
+      "behaviors": "Behaviors"
     },
     "FIELDS": {
       "color": {
@@ -2390,8 +2620,17 @@
       "regionBoundary": {
         "label": "Limite de la région modifiée"
       },
-      "behaviorStatus": {
-        "label": "Statut du comportement modifié"
+      "behaviorActivated": {
+        "label": "Behavior Activated"
+      },
+      "behaviorDeactivated": {
+        "label": "Behavior Deactivated"
+      },
+      "behaviorViewed": {
+        "label": "Behavior Viewed"
+      },
+      "behaviorUnviewed": {
+        "label": "Behavior Unviewed"
       },
       "tokenEnter": {
         "label": "Le token entre"
@@ -2399,17 +2638,20 @@
       "tokenExit": {
         "label": "Le token sort"
       },
-      "tokenPreMove": {
-        "label": "Avant que le token ne se déplace"
-      },
-      "tokenMove": {
-        "label": "Après que le token a bougé"
-      },
       "tokenMoveIn": {
         "label": "Le token est entré"
       },
       "tokenMoveOut": {
         "label": "Le token est sorti"
+      },
+      "tokenMoveWithin": {
+        "label": "Token Moves Within"
+      },
+      "tokenAnimateIn": {
+        "label": "Token Animates In"
+      },
+      "tokenAnimateOut": {
+        "label": "Token Animates Out"
       },
       "tokenTurnStart": {
         "label": "Le token commence son tour"
@@ -2455,7 +2697,6 @@
       "NoControlledWalls": "Vous ne contrôlez aucun mur !"
     }
   },
-
   "BEHAVIOR": {
     "SECTIONS": {
       "identity": "Identité du comportement",
@@ -2473,21 +2714,21 @@
       "delete": "Supprimer le comportement de région"
     },
     "TYPES": {
-  "base": {
-      "SECTIONS": {
-        "events": "Événements souscrits"
-      },
-      "FIELDS": {
-        "events": {
-          "label": "Événements",
-          "hint": "Les événements auxquels ce comportement est abonné."
+      "base": {
+        "SECTIONS": {
+          "events": "Événements souscrits"
         },
-        "once": {
-          "label": "Une fois",
-          "hint": "Désactiver le comportement après son premier déclenchement"
+        "FIELDS": {
+          "events": {
+            "label": "Événements",
+            "hint": "Les événements auxquels ce comportement est abonné."
+          },
+          "once": {
+            "label": "Une fois",
+            "hint": "Désactiver le comportement après son premier déclenchement"
+          }
         }
-      }
-    },
+      },
       "adjustDarknessLevel": {
         "FIELDS": {
           "mode": {
@@ -2549,9 +2790,9 @@
             "hint": "La macro qui est exécutée lorsque l’un des événements se produit."
           },
           "everyone": {
-          "label": "Tout le monde",
-          "hint": "Permet de déterminer si la macro est exécutée par tous les utilisateurs connectés plutôt que par un seul utilisateur disposant des autorisations suffisantes."
-      } 
+            "label": "Tout le monde",
+            "hint": "Permet de déterminer si la macro est exécutée par tous les utilisateurs connectés plutôt que par un seul utilisateur disposant des autorisations suffisantes."
+          }
         }
       },
       "executeScript": {
@@ -2559,6 +2800,13 @@
           "source": {
             "label": "Script",
             "hint": "Le script qui est exécuté lorsque l’un des événements se produit."
+          }
+        }
+      },
+      "modifyMovementCost": {
+        "FIELDS": {
+          "difficulties": {
+            "hint": "Configure the movement cost multiplier for each movement action. Overlapping movement cost modifications stack multiplicatively."
           }
         }
       },
@@ -2590,12 +2838,10 @@
       }
     }
   },
-
   "RULER.MovementNotAllowed": "La trajectoire mesurée n’est pas autorisée",
   "RULER.MovementCollision": "La tentative de mouvement entre en collision avec au moins un mur.",
   "RULER.MovementNoPermission": "Vous n’avez pas la permission de déplacer ce token.",
   "RULER.MovementLocked": "Ce token ne peut pas être déplacé car il est verrouillé.",
-
   "SIDEBAR.Import": "Importer les données",
   "SIDEBAR.NavLabel": "Onglets de la barre de menu latérale",
   "SIDEBAR.TabJournal": "Journaux",
@@ -2620,12 +2866,39 @@
   "SIDEBAR.DirectoryTitle": "Répertoire de {type}",
   "SIDEBAR.Documentation": "Documentation Foundry VTT (anglais)",
   "SIDEBAR.Wiki": "Wiki Communautaire Foundry VTT (multilingue)",
-
+  "SIDEBAR.COMPENDIUM.LABELS": {
+    "Ownership": "Non-default ownership",
+    "Locked": "Locked"
+  },
+  "SIDEBAR.SETTINGS": {
+    "LABELS": {
+      "Build": "Build Version",
+      "Demo": "Demo Mode",
+      "Modules": "Active Modules"
+    },
+    "HEADERS": {
+      "Settings": "Game Settings",
+      "Docs": "Help and Documentation",
+      "Access": "Game Access"
+    },
+    "ACTIONS": {
+      "Configure": "Configure Settings",
+      "Docs": "View Documentation",
+      "Invite": "Invitation Links",
+      "Keybindings": "Configure Controls",
+      "Logout": "Log Out",
+      "ManageModules": "Manage Modules",
+      "Players": "User Management",
+      "Support": "Support & Issues",
+      "Tours": "Tour Management",
+      "ViewModules": "View Active Modules",
+      "Wiki": "Community Wiki Pages"
+    }
+  },
   "SUPPORT.Title": "Détails du support",
   "SUPPORT.Places": "Où trouver de l’aide",
   "SUPPORT.Discord": "Pour rejoindre d’autres utilisateurs de Foundry VTT, ou pour bénéficier de l’aide de nos merveilleux assistants communautaires, rejoignez nous sur le Discord FR https://discord.gg/pPSDNJk ou sur le discord officiel anglais :",
   "SUPPORT.BugReporting": "Si vous souhaitez signaler un bug, veuillez utiliser la catégorie « Report Bug » disponible sur la page « Contact-us » : ",
-  "SUPPORT.Details": "Détails du support",
   "SUPPORT.ReportPrelude": "Lorsque vous demandez de l’aide sur le Discord ou Github, il est utile que nous sachions ce qui se passe dans votre monde. Vous trouverez ci-dessous un rapport à copier-coller que nous vous demandons d’inclure.",
   "SUPPORT.CopyReport": "Copier le rapport dans le presse-papiers",
   "SUPPORT.ReportCopied": "Rapport copié",
@@ -2634,189 +2907,336 @@
   "SUPPORT.GPU": "GPU",
   "SUPPORT.MaxTextureSize": "Max Texture Size (Taille maximale des textures)",
   "SUPPORT.LargestTexture": "Largest Texture",
+  "SUPPORT.NoDocumentIssues": "No document issues were found.",
+  "SUPPORT.NoClientIssues": "No client issues were found.",
+  "SUPPORT.NoModuleIssues": "No module issues were found.",
   "SUPPORT.NoViewedScene": "Aucune scène visualisée",
-  "SUPPORT.DocumentIssues": "Problèmes relatives aux documents",
-  "SUPPORT.ClientIssues": "Problèmes relatives aux clients",
-  "SUPPORT.ModuleIssues": "Problèmes relatives aux modules",
   "SUPPORT.ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} sont indisponibles car le module « {nom} » est inactif",
   "SUPPORT.ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} sont indisponibles car un module avec l’ID « {nom} » est inactif",
-  "SUPPORT.UnavailableDocuments": "{count} documents {document} indisponibles",
+  "SUPPORT.UnavailableDocuments": {
+    "one": "1 unavailable {document} document",
+    "other": "{count} unavailable {document} documents"
+  },
   "SUPPORT.WorldScripts": "Scripts du monde",
   "SUPPORT.GenerateFullReport": "Générer un rapport complet",
   "SUPPORT.GenerateFullReportHint": "Un rapport complet contient des informations plus détaillées sur vos modules et compendiums installés et peut prendre du temps à générer.",
   "SUPPORT.WorldData": "Données du monde",
   "SUPPORT.CompendiumData": "Données du compendium",
   "SUPPORT.ActiveModules": "Modules actifs",
-
-  "TABLE.AnimateSetting": "Animation des tables aléatoires ?",
-  "TABLE.AnimateSettingHint": "Un lancer sur une table aléatoire affiche une animation de style « roulette ».",
-  "TABLE.DrawFlavor": "Obtient un résultat sur la table {name}",
-  "TABLE.DrawFlavorPlural": "Obtient {number} résultats sur la table {name}",
-  "TABLE.NoAvailableResults": "Aucun résultat disponible ne peut être tiré sur cette table aléatoire.",
-  "TABLE.Description": "Description de la table",
-  "TABLE.DisplayRoll": "Afficher le jet dans le tchat ?",
-  "TABLE.Formula": "Formule du jet de dé",
-  "TABLE.SheetTitle": "Configuration de la table aléatoire",
-  "TABLE.Normalize": "Normaliser le poids des résultats",
-  "TABLE.Replacement": "Relancer sur toute la table (sinon les résultats précédents sont retirés) ?",
-  "TABLE.Reset": "Réinitialiser",
-  "TABLE.Result": "Résultat",
-  "TABLE.ResultCreate": "Ajouter un nouveau résultat",
-  "TABLE.ResultType": "Type de résultat",
-  "TABLE.ResultDetails": "Détail du résultat",
-  "TABLE.ResultDescription": "Description du résultat",
-  "TABLE.ResultDelete": "Supprimer le résultat",
-  "TABLE.ResultWeight": "Poids",
-  "TABLE.ResultRange": "Intervalle",
-  "TABLE.Roll": "Lancer",
-  "TABLE.ToggleDrawn": "Retirer des résultats possibles",
-  "TABLE.Update": "Mettre à jour",
-  "TABLE.RESULT_TYPES.TEXT.label": "Texte",
-  "TABLE.RESULT_TYPES.DOCUMENT.label": "Document",
-  "TABLE.RESULT_TYPES.COMPENDIUM.label": "Compendium",
-
-  "TEMPLATE.BorderColor": "Couleur de la bordure",
+  "SUPPORT.TABS": {
+    "support": "Support Details",
+    "documents": "Document Issues",
+    "client": "Client Issues",
+    "modules": "Module Issues"
+  },
+  "TABLE": {
+    "AnimateSetting": "Animation des tables aléatoires ?",
+    "AnimateSettingHint": "Un lancer sur une table aléatoire affiche une animation de style « roulette ».",
+    "DrawFlavor": "Obtient un résultat sur la table {name}",
+    "DrawFlavorPlural": "Obtient {number} résultats sur la table {name}",
+    "NoAvailableResults": "Aucun résultat disponible ne peut être tiré sur cette table aléatoire.",
+    "Result": "Résultat",
+    "ResultDescription": "Description du résultat",
+    "SHEETS": {
+      "Config": "Configuration Sheet",
+      "View": "View Sheet"
+    },
+    "ACTIONS": {
+      "ChangeMode": {
+        "Edit": "Edit",
+        "View": "View"
+      },
+      "OpenResultConfig": "Open Result Config",
+      "DrawResult": "Draw Result",
+      "DrawSpecificResult": "Draw Specific Result",
+      "NormalizeResults": "Normalize Result Ranges",
+      "ResetResults": "Reset Results",
+      "CreateResult": "Add New Result",
+      "DeleteResult": "Delete Result",
+      "ToggleDrawn": "Toggle Drawn Status",
+      "Submit": "Update Roll Table"
+    },
+    "TABS": {
+      "summary": "Summary",
+      "results": "Results"
+    },
+    "FIELDS": {
+      "description.label": "Table Description",
+      "formula.label": "Roll Formula",
+      "replacement.label": "Draw with Replacement",
+      "displayRoll.label": "Display Roll Formula to Chat"
+    }
+  },
+  "TABLE_RESULT": {
+    "Details": "Details",
+    "ACTIONS": {
+      "Submit": "Update Table Result"
+    },
+    "TYPES": {
+      "text": "Text",
+      "document": "Document"
+    },
+    "FIELDS": {
+      "name.label": "Result Name",
+      "type.label": "Result Type",
+      "documentUuid.label": "Referenced Document",
+      "weight.label": "Weight",
+      "range.label": "Range"
+    }
+  },
   "TEMPLATE.ConeTypeSetting": "Type de gabarit cône",
   "TEMPLATE.ConeTypeSettingHint": "Définit la zone d’effet pour les gabarits en cône.",
   "TEMPLATE.ConeTypeFlat": "Plat",
   "TEMPLATE.ConeTypeRound": "Rond",
-  "TEMPLATE.MeasuredConfig": "Configuration du modèle de mesure",
-  "TEMPLATE.FillColor": "Couleur de remplissage",
-  "TEMPLATE.FillTexture": "Texture de remplissage",
   "TEMPLATE.SubmitCreate": "Créer un modèle de mesure",
   "TEMPLATE.SubmitUpdate": "Mettre à jour un modèle de mesure",
   "TEMPLATE.GridTemplatesSetting": "Formes de modèles basés sur une grille",
   "TEMPLATE.GridTemplatesSettingHint": "Configurez si la zone d’effet des modèles doit être basée sur la grille au lieu d’être euclidienne.",
-
-
+  "TEMPLATE.TYPES": {
+    "circle": "Circle",
+    "cone": "Cone",
+    "ray": "Ray",
+    "rect": "Rectangle"
+  },
+  "TEMPLATE.FIELDS": {
+    "t.label": "Type",
+    "direction.label": "Direction",
+    "angle.label": "Angle",
+    "distance.label": "Distance",
+    "borderColor.label": "Border Color",
+    "fillColor.label": "Fill Color",
+    "texture.label": "Fill Texture"
+  },
   "TILE.ConfigTitle": "Configuration de la tuile",
+  "TILE.Dimensions": "Dimensions",
   "TILE.SubmitCreate": "Créer une tuile",
   "TILE.SubmitUpdate": "Mise à jour de la tuile",
-  "TILE.BasicHeader": "Général",
-  "TILE.BasicHint": "Configuration de la tuile affichée au-dessus de l’arrière-plan de la scène.",
-  "TILE.OverheadHeader": "Transparence",
-  "TILE.OverheadHint": "Configuration complémentaire si la tuile est en surimpression au premier plan.",
-  "TILE.AnimationHeader": "Animation",
-  "TILE.AnimationHint": "Configuration complémentaire si la Tuile est une vidéo.",
-  "TILE.Image": "Image ou vidéo",
-  "TILE.Opacity": "Opacité de la tuile",
-  "TILE.Tint": "Couleur de la teinte",
   "TILE.Scale": "Échelle de la tuile",
   "TILE.ScaleHint": "Ajustez l’échelle de l’image sur l’axe X ou Y. L’image peut déborder de sa boîte de délimitation. Les valeurs négatives font basculer l’image.",
-  "TILE.ScaleX": "Horizontal",
-  "TILE.ScaleY": "Vertical",
-  "TILE.RestrictsLight": "Restreint la lumière ?",
-  "TILE.RestrictsWeather": "Restreint la météo ?",
-  "TILE.RestrictsLightHint": "Les sources de lumière sont-elles bloquées en fonction de leur élévation par rapport à l’élévation de cette tuile ?",
-  "TILE.RestrictsWeatherHint": "Les effets météorologiques sont-ils bloqués en fonction de leur élévation par rapport à l’élévation de cette tuile ?",
-  "TILE.OcclusionMode": "Mode d’occultation",
   "TILE.OcclusionModeNone": "Aucun (toujours visible)",
   "TILE.OcclusionModeFade": "Fondu (tuile complète)",
   "TILE.OcclusionModeRoof": "Toit (Affecte la vision et la vue)",
   "TILE.OcclusionModeRadial": "Radial (Autour du token)",
   "TILE.OcclusionModeVision": "Vision (Champ de vision du token)",
-  "TILE.OcclusionAlpha": "Alpha (occultation)",
-  "TILE.VideoLoop": "Vidéo en boucle",
-  "TILE.VideoAutoplay": "Lecture automatique de la vidéo",
-  "TILE.VideoVolume": "Volume de la vidéo",
-
+  "TILE.VideoOptions": "Video Options",
+  "TILE.SECTIONS": {
+    "position": "Adjust the position and dimensions of the Tile.",
+    "overhead": "Additional attributes that apply if the Tile is overhead in the Foreground."
+  },
+  "TILE.TABS": {
+    "position": "Position",
+    "appearance": "Appearance",
+    "overhead": "Overhead"
+  },
+  "TILE.FIELDS": {
+    "texture": {
+      "src.label": "Tile Image or Video",
+      "scaleX.label": "Horizontal",
+      "scaleY.label": "Vertical",
+      "tint.label": "Tint Color"
+    },
+    "alpha.label": "Tile Opacity",
+    "occlusion": {
+      "mode.label": "Occlusion Mode",
+      "alpha.label": "Occlusion Alpha"
+    },
+    "restrictions": {
+      "light": {
+        "label": "Restricts Light",
+        "hint": "Are light sources blocked based on their elevation relative to the elevation of this Tile?"
+      },
+      "weather": {
+        "label": "Restricts Weather",
+        "hint": "Are weather effects blocked based on their elevation relative to the elevation of this Tile?"
+      }
+    },
+    "video": {
+      "loop.label": "Loop Video",
+      "autoplay.label": "Autoplay Video",
+      "volume.label": "Video Volume"
+    }
+  },
   "TIME.Now": "Maintenant",
   "TIME.Seconds": "Secondes",
   "TIME.SecondsAbbreviation": "s",
+  "TIME.Milliseconds": "Milliseconds",
+  "TIME.MillisecondsAbbreviation": "ms",
   "TIME.Minutes": "Minutes",
   "TIME.MinutesAbbreviation": "m",
   "TIME.Hours": "Heures",
   "TIME.HoursAbbreviation": "h",
   "TIME.DaysAbbreviation": "j",
   "TIME.Since": "Il y a {since}",
-
-  "TOKEN.HeaderIdentity": "Identité",
-  "TOKEN.HeaderAppearance": "Apparence",
-  "TOKEN.HeaderVision": "Vision",
-  "TOKEN.HeaderLight": "Lumière",
-  "TOKEN.HeaderResources": "Ressources",
-
   "TOKEN.Assign": "Assigner le token",
   "TOKEN.AssignWarn": "Vous devez sélectionner un token existant pour l’attribuer comme nouvelle configuration du prototype.",
   "TOKEN.AssignSuccess": "Mise à jour du prototype de configuration des tokens pour {name}",
   "TOKEN.BarAttributes": "Barres d’attributs",
   "TOKEN.BarValues": "Valeurs Individuelles",
-  "TOKEN.CharActor": "Acteur représenté",
-  "TOKEN.CharLink": "Lié à l’acteur",
-  "TOKEN.CharNameplate": "Plaque d’identification",
-  "TOKEN.CharShowNameplate": "Montrer la plaque d’identification",
-  "TOKEN.Coordinates": "Coordonnées",
-  "TOKEN.Disposition": "Disposition des tokens",
+  "TOKEN.DeleteCombatantWarning": "You are deleting a Token that is in Combat. Its Combatant will be permanently deleted.",
   "TOKEN.Dimensions": "Dimensions",
-  "TOKEN.DimensionsHint": "Les dimensions des Tokens sont arrondies à 0,5 espace de grille près.",
-  "TOKEN.HexagonalShape": "Forme hexagonale",
-  "TOKEN.HexagonalShapeHint": "La forme du token sur une grille hexagonale.",
   "TOKEN.AnchorHint": "L’ancre par défaut (0.5, 0.5) est le centre de l’image du token.",
   "TOKEN.ImageAlts": "Alterner les tokens de l’acteur",
-  "TOKEN.ImagePath": "Image du token",
-  "TOKEN.ImageFitMode": "Mode d’ajustement de l’image",
-  "TOKEN.ImageFitModeHint": "Ajuste la manière dont l’image s’adapte à la taille du token.",
-  "TOKEN.LockRotation": "Verrouillé",
-  "TOKEN.Lock": "Verrouiller",
-  "TOKEN.AppendNumber": "Ajouter un numéro au nom des tokens non liés ?",
-  "TOKEN.AppendNumberHint": "Exemple : « {nom} (3) »",
-  "TOKEN.PrependAdjective": "Ajouter un adjectif au nom des tokens non liés ?",
-  "TOKEN.PrependAdjectiveHint": "Exemple : « En colère {nom} »",
   "TOKEN.Mirror": "Image miroir",
   "TOKEN.MirrorX": "Symétrie horizontale",
   "TOKEN.MirrorY": "Symétrie verticale",
-  "TOKEN.Opacity": "Opacité du token",
-  "TOKEN.OcclusionRadius": "Rayon d’occultation",
-  "TOKEN.OcclusionRadiusHint": "Lorsque ce token est sous une tuile qui utilise l’occultation radiale, cette valeur contrôle la taille du trou découpé dans la tuile pour permettre au token d’être visible à travers elle.",
-  "TOKEN.RandomImg": "Choisir aléatoirement une image",
-  "TOKEN.ResourceBar1A": "Attribut de la barre 1",
   "TOKEN.ResourceBar1D": "Valeur de la barre 1",
-  "TOKEN.ResourceBar2A": "Attribut de la barre 2",
   "TOKEN.ResourceBar2D": "Valeur de la barre 2",
-  "TOKEN.ResourceDisplay": "Afficher les barres",
-  "TOKEN.Title": "Configuration du token",
   "TOKEN.TitlePrototype": "Prototype du token",
-  "TOKEN.TintColor": "Teinte",
   "TOKEN.Update": "Mettre à jour le token",
-  "TOKEN.VisionEnabled": "Vision activée",
-  "TOKEN.VisionEnabledHint": "Permet au token de voir les espaces éclairés dans sa ligne de mire",
-  "TOKEN.VisionRange": "Distance de vision",
-  "TOKEN.VisionRangeHint": "La distance à laquelle un token peut voir sans aucune lumière.",
-  "TOKEN.VisionAngle": "Angle de vision",
-  "TOKEN.VisionAngleHint": "L’angle du cône de vision (360° par défaut).",
-  "TOKEN.VisionColor": "Couleur de vision",
-  "TOKEN.VisionAttenuation": "Atténuation",
-  "TOKEN.VisionAttenuationHint": "Réglez l’intensité de l’atténuation de la source de vision.",
-  "TOKEN.VisionContrast": "Contraste",
-  "TOKEN.VisionContrastHint": "Ajuste le contraste de l’arrière-plan qui se trouve dans le rayon de la source de vision. La valeur par défaut pour une source de vision est 0.",
-  "TOKEN.VisionSaturation": "Saturation",
-  "TOKEN.VisionSaturationHint": "Ajuste la saturation de l’arrière-plan qui se trouve dans le rayon de la source de vision. La valeur par défaut pour une source de vision est 0.",
-  "TOKEN.VisionBrightness": "Luminosité de vision",
-  "TOKEN.VisionBrightnessHint": "Réglez la luminosité de vision. Plus la luminosité est élevée, plus le personnage est capable de voir dans l’obscurité. La valeur par défaut d’une source de vision est 0 (vision faible).",
   "TOKEN.WarningNoActor": "Ce Token référence un acteur qui n’existe plus dans ce Monde.",
   "TOKEN.WarningNoVision": "Vous ne possédez aucun Token avec de la « vision » sur cette scène",
-  "TOKEN.VisionMode": "Type de vision",
-  "TOKEN.VisionModeHint": "Les types de vision offrent une expérience visuelle spéciale grâce à différentes techniques. Le type Vision standard est l’effet par défaut.",
-
+  "TOKEN.TABS": {
+    "identity": "Identity",
+    "appearance": "Appearance",
+    "vision": "Vision",
+    "light": "Light",
+    "resources": "Resources"
+  },
+  "TOKEN.SECTIONS": {
+    "basic": "Basic Configuration",
+    "animation": "Light Animation",
+    "advanced": "Advanced Options"
+  },
+  "TOKEN.FIELDS": {
+    "name.label": "Token Name",
+    "actorId.label": "Represented Actor",
+    "actorLink.label": "Link Actor Data",
+    "x.label": "X",
+    "y.label": "Y",
+    "displayName.label": "Display Name",
+    "appendNumber": {
+      "label": "Append Number to name of Unlinked Tokens",
+      "hint": "Example: \"{name} (3)\""
+    },
+    "prependAdjective": {
+      "label": "Prepend Adjective to name of Unlinked Tokens?",
+      "hint": "Example: \"Angry {name}\""
+    },
+    "occludable.radius": {
+      "label": "Occlusion Radius",
+      "hint": "When this Token is below a Tile that uses radial occlusion, this value controls the size of the hole that is cut in the Tile to allow the Token to be seen through it."
+    },
+    "disposition.label": "Token Disposition",
+    "lockRotation": {
+      "label": "Lock Artwork Rotation",
+      "hint": "Prevent this Token's rotation angle from being rendered on the Canvas."
+    },
+    "texture": {
+      "src.label": "Image Path",
+      "fit": {
+        "label": "Image Fit Mode",
+        "hint": "Adjust how the image is fit to the size of the Token."
+      },
+      "anchorX.label": "X",
+      "anchorY.label": "Y",
+      "tint.label": "Tint Color"
+    },
+    "randomImg.label": "Randomize Wildcard Images",
+    "shape": {
+      "label": "Shape",
+      "hint": "The shape of the Token."
+    },
+    "alpha.label": "Token Opacity",
+    "ring": {
+      "colors": {
+        "ring": {
+          "label": "Couleur de l’anneau",
+          "hint": "Une couleur appliquée à la bordure de l’anneau."
+        },
+        "background": {
+          "label": "Couleur de fond",
+          "hint": "Une couleur appliquée au fond de l’anneau."
+        }
+      },
+      "effects.label": "Effets de l’anneau",
+      "enabled.label": "Anneau activé",
+      "subject": {
+        "scale": {
+          "label": "Correction de l’échelle du sujet",
+          "hint": "Ajuste la taille relative de la texture du sujet par rapport à l'anneau. L'augmentation de cette valeur rendra la texture du sujet plus grande par rapport à l'anneau. Utilisez des valeurs plus faibles pour réduire la taille de la texture du sujet si elle semble trop dominante."
+        },
+        "texture": {
+          "label": "Texture du sujet",
+          "hint": "Indique explicitement un chemin pour l’illustration placée sur l’anneau dynamique de token. Si non fourni, le sujet de l’anneau est le même que la texture standard du token."
+        }
+      }
+    },
+    "sight": {
+      "enabled": {
+        "label": "Vision Enabled",
+        "hint": "Allows the token to see illuminated spaces within its line of sight."
+      },
+      "range": {
+        "label": "Vision Range",
+        "hint": "The distance a token can see without any light."
+      },
+      "angle": {
+        "label": "Vision Angle",
+        "hint": "The angle of the vision cone (default is 360)."
+      },
+      "visionMode": {
+        "label": "Vision Mode",
+        "hint": "Applies a visual effect to the vision to represent special senses (default is Basic Vision)."
+      },
+      "color.label": "Vision Color",
+      "attenuation": {
+        "label": "Attenuation",
+        "hint": "Adjust the strength of the vision source attenuation (default is 0)."
+      },
+      "brightness": {
+        "label": "Vision Brightness",
+        "hint": "Adjust the brightness of this vision source. The greater the brightness, the better the character is able to see in darkness (default is 0)."
+      },
+      "saturation": {
+        "label": "Saturation",
+        "hint": "Adjust the saturation of the background which is in the vision source radius (default is 0)."
+      },
+      "contrast": {
+        "label": "Contrast",
+        "hint": "Adjust the contrast of the background which is in the vision source radius (default is 0)."
+      }
+    },
+    "turnMarker": {
+      "mode": {
+        "label": "Mode",
+        "hint": "Choose Default to use default Combat settings, Disabled to hide the turn marker, or Custom for a unique turn marker behavior."
+      },
+      "animation": {
+        "label": "Animation",
+        "hint": "Choose an animation style for this Token's combat turn marker."
+      },
+      "src": {
+        "label": "Media Source",
+        "hint": "Choose an image or video file used for this Token's combat turn marker."
+      },
+      "disposition": {
+        "label": "Disposition Tint",
+        "hint": "Tint this Token's combat turn marker according to their disposition."
+      }
+    },
+    "displayBars.label": "Display Bars",
+    "bar1.attribute.label": "Bar 1 Attribute",
+    "bar2.attribute.label": "Bar 2 Attribute"
+  },
   "TOKEN.DISPOSITION.HOSTILE": "Hostile",
   "TOKEN.DISPOSITION.NEUTRAL": "Neutre",
   "TOKEN.DISPOSITION.FRIENDLY": "Amical",
   "TOKEN.DISPOSITION.SECRET": "Secret",
-
   "TOKEN.DISPLAY_NONE": "Jamais affiché",
   "TOKEN.DISPLAY_CONTROL": "Lorsqu’il est contrôlé",
   "TOKEN.DISPLAY_OWNER_HOVER": "Survolé par le propriétaire",
   "TOKEN.DISPLAY_HOVER": "Survolé par n’importe qui",
   "TOKEN.DISPLAY_OWNER": "Toujours pour le propriétaire",
   "TOKEN.DISPLAY_ALWAYS": "Toujours pour tout le monde",
-
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_1": "Ellipse (Variante 1)",
-  "TOKEN.HEXAGONAL_SHAPE_ELLIPSE_2": "Ellipse (Variante 2)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_1": "Trapèze (Variante 1)",
-  "TOKEN.HEXAGONAL_SHAPE_TRAPEZOID_2": "Trapèze (Variante 2)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_1": "Rectangle (Variante 1)",
-  "TOKEN.HEXAGONAL_SHAPE_RECTANGLE_2": "Rectangle (Variante 2)",
-
+  "TOKEN.SHAPES.ELLIPSE.label": "Ellipse",
+  "TOKEN.SHAPES.ELLIPSE_1.label": "Ellipse (Variant 1)",
+  "TOKEN.SHAPES.ELLIPSE_2.label": "Ellipse (Variant 2)",
+  "TOKEN.SHAPES.TRAPEZOID.label": "Trapezoid",
+  "TOKEN.SHAPES.TRAPEZOID_1.label": "Trapezoid (Variant 1)",
+  "TOKEN.SHAPES.TRAPEZOID_2.label": "Trapezoid (Variant 2)",
+  "TOKEN.SHAPES.RECTANGLE.label": "Rectangle",
+  "TOKEN.SHAPES.RECTANGLE_1.label": "Rectangle (Variant 1)",
+  "TOKEN.SHAPES.RECTANGLE_2.label": "Rectangle (Variant 2)",
   "TOKEN.Adjectives.ambitious": "Ambitieux",
   "TOKEN.Adjectives.angry": "En colère",
   "TOKEN.Adjectives.annoyed": "Agacé",
@@ -2915,7 +3335,6 @@
   "TOKEN.Adjectives.vindictive": "Vindicatif",
   "TOKEN.Adjectives.worried": "Inquiet",
   "TOKEN.Adjectives.zen": "Zen",
-
   "TOKEN.SightNavLabel": "Onglets de configuration de la vue",
   "TOKEN.SightHeaderBasic": "Configuration standard",
   "TOKEN.SightHeaderAdvanced": "Options avancées",
@@ -2925,44 +3344,13 @@
   "TOKEN.DetectionEnabled": "Activé",
   "TOKEN.DetectionAdd": "Ajouter le mode de détection",
   "TOKEN.DetectionRemove": "Suppression du mode de détection",
-
-  "TOKEN.FIELDS": {
-    "ring": {
-      "colors": {
-        "ring": {
-          "label": "Couleur de l’anneau",
-          "hint": "Une couleur appliquée à la bordure de l’anneau."
-        },
-        "background": {
-          "label": "Couleur de fond",
-          "hint": "Une couleur appliquée au fond de l’anneau."
-        }
-      },
-      "effects": {
-        "label": "Effets de l’anneau"
-      },
-      "enabled": {
-        "label": "Anneau activé"
-      },
-      "subject": {
-        "scale": {
-          "label": "Correction de l’échelle du sujet",
-          "hint": "Ajuste la taille relative de la texture du sujet par rapport à l'anneau. L'augmentation de cette valeur rendra la texture du sujet plus grande par rapport à l'anneau. Utilisez des valeurs plus faibles pour réduire la taille de la texture du sujet si elle semble trop dominante."
-        },
-        "texture": {
-          "label": "Texture du sujet",
-          "hint": "Indique explicitement un chemin pour l’illustration placée sur l’anneau dynamique de token. Si non fourni, le sujet de l’anneau est le même que la texture standard du token."
-        }
-      }
-    }
-  },
-
   "TOKEN.RING": {
     "EFFECTS": {
       "BKG_WAVE": "Vague de fond",
       "RING_GRADIENT": "Dégradé de l'anneau",
       "RING_PULSE": "Impulsion de l'anneau",
-      "INVISIBILITY": "Impulsion spectrale"
+      "INVISIBILITY": "Impulsion spectrale",
+      "COLOR_OVER_SUBJECT": "Color Over Subject"
     },
     "SHEET": {
       "legend": "Anneau dynamique du token"
@@ -2973,14 +3361,30 @@
       "coreSteel": "Anneau d'acier de Foundry VTT",
       "coreBronze": "Anneau de bronze de Foundry VTT",
       "FIT_MODES": {
-      "label": "Modes d'ajustement pour les anneaux dynamiques de tokens",
-      "hint": "Choisissez le mode d'ajustement pour les anneaux dynamiques.",
-      "subject": "Standard",
-      "grid": "Grille"
+        "label": "Modes d'ajustement pour les anneaux dynamiques de tokens",
+        "hint": "Choisissez le mode d'ajustement pour les anneaux dynamiques.",
+        "subject": "Standard",
+        "grid": "Grille"
       }
     }
   },
-
+  "TOKEN.TURNMARKER": {
+    "SHEET": {
+      "legend": "Combat Turn Marker"
+    },
+    "MODES": {
+      "DISABLED": "Disabled",
+      "DEFAULT": "Default",
+      "CUSTOM": "Custom"
+    }
+  },
+  "TOKEN.MOVEMENT": {
+    "ACTIONS": {
+      "walk": {
+        "label": "Walk"
+      }
+    }
+  },
   "TYPES.Base": "Base",
   "TYPES.Cards.deck": "Pioche",
   "TYPES.Cards.hand": "Main",
@@ -2992,14 +3396,14 @@
   "TYPES.Macro.chat": "Tchat",
   "TYPES.Macro.script": "Script",
   "TYPES.RegionBehavior.adjustDarknessLevel": "Modifier le niveau d'obscurité",
-  "TYPES.RegionBehavior.displayScrollingText": "Afficher le texte défilant",    
+  "TYPES.RegionBehavior.displayScrollingText": "Afficher le texte défilant",
   "TYPES.RegionBehavior.executeMacro": "Exécuter une macro",
   "TYPES.RegionBehavior.executeScript": "Exécuter un script",
+  "TYPES.RegionBehavior.modifyMovementCost": "Modify Movement Cost",
   "TYPES.RegionBehavior.pauseGame": "Mettre le jeu en pause",
   "TYPES.RegionBehavior.suppressWeather": "Supprimer les effets météo",
   "TYPES.RegionBehavior.teleportToken": "Téléporter le token",
   "TYPES.RegionBehavior.toggleBehavior": "Basculer le comportement",
-
   "DETECTION.LightPerception": "Perception de la lumière",
   "DETECTION.BasicSight": "Vision dans le noir",
   "DETECTION.SeeInvisibility": "Voir l’invisibilité",
@@ -3007,13 +3411,11 @@
   "DETECTION.FeelTremor": "Ressentir les tremblements",
   "DETECTION.SenseAll": "Tout ressentir",
   "DETECTION.SeeAll": "Tout voir",
-
   "TEXTURE_DATA.FIT.fill": "Remplir",
   "TEXTURE_DATA.FIT.contain": "Contenir",
   "TEXTURE_DATA.FIT.cover": "Couvrir",
   "TEXTURE_DATA.FIT.width": "Pleine largeur",
   "TEXTURE_DATA.FIT.height": "Pleine hauteur",
-
   "Tours.NavLabel": "Onglets de configuration des présentations",
   "TOURS.ShowMeHow": "Montre-moi comment",
   "TOURS.TourCategories": "Catégories des présentations",
@@ -3033,7 +3435,6 @@
   "TOURS.ResetSuccess": "Réinitialiser toutes les présentations.",
   "TOURS.SuggestedTitle": "Prochaine présentation suggérée",
   "TOURS.SuggestedDescription": "<p>Vous avez terminé la présentation <strong>{currentTitle}</strong>.</p><p>Nous vous proposons de poursuivre avec la présentation <strong>{nextTitle}</strong>. Souhaitez-vous poursuivre ? </p>",
-
   "USER": {
     "FIELDS": {
       "name": {
@@ -3067,6 +3468,11 @@
         "RELEASE": "Libérer le personnage"
       }
     },
+    "MESSAGES": {
+      "KICKED": "User {user} has been <strong>kicked</strong> from the World.",
+      "BANNED": "User {user} has been <strong>banned</strong> from the World.",
+      "UNBANNED": "User {user} has been <strong>unbanned</strong> from the World."
+    },
     "RoleNone": "Aucun",
     "RolePlayer": "Joueur",
     "RoleTrusted": "Joueur de confiance",
@@ -3074,7 +3480,6 @@
     "RoleGamemaster": "Maître de Jeu",
     "GM": "MJ"
   },
-
   "USERS.AccessKey": "Code d’accès",
   "USERS.Role": "Rôle du joueur",
   "USERS.UserName": "Nom du joueur",
@@ -3087,8 +3492,6 @@
   "USERS.NoGMError": "Vous devez avoir configuré au moins un Maître de Jeu dans votre monde.",
   "USERS.DeleteWarning": "Ce joueur sera définitivement supprimé du monde de jeu.",
   "USERS.DeleteGMWarning": "Vous êtes sur le point de supprimer un Maître de Jeu !",
-
-
   "VISION.ModeBlindness": "Aveugle",
   "VISION.ModeBasicVision": "Vision standard",
   "VISION.ModeDetectInvisibility": "Détection de l’invisibilité",
@@ -3096,63 +3499,90 @@
   "VISION.ModeMonochromatic": "Monochromatique",
   "VISION.ModeTremorsense": "Perception des vibrations",
   "VISION.ModeLightAmplification": "Lumière amplifiée",
-
-  "WALLS.Title": "Configuration du mur",
-  "WALLS.TitleMany": "Configuration des murs [multiple]",
-  "WALLS.Instructions": "Définir les règles d’obstruction du mur pour la vision et le mouvement.",
-  "WALLS.Coordinates": "Coordonnées du mur",
-  "WALLS.Light": "Restriction des sources lumineuses",
-  "WALLS.Movement": "Obstruction du mouvement",
-  "WALLS.Sight": "Restriction du champ de vision",
-  "WALLS.Sound": "Restriction du champ sonore",
-  "WALLS.ThresholdAttenuation": "Atténuation du seuil de proximité",
-  "WALLS.ThresholdAttenuationHint": "La distance à laquelle la perception face à ce mur est adaptable en fonction de la proximité de l’observateur et du seuil d’activation. Ne s’applique que lorsqu’un seuil est défini.",
-  "WALLS.Direction": "Direction du mur",
-  "WALLS.Door": "Configuration des portes",
-  "WALLS.DoorOptions": "Options des portes",
-  "WALLS.Submit": "Mettre à jour le mur",
-  "WALLS.SenseTypes.NONE": "Aucun",
-  "WALLS.SenseTypes.LIMITED": "Limité",
-  "WALLS.SenseTypes.NORMAL": "Normal",
-  "WALLS.SenseTypes.PROXIMITY": "Proximité",
-  "WALLS.SenseTypes.DISTANCE": "Proximité inversée",
-  "WALLS.Directions.BOTH": "Les deux",
-  "WALLS.Directions.LEFT": "A gauche",
-  "WALLS.Directions.RIGHT": "A droite",
-  "WALLS.DoorTypes.NONE": "Aucun",
-  "WALLS.DoorTypes.DOOR": "Porte",
-  "WALLS.DoorTypes.SECRET": "Porte secrète",
-  "WALLS.DoorState": "État de la porte",
-  "WALLS.DoorStates.CLOSED": "Fermé",
-  "WALLS.DoorStates.OPEN": "Ouvrir",
-  "WALLS.DoorStates.LOCKED": "Verrouillé",
-
-  "WALLS.DoorSoundLabel": "Son de la porte",
-  "WALLS.DoorSound.FuturisticFast": "Futuriste, Rapide",
-  "WALLS.DoorSound.FuturisticHydraulic": "Futuriste, Hydraulique",
-  "WALLS.DoorSound.FuturisticForcefield": "Futuriste, Champ de force",
-  "WALLS.DoorSound.Industrial": "Industriel",
-  "WALLS.DoorSound.IndustrialCreaky": "Industriel, Grinçant",
-  "WALLS.DoorSound.Jail": "Prison",
-  "WALLS.DoorSound.MagicDoor": "Porte magique",
-  "WALLS.DoorSound.MagicWall": "Mur magique",
-  "WALLS.DoorSound.Metal": "Métal",
-  "WALLS.DoorSound.SlidingMetal": "Coulissant, Métal",
-  "WALLS.DoorSound.SlidingModern": "Coulissant, Moderne",
-  "WALLS.DoorSound.SlidingWood": "Coulissant, Bois",
-  "WALLS.DoorSound.StoneBasic": "Pierre",
-  "WALLS.DoorSound.StoneRocky": "Pierre, Roche",
-  "WALLS.DoorSound.StoneSandy": "Pierre, Sablonneux",
-  "WALLS.DoorSound.WoodBasic": "Bois, Simple",
-  "WALLS.DoorSound.WoodCreaky": "Bois, Grinçant",
-  "WALLS.DoorSound.WoodHeavy": "Bois, Lourd",
-
+  "WALL.FIELDS": {
+    "c.label": "Wall Coordinates",
+    "light.label": "Light",
+    "move.label": "Movement",
+    "sight.label": "Sight",
+    "sound.label": "Sound",
+    "dir.label": "Wall Direction",
+    "door.label": "Door Type",
+    "ds.label": "Door State",
+    "doorSound.label": "Door Sound",
+    "threshold.attenuation": {
+      "hint": "The distance that perception can penetrate this wall is adaptive relative to the observer's proximity and the activation threshold. Only applies when a threshold is defined.",
+      "label": "Proximity Threshold Attenuation"
+    },
+    "animation": {
+      "strength": {
+        "label": "Animation Strength",
+        "hint": "A multiplier between 0 and 2 that modifies how much the door moves when animating. For example for a swinging door, more strength produces a wider open angle. For a sliding door, more strength causes the door to slide farther."
+      },
+      "direction.label": "Open Direction",
+      "double.label": "Double Door",
+      "duration.label": "Animation Duration (ms)",
+      "flip.label": "Flip Door Texture",
+      "texture.label": "Door Texture",
+      "type.label": "Animation Type"
+    }
+  },
+  "WALL.ANIMATION_TYPES": {
+    "ASCEND": "Ascend",
+    "DESCEND": "Descend",
+    "SLIDE": "Slide",
+    "SWING": "Swing",
+    "SWIVEL": "Swivel"
+  },
+  "WALL.ANIMATION_DIRECTIONS": {
+    "DEFAULT": "Default",
+    "REVERSE": "Reversed"
+  },
+  "WALL.Title": "Wall Configuration",
+  "WALL.TitleMany": "Wall Configuration [Multiple]",
+  "WALL.Instructions": "Customize how this wall segment restricts movement or senses.",
+  "WALL.CoordinateRange": "({p0X}, {p0Y}) to ({p1X}, {p1Y})",
+  "WALL.DoorAnimation": "Door Animation",
+  "WALL.DoorConfiguration": "Door Configuration",
+  "WALL.NWalls": "[{n} Walls]",
+  "WALL.Restrictions": "Wall Restrictions",
+  "WALL.Submit": "Update Wall",
+  "WALL.SenseTypes.NONE": "None",
+  "WALL.SenseTypes.LIMITED": "Limited",
+  "WALL.SenseTypes.NORMAL": "Normal",
+  "WALL.SenseTypes.PROXIMITY": "Proximity",
+  "WALL.SenseTypes.DISTANCE": "Reverse Proximity",
+  "WALL.Directions.BOTH": "Both",
+  "WALL.Directions.LEFT": "Left",
+  "WALL.Directions.RIGHT": "Right",
+  "WALL.DoorTypes.NONE": "None",
+  "WALL.DoorTypes.DOOR": "Door",
+  "WALL.DoorTypes.SECRET": "Secret Door",
+  "WALL.DoorStates.CLOSED": "Closed",
+  "WALL.DoorStates.OPEN": "Open",
+  "WALL.DoorStates.LOCKED": "Locked",
+  "WALL.DoorSounds.FuturisticFast": "Futuristic, Fast",
+  "WALL.DoorSounds.FuturisticHydraulic": "Futuristic, Hydraulic",
+  "WALL.DoorSounds.FuturisticForcefield": "Futuristic, Forcefield",
+  "WALL.DoorSounds.Industrial": "Industrial",
+  "WALL.DoorSounds.IndustrialCreaky": "Industrial, Creaky",
+  "WALL.DoorSounds.Jail": "Jail",
+  "WALL.DoorSounds.MagicDoor": "Magical Door",
+  "WALL.DoorSounds.MagicWall": "Magical Wall",
+  "WALL.DoorSounds.Metal": "Metal",
+  "WALL.DoorSounds.SlidingMetal": "Sliding, Metal",
+  "WALL.DoorSounds.SlidingModern": "Sliding, Modern",
+  "WALL.DoorSounds.SlidingWood": "Sliding, Wood",
+  "WALL.DoorSounds.StoneBasic": "Stone",
+  "WALL.DoorSounds.StoneRocky": "Stone, Rocky",
+  "WALL.DoorSounds.StoneSandy": "Stone, Sandy",
+  "WALL.DoorSounds.WoodBasic": "Wood, Basic",
+  "WALL.DoorSounds.WoodCreaky": "Wood, Creaky",
+  "WALL.DoorSounds.WoodHeavy": "Wood, Heavy",
   "WORLD.TitleCreate": "Créer un monde",
   "WORLD.TitleEdit": "Modifier le monde",
   "WORLD.SubmitEdit": "Mettre à jour le monde",
   "WORLD.DetailTab": "Details du monde",
   "WORLD.DescTab": "Description du monde",
-
   "WEBRTC.Title": "Configuration audio/vidéo",
   "WEBRTC.MenuLabel": "Configurer audio/vidéo",
   "WEBRTC.MenuHint": "Configurer les paramètres spécifiques de la solution WebRTC intégrée d’audio/vidéo.",
@@ -3202,7 +3632,6 @@
   "WEBRTC.DockPositionRight": "A droite",
   "WEBRTC.DockPositionBottom": "En bas",
   "WEBRTC.DockPositionLeft": "A gauche",
-
   "WEBRTC.TooltipAllowUserVideo": "Autoriser la vidéo de l’utilisateur",
   "WEBRTC.TooltipBlockUserVideo": "Bloquer la vidéo de l’utilisateur",
   "WEBRTC.TooltipAllowUserAudio": "Autoriser l’audio utilisateur",
@@ -3226,7 +3655,6 @@
   "WEBRTC.NameplatesPlayer": "Nom du joueur uniquement",
   "WEBRTC.NameplatesCharacter": "Nom du personnage uniquement",
   "WEBRTC.NameplatesBoth": "Alternance entre les deux",
-
   "WEBRTC.CaptureWarningVideo": "Impossible de capturer à partir de vos périphériques audio ; Partage de vidéo uniquement",
   "WEBRTC.CaptureWarningAudio": "Impossible de capturer à partir de vos périphériques vidéo ; Partage audio uniquement",
   "WEBRTC.CaptureErrorAudioVideo": "Impossible de capturer à partir de vos appareils audio et vidéo",
@@ -3238,14 +3666,12 @@
   "WEBRTC.NoSSLError": "Impossible d’utiliser les appels Audio/Vidéo, les certificats SSL ne sont pas configurés correctement sur le serveur FoundryVTT. Voir la documentation en ligne pour les instructions.",
   "WEBRTC.WarningCannotEnableVideo": "Vous ne pouvez pas activer votre caméra car vous ne disposez pas des droits suffisants pour diffuser votre flux vidéo.",
   "WEBRTC.WarningCannotEnableAudio": "Vous ne pouvez pas activer votre microphone car vous ne disposez pas des droits suffisants pour diffuser votre flux audio.",
-
   "WEATHER.Rain": "Pluie",
   "WEATHER.RainStorm": "Pluie orageuse",
   "WEATHER.Snow": "Neige",
   "WEATHER.Blizzard": "Blizzard",
   "WEATHER.AutumnLeaves": "Feuilles d’automne",
   "WEATHER.Fog": "Brouillard",
-
   "WORLD.Title": "Titre du monde",
   "WORLD.DataPath": "Chemin des données",
   "WORLD.GameSystem": "Système de jeu",
