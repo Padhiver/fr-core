@@ -853,8 +853,8 @@
   "DOCUMENT.AmbientSound": "Son ambiant",
   "DOCUMENT.AmbientSounds": "Sons ambiants",
   "DOCUMENT.Card": "Carte",
-  "DOCUMENT.Cards": "Ensemble de carte",
-  "DOCUMENT.CardsPlural": "Ensembles de cartes",
+  "DOCUMENT.Cards": "Jeu de cartes",
+  "DOCUMENT.CardsPlural": "Jeux de cartes",
   "DOCUMENT.ChatMessage": "Message du Tchat",
   "DOCUMENT.ChatMessages": "Messages du Tchat",
   "DOCUMENT.Combat": "Rencontre de combat",
@@ -1752,7 +1752,7 @@
         "hint": "Si ce paramètre est activé, l'exploration du brouillard de guerre sera suivie par utilisateur et stockée dans la base de données au fur et à mesure que la scène est explorée. Sinon, l'exploration du brouillard ne se produit pas et, au lieu de cela, les tokens sont limités à ce qu'ils peuvent voir actuellement."
       },
       "overlay": {
-        "label": "Image du brouillard de guerre",
+        "label": "Image du brouillard",
         "hint": "Un brouillard d’image de guerre optionnel dessiné au-dessus des parties inexplorées de la scène."
       },
       "colors": {
@@ -2752,34 +2752,34 @@
     },
     "EVENTS": {
       "regionBoundary": {
-        "label": "Limite de la région modifiée"
+        "label": "Region Boundary Changed"
       },
       "behaviorActivated": {
-        "label": "Comportement activé"
+        "label": "Behavior Activated"
       },
       "behaviorDeactivated": {
-        "label": "Comportement désactivé"
+        "label": "Behavior Deactivated"
       },
       "behaviorViewed": {
-        "label": "Comportement consulté"
+        "label": "Behavior Viewed"
       },
       "behaviorUnviewed": {
-        "label": "Comportement non consulté"
+        "label": "Behavior Unviewed"
       },
       "tokenEnter": {
-        "label": "Le token entre"
+        "label": "Token Enters"
       },
       "tokenExit": {
-        "label": "Le token sort"
+        "label": "Token Exits"
       },
       "tokenMoveIn": {
-        "label": "Le token est entré"
+        "label": "Token Moves In"
       },
       "tokenMoveOut": {
-        "label": "Le token est sorti"
+        "label": "Token Moves Out"
       },
       "tokenMoveWithin": {
-        "label": "Le token se déplace à l'intérieur"
+        "label": "Token Moves Within"
       },
       "tokenAnimateIn": {
         "label": "Token Animates In"
@@ -2788,16 +2788,16 @@
         "label": "Token Animates Out"
       },
       "tokenTurnStart": {
-        "label": "Le token commence son tour"
+        "label": "Token Starts Turn"
       },
       "tokenTurnEnd": {
-        "label": "Le token termine son tour"
+        "label": "Token Ends Turn"
       },
       "tokenRoundStart": {
-        "label": "Le token commence le round"
+        "label": "Token Starts Round"
       },
       "tokenRoundEnd": {
-        "label": "Le token termine le round"
+        "label": "Token Ends Round"
       }
     },
     "SHAPES": {
@@ -2850,7 +2850,7 @@
     "TYPES": {
       "base": {
         "SECTIONS": {
-          "events": "Événements souscrits"
+          "events": "Subscribed Events"
         },
         "FIELDS": {
           "events": {
