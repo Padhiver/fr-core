@@ -2752,52 +2752,52 @@
     },
     "EVENTS": {
       "regionBoundary": {
-        "label": "Region Boundary Changed"
+        "label": "Limite de région modifiée"
       },
       "behaviorActivated": {
-        "label": "Behavior Activated"
+        "label": "Comportement activé"
       },
       "behaviorDeactivated": {
-        "label": "Behavior Deactivated"
+        "label": "Comportement désactivé"
       },
       "behaviorViewed": {
-        "label": "Behavior Viewed"
+        "label": "Comportement affiché"
       },
       "behaviorUnviewed": {
-        "label": "Behavior Unviewed"
+        "label": "Comportement masqué"
       },
       "tokenEnter": {
-        "label": "Token Enters"
+        "label": "Entrée de token"
       },
       "tokenExit": {
-        "label": "Token Exits"
+        "label": "Sortie du token"
       },
       "tokenMoveIn": {
-        "label": "Token Moves In"
+        "label": "Token se déplace vers l'intérieur"
       },
       "tokenMoveOut": {
-        "label": "Token Moves Out"
+        "label": "Token se déplace vers l'extérieur"
       },
       "tokenMoveWithin": {
-        "label": "Token Moves Within"
+        "label": "Token se déplace à l'intérieur"
       },
       "tokenAnimateIn": {
-        "label": "Token Animates In"
+        "label": "Animation d'entrée du token"
       },
       "tokenAnimateOut": {
-        "label": "Token Animates Out"
+        "label": "Animation de sortie du token"
       },
       "tokenTurnStart": {
-        "label": "Token Starts Turn"
+        "label": "Début du tour du token"
       },
       "tokenTurnEnd": {
-        "label": "Token Ends Turn"
+        "label": "Fin du tour du token"
       },
       "tokenRoundStart": {
-        "label": "Token Starts Round"
+        "label": "Début du round pour le token"
       },
       "tokenRoundEnd": {
-        "label": "Token Ends Round"
+        "label": "Fin du round pour le token"
       }
     },
     "SHAPES": {
@@ -2850,7 +2850,7 @@
     "TYPES": {
       "base": {
         "SECTIONS": {
-          "events": "Subscribed Events"
+          "events": "Événements souscrits"
         },
         "FIELDS": {
           "events": {
