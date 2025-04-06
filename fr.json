@@ -1976,7 +1976,7 @@
   "SETTINGS.MaxFPSL": "Limiter le Framerate maximum auquel Foundry Virtual Tabletop rafraichit les scènes. L’abaissement de cette valeur peut améliorer les performances pour les petites configurations.",
   "SETTINGS.DefaultSheetsN": "Feuilles par défaut",
   "SETTINGS.DefaultSheetsL": "Configuration des fiches par défaut",
-  "SETTINGS.DefaultSheetsH": "Configurer les fiches (de PJ/PNJ etc ...) utilisées par défaut pour tous les types de documents disponibles dans le monde",
+  "SETTINGS.DefaultSheetsH": "Configurer les feuilles utilisées par défaut pour tous les types de documents disponibles dans le monde",
   "SETTINGS.FontConfigN": "Polices supplémentaires",
   "SETTINGS.FontConfigL": "Configurer des polices supplémentaires",
   "SETTINGS.FontConfigH": "Configure les polices supplémentaires qui seront disponibles pour être utilisées dans ce monde.",
@@ -2752,52 +2752,52 @@
     },
     "EVENTS": {
       "regionBoundary": {
-        "label": "Region Boundary Changed"
+        "label": "Limite de région modifiée"
       },
       "behaviorActivated": {
-        "label": "Behavior Activated"
+        "label": "Comportement activé"
       },
       "behaviorDeactivated": {
-        "label": "Behavior Deactivated"
+        "label": "Comportement désactivé"
       },
       "behaviorViewed": {
-        "label": "Behavior Viewed"
+        "label": "Comportement affiché"
       },
       "behaviorUnviewed": {
-        "label": "Behavior Unviewed"
+        "label": "Comportement masqué"
       },
       "tokenEnter": {
-        "label": "Token Enters"
+        "label": "Entrée de token"
       },
       "tokenExit": {
-        "label": "Token Exits"
+        "label": "Sortie du token"
       },
       "tokenMoveIn": {
-        "label": "Token Moves In"
+        "label": "Token se déplace vers l'intérieur"
       },
       "tokenMoveOut": {
-        "label": "Token Moves Out"
+        "label": "Token se déplace vers l'extérieur"
       },
       "tokenMoveWithin": {
-        "label": "Token Moves Within"
+        "label": "Token se déplace à l'intérieur"
       },
       "tokenAnimateIn": {
-        "label": "Token Animates In"
+        "label": "Animation d'entrée du token"
       },
       "tokenAnimateOut": {
-        "label": "Token Animates Out"
+        "label": "Animation de sortie du token"
       },
       "tokenTurnStart": {
-        "label": "Token Starts Turn"
+        "label": "Début du tour du token"
       },
       "tokenTurnEnd": {
-        "label": "Token Ends Turn"
+        "label": "Fin du tour du token"
       },
       "tokenRoundStart": {
-        "label": "Token Starts Round"
+        "label": "Début du round pour le token"
       },
       "tokenRoundEnd": {
-        "label": "Token Ends Round"
+        "label": "Fin du round pour le token"
       }
     },
     "SHAPES": {
@@ -2850,7 +2850,7 @@
     "TYPES": {
       "base": {
         "SECTIONS": {
-          "events": "Subscribed Events"
+          "events": "Événements souscrits"
         },
         "FIELDS": {
           "events": {
@@ -3122,10 +3122,10 @@
   "TEMPLATE.ConeTypeSettingHint": "Définit la zone d’effet pour les gabarits en cône.",
   "TEMPLATE.ConeTypeFlat": "Plat",
   "TEMPLATE.ConeTypeRound": "Rond",
-  "TEMPLATE.SubmitCreate": "Créer un modèle de mesure",
-  "TEMPLATE.SubmitUpdate": "Mettre à jour un modèle de mesure",
-  "TEMPLATE.GridTemplatesSetting": "Formes de modèles basés sur une grille",
-  "TEMPLATE.GridTemplatesSettingHint": "Configurez si la zone d’effet des modèles doit être basée sur la grille au lieu d’être euclidienne.",
+  "TEMPLATE.SubmitCreate": "Créer un gabarit",
+  "TEMPLATE.SubmitUpdate": "Mettre à jour le gabarit",
+  "TEMPLATE.GridTemplatesSetting": "Formes des gabarits basés sur la grille",
+  "TEMPLATE.GridTemplatesSettingHint": "Configurez si la zone d’effet des gabarits doit être basée sur la grille au lieu d’être euclidienne.",
   "TEMPLATE.TYPES": {
     "circle": "Cercle",
     "cone": "Cône",
@@ -3606,7 +3606,7 @@
       },
       "color": {
         "label": "Couleur du joueur",
-        "hint": "La couleur du joueur est utilisée pour les curseurs, les règles, les modèles et d’autres éléments qui différencient les utilisateurs."
+        "hint": "La couleur du joueur est utilisée pour les curseurs, les règles, les gabarits et d’autres éléments qui différencient les utilisateurs."
       },
       "pronouns": {
         "label": "Pronoms du joueur",
