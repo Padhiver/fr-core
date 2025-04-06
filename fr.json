@@ -2773,13 +2773,13 @@
         "label": "Sortie du token"
       },
       "tokenMoveIn": {
-        "label": "Token se déplace vers l'intérieur"
+        "label": "Le token se déplace vers l'intérieur"
       },
       "tokenMoveOut": {
-        "label": "Token se déplace vers l'extérieur"
+        "label": "Le token se déplace vers l'extérieur"
       },
       "tokenMoveWithin": {
-        "label": "Token se déplace à l'intérieur"
+        "label": "Le token se déplace à l'intérieur"
       },
       "tokenAnimateIn": {
         "label": "Animation d'entrée du token"
