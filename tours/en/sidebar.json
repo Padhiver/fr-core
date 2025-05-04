@@ -12,21 +12,21 @@
     },
     {
       "id": "chatLog",
-      "selector": ".tabs>a[data-tab='chat']",
+      "selector": "#sidebar-tabs [data-tab='chat']",
       "title": "THESIDEBAR.ChatLogTitle",
       "content": "THESIDEBAR.ChatLogContent",
       "sidebarTab": "chat"
     },
     {
       "id": "combatTracker",
-      "selector": ".tabs>a[data-tab='combat']",
+      "selector": "#sidebar-tabs [data-tab='combat']",
       "title": "THESIDEBAR.CombatTrackerTitle",
       "content": "THESIDEBAR.CombatTrackerContent",
       "sidebarTab": "combat"
     },
     {
       "id": "scenes",
-      "selector": ".tabs>a[data-tab='scenes']",
+      "selector": "#sidebar-tabs [data-tab='scenes']",
       "title": "THESIDEBAR.ScenesTitle",
       "content": "THESIDEBAR.ScenesContent",
       "restricted": true,
@@ -34,7 +34,7 @@
     },
     {
       "id": "actorDirectory",
-      "selector": ".tabs>a[data-tab='actors']",
+      "selector": "#sidebar-tabs [data-tab='actors']",
       "title": "THESIDEBAR.ActorDirectoryTitle",
       "content": "THESIDEBAR.ActorDirectoryContent",
       "sidebarTab": "actors"
@@ -48,49 +48,49 @@
     },
     {
       "id": "itemDirectory",
-      "selector": ".tabs>a[data-tab='items']",
+      "selector": "#sidebar-tabs [data-tab='items']",
       "title": "THESIDEBAR.ItemDirectoryTitle",
       "content": "THESIDEBAR.ItemDirectoryContent",
       "sidebarTab": "items"
     },
     {
       "id": "journalEntry",
-      "selector": ".tabs>a[data-tab='journal']",
+      "selector": "#sidebar-tabs [data-tab='journal']",
       "title": "THESIDEBAR.JournalEntryTitle",
       "content": "THESIDEBAR.JournalEntryContent",
       "sidebarTab": "journal"
     },
     {
       "id": "rollableTables",
-      "selector": ".tabs>a[data-tab='tables']",
+      "selector": "#sidebar-tabs [data-tab='tables']",
       "title": "THESIDEBAR.RollableTablesTitle",
       "content": "THESIDEBAR.RollableTablesContent",
       "sidebarTab": "tables"
     },
     {
       "id": "cardStacks",
-      "selector": ".tabs>a[data-tab='cards']",
+      "selector": "#sidebar-tabs [data-tab='cards']",
       "title": "THESIDEBAR.CardStacksTitle",
       "content": "THESIDEBAR.CardStacksContent",
       "sidebarTab": "cards"
     },
     {
       "id": "playlists",
-      "selector": ".tabs>a[data-tab='playlists']",
+      "selector": "#sidebar-tabs [data-tab='playlists']",
       "title": "THESIDEBAR.PlaylistsTitle",
       "content": "THESIDEBAR.PlaylistsContent",
       "sidebarTab": "playlists"
     },
     {
       "id": "compendiumPacks",
-      "selector": ".tabs>a[data-tab='compendium']",
+      "selector": "#sidebar-tabs [data-tab='compendium']",
       "title": "THESIDEBAR.CompendiumPacksTitle",
       "content": "THESIDEBAR.CompendiumPacksContent",
       "sidebarTab": "compendium"
     },
     {
       "id": "settings",
-      "selector": ".tabs>a[data-tab='settings']",
+      "selector": "#sidebar-tabs [data-tab='settings']",
       "title": "THESIDEBAR.SettingsTitle",
       "content": "THESIDEBAR.SettingsContent",
       "sidebarTab": "settings"

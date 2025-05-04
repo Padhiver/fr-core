@@ -14,25 +14,21 @@
       "id": "overview",
       "title": "TOURS.COMPAT.OverviewT",
       "content": "TOURS.COMPAT.OverviewC",
-      "selector": "#compatibility-checker ul.summary"
+      "selector": "#compatibility-checker ul.summary",
+      "tooltipDirection": "UP"
     },
     {
       "id": "filterCompatibility",
       "title": "TOURS.COMPAT.FilterCompatibilityT",
       "content": "TOURS.COMPAT.FilterCompatibilityC",
-      "selector": "#compatibility-checker .visibility-toggle"
-    },
-    {
-      "id": "filterPackageType",
-      "title": "TOURS.COMPAT.FilterPackageTypeT",
-      "content": "TOURS.COMPAT.FilterPackageTypeC",
-      "selector": "#compatibility-checker .visibility[data-visibility=\"world\"]"
+      "selector": "#compatibility-checker nav.filters"
     },
     {
       "id": "filterCategory",
       "title": "TOURS.COMPAT.FilterCategoryT",
       "content": "TOURS.COMPAT.FilterCategoryC",
-      "selector": "#compatibility-checker .categories"
+      "selector": "#compatibility-checker aside",
+      "tooltipDirection": "RIGHT"
     }
   ],
   "localization": {
@@ -43,9 +39,7 @@
     "TOURS.COMPAT.OverviewC": "To see the overall status of your packages in the next version at-a-glance, you can check the bottom-left of of the display.",
     "TOURS.COMPAT.FilterCompatibilityT": "Individual Packages",
     "TOURS.COMPAT.FilterCompatibilityC": "You can use this toggle to show only the packages that are compatible, or only the packages that are incompatible with the next version.",
-    "TOURS.COMPAT.FilterPackageTypeT": "Include Worlds",
-    "TOURS.COMPAT.FilterPackageTypeC": "Worlds are not included in the full list of packages since their compatibility is typically tied to that of the game system. If you want to include worlds, you can do so via this toggle.",
     "TOURS.COMPAT.FilterCategoryT": "Category Filter",
-    "TOURS.COMPAT.FilterCategoryC": "If you only care about one particular category of package, say you only want to check if your worlds are compatible with the next version, you can select that category from the list here."
+    "TOURS.COMPAT.FilterCategoryC": "To check invididual categories of packages, you can select that category from the list here."
   }
 }
