@@ -97,6 +97,7 @@
   "XCoord": "Coordonnée-X",
   "YCoord": "Coordonnée-Y",
   "Yes": "Oui",
+
   "ADVENTURE": {
     "ImportSubmit": "Importer l’aventure",
     "ImportProgress": "En cours d’importation",
@@ -111,6 +112,7 @@
       "V1": "Importateur d’aventure (V1)",
       "V2": "Importateur d’aventure (V2)"
     },
+
     "Create": "Créer une aventure",
     "ExportEdit": "Modifier l’aventure",
     "ExportSubmit": "Générer l’aventure",
@@ -119,10 +121,12 @@
     "ExportPrimaryDocumentsOnly": "Vous ne pouvez ajouter que des documents primaires qui existent dans le monde.",
     "CreateSuccess": "L’aventure « {name} » a été créée avec succès !",
     "UpdateSuccess": "L’aventure « {name} » a été mise à jour avec succès !",
+
     "DocumentUpdate": "Ce document sera mis à jour au fur et à mesure de la construction de l’Aventure.",
     "DocumentAdd": "Ce document sera ajouté lors de la construction de l’Aventure.",
     "DocumentMissing": "Ce document est absent du Monde et ne sera pas mis à jour lorsque l’Aventure sera construite.",
     "DocumentRemove": "Ce document sera supprimé une fois l’Aventure générée.",
+
     "FIELDS": {
       "name": {
         "label": "Nom de l’aventure",
@@ -141,16 +145,20 @@
         "hint": "Fournissez une description contenant une vue d’ensemble et un résumé de l’aventure."
       }
     },
+
     "TABS": {
       "summary": "Résumé",
       "contents": "Contenu"
     },
+
     "ACTIONS": {
       "ClearSection": "Vider la section",
       "RestoreSection": "Restaurer la section"
     }
   },
+
   "APP.NavigateBackConfirm": "Etes-vous sûr de vouloir quitter Foundry Virtual Tabletop ?",
+
   "AMBIENT_LIGHT": {
     "ACTIONS": {
       "CREATE": "Créer une lumière ambiante",
@@ -194,6 +202,8 @@
       "advanced": "Paramètres avancés"
     }
   },
+
+
   "AMBIENT_SOUND": {
     "ACTIONS": {
       "CREATE": "Créer un son ambiant",
@@ -272,6 +282,7 @@
       "EFFECTS": "Effets spéciaux"
     }
   },
+
   "APPLICATION": {
     "TOOLS": {
       "ControlsMenu": "Contrôles de l’application",
@@ -280,6 +291,7 @@
     },
     "IMAGE_POPOUT.AltText": "Une image en vedette : le sujet n’est pas connu."
   },
+
   "AUDIO": {
     "CHANNELS": {
       "MUSIC": {
@@ -296,6 +308,7 @@
       }
     }
   },
+
   "CALENDAR": {
     "GREGORIAN": {
       "January": "Janvier",
@@ -342,6 +355,7 @@
       "Winter": "Hiver"
     }
   },
+
   "CARDS": {
     "CardsDeck": "Pioche",
     "CardsHand": "Main de cartes",
@@ -376,6 +390,7 @@
     "PassWarnNoTargets": "Il n’y a ni main ni défausse disponible à laquelle passer.",
     "ResetConfirm": "Êtes-vous sûr de vouloir réinitialiser {name} ? Toutes les cartes distribuées seront rappelées.",
     "ReturnConfirm": "Êtes-vous sûr ? Toutes les cartes de {name} seront retournées dans leur pioche d'origine.",
+    
     "NotifyShuffle": "Mélange de : {link}",
     "NotifyPass": "{number} carte(s) passée(s) vers : {link}",
     "NotifyPlay": "{number} carte(s) jouée(s) vers : {link}",
@@ -384,6 +399,7 @@
     "NotifyDeal": "{number} carte(s) distribuées(s) chacune(s) vers : {link}",
     "NotifyReset": "Rappel de toutes les cartes de : {link}",
     "NotifyReturn": "Restitution de toutes les cartes de : {link}",
+
     "FIELDS": {
       "img.label": "Image du dos par défaut",
       "type.label": "Type de pile de carte"
@@ -408,6 +424,7 @@
       "cards": "Cartes"
     }
   },
+  
   "CARD": {
     "Image": "Image de la carte",
     "Dimensions": "Dimensions par défaut",
@@ -444,6 +461,7 @@
       }
     }
   },
+
   "CHAT.Chat": "Tchat",
   "CHAT.Clear": "Effacer le tchat",
   "CHAT.Dismiss": "Ignorer",
@@ -469,6 +487,7 @@
   "CHAT.UnknownUser": "Utilisateur inconnu",
   "COMBAT.NavLabel": "Navigation des rencontres de combat",
   "COMBAT.Begin": "Commencer le combat",
+
   "COMBAT.Create": "Créer une rencontre",
   "COMBAT.Delete": "Supprimer la rencontre",
   "COMBAT.Encounter": "Rencontre",
@@ -511,6 +530,7 @@
   "COMBAT.UnknownCombatant": "Combattant inconnu",
   "COMBAT.Unlinked": "Combat non lié, cliquez pour lier à la scène",
   "COMBAT.CannotLinkToScene": "Vous ne pouvez pas lier le combat à une scène qui ne contient pas tous ses combattants.",
+  
   "COMBAT.CombatantActor": "Acteur représenté",
   "COMBAT.CombatantCreate": "Créer un combattant",
   "COMBAT.CombatantDefeated": "Vaincu",
@@ -529,10 +549,12 @@
   "COMBAT.CombatantToken": "Token lié",
   "COMBAT.CombatantScene": "Scène du combattant",
   "COMBAT.CombatantNotInScene": "Le combattant {name} n’est pas présent sur la scène active que vous affichez",
+  
   "COMBAT.FIELDS": {
     "round.label": "Round",
     "turn.label": "Tour"
   },
+  
   "COMBAT.TURN_MARKERS": {
     "ANIMATIONS": {
       "SPIN": "Rotation",
@@ -575,6 +597,7 @@
       }
     }
   },
+
   "COMPENDIUM.Name": "Nom du compendium",
   "COMPENDIUM.Create": "Créer un compendium",
   "COMPENDIUM.CreateHint": "Créer un nouveau compendium pour le monde actuel.",
@@ -629,6 +652,7 @@
       "Title": "Art du compendium"
     }
   },
+
   "CONTROLS": {
     "Title": "Liste des raccourcis",
     "NavLabel": "Palette des contrôles de la scène",
@@ -640,9 +664,7 @@
     "TargetSelect": "Sélection de cibles",
     "TargetSelectP": "Ciblez tous les tokens que vous pouvez voir.",
     "BasicMeasure": "Règle",
-    "BasicMeasureStart": "Commencer à mesurer",
     "BasicMeasureWaypoints": "Placer des points de repère",
-    "BasicMeasureFollow": "Suivre le chemin",
     "GroupMeasure": "Outils de gabarit",
     "MeasureType": "Type de gabarit",
     "MeasureConfigHint": "Configurer le placement et l’affichage du gabarit.",
@@ -861,6 +883,7 @@
     "ObjectIsLocked": "Vous ne pouvez pas effectuer cette action tant que l’objet {type} est verrouillé.",
     "ObjectConfigured": "Vous ne pouvez pas effectuer cette action pendant la configuration d’un autre objet."
   },
+
   "DICE": {
     "ErrorNonNumeric": "La formule du lancer de dés {formula} n’a pas produit de résultat numérique.",
     "ManualRoll": "Jet manuel",
@@ -879,6 +902,7 @@
       "Manual": "Saisie manuelle"
     }
   },
+
   "DOCUMENT": {
     "Create": "Créer {type}",
     "Delete": "Supprimer {type}",
@@ -886,16 +910,19 @@
     "NewCount": "Nouveau {type} ({count})",
     "Update": "Mettre à jour {type}",
     "SkipCreate": "Passer la création",
+
     "ImportData": "Importer les données",
     "ImportDataError": "Vous n’avez pas téléchargé de fichier de données !",
     "ImportDataHint1": "Vous pouvez importer les données de ce/cette {document} à partir d’un fichier JSON exporté.",
     "ImportDataHint2": "Cette opération met à jour les données de {name} et ne peut être annulée.",
     "ImportSource": "Données sources",
     "Imported": "Les données de type {document} : « {name} » ont été importées avec succès depuis le JSON.",
+    
     "SheetPermissionWarn": "Vous n’avez pas la permission de voir cette feuille de {document}.",
     "UsePermissionWarn": "Vous n’avez pas la permission d’utiliser ce {document}.",
     "IdCopiedClipboard": "{label} {type} « {id} » copié dans le presse-papiers.",
     "ActiveEffect": "Effet actif",
+    
     "ActiveEffects": "Effets actifs",
     "ActorDelta": "Acteur Delta",
     "ActorDeltas": "Acteurs Delta",
@@ -908,6 +935,7 @@
     "AmbientSound": "Son ambiant",
     "AmbientSounds": "Sons ambiants",
     "Card": "Carte",
+    "CardPlural": "Cartes",    
     "Cards": "Jeu de cartes",
     "CardsPlural": "Jeux de cartes",
     "ChatMessage": "Message du Tchat",
@@ -981,6 +1009,7 @@
       "y.label": "Y"
     }
   },
+
   "DRAWING.ConfigDefaultTitle": "Configuration par défaut du dessin",
   "DRAWING.SubmitDefault": "Sauvegarder",
   "DRAWING.SubmitCreate": "Créer un dessin",
@@ -1024,6 +1053,7 @@
   "DRAWING.FIELDS": {
     "sort.label": "Trier"
   },
+
   "EFFECT.MODE_CUSTOM": "Personnalisation",
   "EFFECT.MODE_MULTIPLY": "Multiplier",
   "EFFECT.MODE_ADD": "Ajouter",
@@ -1066,6 +1096,7 @@
     "duration": "Durée",
     "changes": "Changements"
   },
+
   "EFFECT.StatusAsleep": "Endormi",
   "EFFECT.StatusDead": "Mort",
   "EFFECT.StatusUnconscious": "Inconscient",
@@ -1101,23 +1132,34 @@
   "EFFECT.StatusIceShield": "Protection contre le froid",
   "EFFECT.StatusMagicShield": "Protection magique",
   "EFFECT.StatusHolyShield": "Protection sacrée",
-  "ERROR.BrowserVersion": "Foundry Virtual Tabletop nécessite les dernières fonctions JavaScript qui ne sont pas prises en charge pour la version de {browser} inférieure à {minimum}. Vous utilisez la version {version} de {browser}. Veuillez mettre à jour ou utiliser un autre navigateur.",
-  "ERROR.ElectronVersion": "Vous utilisez une ancienne version du client Electron de Foundry Virtual Tabletop. Pour des performances optimales, nous vous recommandons de télécharger à nouveau la version de Foundry Virtual Tabletop que vous souhaitez et de procéder à une réinstallation complète du logiciel.",
-  "ERROR.LowResolution": "Foundry Virtual Tabletop exige une résolution d’écran minimale de {reqWidth}px par {reqHeight}px ou plus. Votre écran est actuellement de largeur {width}px par hauteur {height}px. Avec vos paramètres d’affichage actuels, de nombreuses fonctions peuvent ne pas fonctionner correctement.",
-  "ERROR.NoWebGL": "Votre navigateur ne prend actuellement pas en charge le rendu WebGL, qui est requis par Foundry Virtual Tabletop. Le rendu matériel et WebGL doivent être activés dans le navigateur.",
-  "ERROR.NoWebGL2": "Votre navigateur ne prend pas actuellement en charge le rendu WebGL version 2, qui est essentiel au bon fonctionnement de Foundry Virtual Tabletop. Des erreurs ou des comportements graphiques anormaux peuvent survenir.",
-  "ERROR.BackgroundTextureSize": "L’image de fond de la scène mesure {width}&times;{height}px. L’une de ces dimensions ou les deux dépassent la taille maximale autorisée de {max}px.",
-  "ERROR.InvalidAdminKey": "Le mot de passe Administrateur fournie n’est pas valide. Si vous avez oublié votre mot de passe, vous devrez supprimer manuellement le fichier <strong>Config/admin.txt</strong> du répertoire des données utilisateur.",
-  "ERROR.LoadPackages": "Impossible de se connecter au serveur de FoundryVTT pour lister les packages. Assurez-vous que votre application autorise les connexions sortantes.",
-  "ERROR.NoTargetUsersForWhisper": "Destinataire non reconnu pour ce chuchotement. Vérifiez l’orthographe ou essayez « /w [Nom d’utilisateur] » à la place.",
-  "ERROR.CantWhisper": "Vous n’avez pas la permission d’envoyer par Tchat des messages chuchotés à d’autres joueurs.",
-  "ERROR.RendererNotDetected": "Le moteur de rendu de votre GPU n’a pas pu être identifié, des problèmes de performance inattendus peuvent survenir.",
-  "ERROR.NoHardwareAcceleration": "L’accélération matérielle n’est pas activée dans votre navigateur Web. Cela nuit gravement aux performances de Foundry Virtual Tabletop et provoque des erreurs et des anomalies graphiques. Veillez à activer l’accélération matérielle dans les paramètres de votre navigateur.",
-  "ERROR.UpdateRequiresManualInstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible mais ne peut pas être installée directement à partir de l’interface de Foundry Virtual Tabletop car elle nécessite des mises à jour critiques du socle qui ne sont disponibles qu’en réinstallant le logiciel à partir du site Web <a href=\"https://foundryvtt/com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+
+  "ERROR": {
+    "BrowserVersion": "Foundry Virtual Tabletop nécessite les dernières fonctions JavaScript qui ne sont pas prises en charge pour la version de {browser} inférieure à {minimum}. Vous utilisez la version {version} de {browser}. Veuillez mettre à jour ou utiliser un autre navigateur.",
+    "ElectronVersion": "Vous utilisez une ancienne version du client Electron de Foundry Virtual Tabletop. Pour des performances optimales, nous vous recommandons de télécharger à nouveau la version de Foundry Virtual Tabletop que vous souhaitez et de procéder à une réinstallation complète du logiciel.",
+    "NoWebGL": "Votre navigateur ne prend actuellement pas en charge le rendu WebGL, qui est requis par Foundry Virtual Tabletop. Le rendu matériel et WebGL doivent être activés dans le navigateur.",
+    "NoWebGL2": "Votre navigateur ne prend pas actuellement en charge le rendu WebGL version 2, qui est essentiel au bon fonctionnement de Foundry Virtual Tabletop. Des erreurs ou des comportements graphiques anormaux peuvent survenir.",
+    "BackgroundTextureSize": "L’image de fond de la scène mesure {width}&times;{height}px. L’une de ces dimensions ou les deux dépassent la taille maximale autorisée de {max}px.",
+    "InvalidAdminKey": "Le mot de passe Administrateur fournie n’est pas valide. Si vous avez oublié votre mot de passe, vous devrez supprimer manuellement le fichier <strong>Config/admin.txt</strong> du répertoire des données utilisateur.",
+    "LoadPackages": "Impossible de se connecter au serveur de FoundryVTT pour lister les packages. Assurez-vous que votre application autorise les connexions sortantes.",
+    "NoTargetUsersForWhisper": "Destinataire non reconnu pour ce chuchotement. Vérifiez l’orthographe ou essayez « /w [Nom d’utilisateur] » à la place.",
+    "CantWhisper": "Vous n’avez pas la permission d’envoyer par Tchat des messages chuchotés à d’autres joueurs.",
+    "RendererNotDetected": "Le moteur de rendu de votre GPU n’a pas pu être identifié, des problèmes de performance inattendus peuvent survenir.",
+    "NoHardwareAcceleration": "L’accélération matérielle n’est pas activée dans votre navigateur Web. Cela nuit gravement aux performances de Foundry Virtual Tabletop et provoque des erreurs et des anomalies graphiques. Veillez à activer l’accélération matérielle dans les paramètres de votre navigateur.",
+    "RequiresFullReinstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible, mais elle ne peut pas être installée depuis l'application Foundry Virtual Tabletop car elle nécessite des mises à jour des dépendances principales qui ne sont disponibles qu'en réinstallant le logiciel depuis le site <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+    "RequiresGenerationReinstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible, mais elle ne peut pas être installée depuis l'application Foundry Virtual Tabletop car il s'agit d'une mise à jour de nouvelle génération qui doit être installée manuellement en réinstallant le logiciel depuis le site <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+    "RequiresElectronReinstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible, mais elle ne peut pas être installée depuis l'application Foundry Virtual Tabletop car elle inclut une nouvelle version d'Electron qui ne peut être installée qu'en réinstallant manuellement le logiciel depuis le site <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
+    "RESOLUTION": {
+      "Window": "Foundry Virtual Tabletop nécessite une résolution d'écran de {reqWidth}px par {reqHeight}px ou plus. Votre affichage a une résolution de {curWidth}px par {curHeight}px. Vous devez augmenter votre résolution ou utiliser un autre périphérique d'affichage, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
+      "Scale": "Foundry Virtual Tabletop nécessite des dimensions d'écran utilisables de {reqWidth}px par {reqHeight}px ou plus. Les dimensions de cette fenêtre sont de {curWidth}px par {curHeight}px. Un facteur de zoom est actuellement appliqué au niveau du système d'exploitation ou du navigateur, ce qui réduit la taille effective de votre fenêtre. Vous devez agrandir la taille de votre fenêtre ou réduire le facteur de zoom appliqué à votre navigateur, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
+      "Screen": "Foundry Virtual Tabletop nécessite des dimensions d'écran utilisables de {reqWidth}px par {reqHeight}px ou plus. Les dimensions actuelles de cette fenêtre sont de {curWidth}px par {curHeight}. Vous devez agrandir la taille de votre fenêtre, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement."
+    }
+  },
+  
   "WARNING.GridConfigNoBG": "Vous utilisez l’outil de configuration de la grille pour une scène sans image de fond. Cela n’est pas recommandé actuellement et peut produire des résultats imprévisibles.",
   "WARNING.ForegroundDimensionsMismatch": "Les dimensions de votre image du calque de premier plan configurée ne correspondent pas aux dimensions de l’image d’arrière-plan pour cette scène. Le premier plan a été redimensionné, ce qui peut avoir des résultats indésirables.",
   "WARNING.ObjectDoesNotExist": "{name} « {identifier} » n’existe pas.",
   "WARNING.TilingSpriteDeprecation": "Un module ou un système utilise la classe obsolète TilingSprite, qui n’est plus prise en charge.",
+  
   "EULA": {
     "Acknowledge": "Reconnaître l’accord",
     "Agree": "Accepter",
@@ -1127,6 +1169,7 @@
     "Declined": "Vous avez refusé le contrat de licence utilisateur final et ne pouvez pas utiliser le logiciel.",
     "ErrorAgreeRequired": "Vous devez cocher la case pour confirmer votre acceptation de cet accord et continuer."
   },
+
   "EDITOR.Format": "Format",
   "EDITOR.Font": "Police",
   "EDITOR.Inline": "Ligne",
@@ -1195,6 +1238,7 @@
   "EDITOR.TableDimensions": "Dimensions",
   "EDITOR.TableColumns": "Cols",
   "EDITOR.TableRows": "Lignes",
+
   "ELEMENTS": {
     "DOCUMENT_TAGS": {
       "Add": "Ajouter Document",
@@ -1207,6 +1251,7 @@
       "ErrorNonUnique": "Tag \"{tag}\" est déjà défini."
     }
   },
+
   "FILES": {
     "CreateDirectory": "Créer un dossier",
     "CreateSubfolder": "Créer un sous-dossier",
@@ -1250,12 +1295,14 @@
     "TitleGraphics": "Navigateur 3D",
     "BrowseTooltip": "Parcourir les fichiers",
     "ErrorDisallowedExtension": "Le fichier « {name} » a une extension invalide « {ext} » qui n’est pas autorisée pour ce type de FilePicker.\nLes extensions autorisées sont : {allowed}.",
+    
     "TABS": {
       "data": "Données de l’utilisateur",
       "public": "Données du core",
       "s3": "Amazon S3"
     }
   },
+
   "FONTS": {
     "AddFont": "Ajouter une police",
     "Type": "Type de police",
@@ -1275,12 +1322,15 @@
       "Italic": "Italique"
     }
   },
+
   "GAME.Paused": "Jeu en pause",
   "GAME.PausedWarning": "Vous ne pouvez pas effectuer cette action tant que le jeu est en pause.",
   "GAME.ReturnSetup": "Retour à l’accueil",
   "GAME.ReturnSetupActiveUser": "Un autre utilisateur est actuellement actif dans ce monde et sera déconnecté. Souhaitez-vous continuer ?",
   "GAME.ReturnSetupActiveUsers": "Il y a {number} autres utilisateurs actuellement actifs dans ce monde et ils seront déconnectés. Souhaitez-vous continuer ?",
+  
   "INFO.SceneViewCanvasDisabled": "La scène « {name} » est sélectionnée mais n’est pas affichée (option de la configuration générale « Scène du jeu désactivée » cochée).",
+  
   "INVITATIONS.Copied": "Le lien d’invitation a été copié dans le presse-papier",
   "INVITATIONS.Instructions": "Partager les liens d’invitation ci-dessous avec les utilisateurs (joueurs). Le lien d’invitation local est destiné aux utilisateurs de votre réseau local tandis que le lien « Internet » permet de se connecter sur le port configuré depuis l’exterieur de votre réseau.",
   "INVITATIONS.Internet": "Internet",
@@ -1290,7 +1340,9 @@
   "INVITATIONS.ClosedConnection": "Votre connexion semble être fermée",
   "INVITATIONS.UnknownConnection": "Nous n’avons pas pu déterminer l’état de votre connexion",
   "INVITATIONS.DiscoveryFailed": "Notre service de détection d’IP n’a pas réussi à identifier correctement votre adresse IP, vous utilisez IPv6 ou vous n’êtes pas connecté à l’internet.",
+  
   "ITEM.ViewArt": "Voir l’image de l’objet",
+  
   "HOTBAR": {
     "LABEL": "Barre de raccourcis",
     "MUTE": "Couper le son",
@@ -1303,6 +1355,7 @@
     "CLEAR": "Vider la barre de raccourcis",
     "CLEAR_CONFIRM": "Effacer toutes les macros assignées de votre barre de raccourcis ?"
   },
+
   "HUD.Elevation": "Elévation",
   "HUD.OpenConfig": "Ouvrir la configuration",
   "HUD.AssignStatusEffects": "Attribuer des effets d’état",
@@ -1316,7 +1369,9 @@
   "HUD.TilePlay": "Jouer la vidéo",
   "HUD.TilePause": "Mettre en pause la vidéo",
   "HUD.WarningEffectNoActor": "Il n’est pas possible d’attribuer des effets d’état à un token qui n’a pas d’acteur associé.",
+  
   "HTMLDocumentTagsElement.PLACEHOLDER": "Saisir UUID ou Déposer {type}",
+  
   "JOURNAL.ModeText": "Texte",
   "JOURNAL.ModeImage": "Image",
   "JOURNAL.ActionShow": "Montrer aux joueurs",
@@ -1352,6 +1407,7 @@
   "JOURNAL.ConfigureCategoriesTitle": "Catégories {name}",
   "JOURNAL.CategoryName": "Nom de la catégorie",
   "JOURNAL.Uncategorized": "Sans catégorie",
+  
   "JOURNALENTRYPAGE.DefaultPageSheet": "Type de page {page} par défaut",
   "JOURNALENTRYPAGE.Format": "Format",
   "JOURNALENTRYPAGE.Page": "Page",
@@ -1381,6 +1437,7 @@
   "JOURNALENTRYPAGE.HeadingLevel": "Niveau de titre",
   "JOURNALENTRYPAGE.Category": "Catégorie de la page",
   "JOURNALENTRYPAGE.Level": "Niveau {level}",
+
   "KEYBINDINGS": {
     "Title": "Configuration des contrôles",
     "ActionCategories": "Catégories des raccourcis",
@@ -1440,6 +1497,7 @@
       "DeleteBinding": "Supprimer le raccourci"
     }
   },
+
   "LIGHT.FIELDS": {
     "alpha": {
       "label": "Intensité de la couleur",
@@ -1519,6 +1577,7 @@
       }
     }
   },
+
   "LIGHT.LegacyColoration": "Coloration héritée",
   "LIGHT.AdaptiveLuminance": "Luminance adaptative",
   "LIGHT.InternalHalo": "Halo interne",
@@ -1530,6 +1589,8 @@
   "LIGHT.HighAbsorption": "Absorption élevée",
   "LIGHT.InvertAbsorption": "Inverser l’absorption",
   "LIGHT.NaturalLight": "Lumière naturelle",
+
+
   "LIGHT.AnimationTorch": "Lumière vacillante",
   "LIGHT.AnimationPulse": "Pulsation",
   "LIGHT.AnimationReactivePulse": "Pulsation sonore réactive",
@@ -1557,6 +1618,7 @@
   "LIGHT.AnimationSiren": "Sirène lumineuse",
   "LIGHT.AnimationMagicalGloom": "Obscurité magique",
   "LIGHT.AnimationDenseSmoke": "Fumée dense",
+
   "MACRO": {
     "Delete": "Effacer la Macro",
     "DeleteWarning": "Cette macro sera définitivement supprimée pour tous les utilisateurs.",
@@ -1578,10 +1640,12 @@
       "command.label": "Commande"
     }
   },
+
   "MENU.NavLabel": "Menu principal",
   "MENU.Reload": "Recharger",
   "MENU.Logout": "Déconnexion",
   "MENU.Players": "Gestion des joueurs",
+
   "MODMANAGE.Bugs": "Rapports sur les bugs ou les problèmes",
   "MODMANAGE.DeactivateAll": "Désactiver tous les Modules",
   "MODMANAGE.Readme": "Documentation du Module",
@@ -1607,6 +1671,7 @@
   "MODMANAGE.FilterAll": "Tous les Modules",
   "MODMANAGE.FilterActive": "Modules actifs",
   "MODMANAGE.FilterInactive": "Modules inactifs",
+
   "MODMANAGE.RequiredModule": "Ce module nécessite d’être activé",
   "MODMANAGE.DependencyIssues": "Impossible de l’activer en raison de problèmes dans les dépendances requises",
   "MODMANAGE.SystemCompatibilityIssueMinimum": "Ce module requiert au moins la version {minimum} mais votre version est {version}. Mettez à jour le système.",
@@ -1614,6 +1679,7 @@
   "MODMANAGE.NavLabel": "Navigation et Organisation des modules",
   "MODMANAGE.UpstreamPackages": "Il y a {number} packages qui nécessitent que ce package soit actif. La désactivation de ce package entraînera également la désactivation de ces package.",
   "MODMANAGE.UnavailableDocuments": "Les documents suivants seront rendus indisponibles si vous désactivez ces modules.",
+  
   "NOTE.Create": "Créer une note sur la scène",
   "NOTE.CreateJournal": "Créer le journal correspondant ?",
   "NOTE.Custom": "Personnalisé",
@@ -1645,6 +1711,7 @@
     "textColor.label": "Couleur",
     "textAnchor.label": "Point d’ancrage"
   },
+
   "NUE.FirstLaunchBody": "Il semble que ce soit un nouveau monde. Pour commencer, vous devez d’abord ajouter les joueurs supplémentaires attendus via le menu <a class=\"nue-tab\" data-tab=\"settings\">Configuration des Joueurs</a>. Ensuite vous pourrez créer des <a class=\"nue-tab\" data-tab=\"actors\">Acteurs</a> pour eux, ainsi que tout autre personnage important que vous devez représenter. Les cartes et autres visuels peuvent être configurés à l’aide des <a class=\"nue-tab\" data-tab=\"scenes\">Scènes</a>, et les documents, notes et autres informations peuvent être créés dans des <a class=\"nue-tab\" data-tab=\"journal\">journaux</a>.",
   "NUE.FirstLaunchHeader": "Pour commencer",
   "NUE.FirstLaunchHint": "<i class=\"fas fa-info-circle\"></i> Ce message peut être extrait en cliquant dessus avec le bouton droit de la souris, vous pouvez également extraire tout l’onglet de chat en cliquant avec le bouton droit de la souris sur l’icône de la bulle de dialogue (menu du haut). Cette dernière méthode (clic droit sur les icones du menu) permet de la même manière de faire apparaître n’importe quel autre onglet de la barre latérale dans une fenêtre indépendante.",
@@ -1652,6 +1719,7 @@
   "NUE.FirstLaunchInviteBody": "Lorsque tout est configuré et que vous êtes prêt à inviter vos joueurs, vous pouvez leur envoyer un lien vers votre monde depuis le <a class=\"nue-action\" data-action=\"invite\">Liens d’invitation</a>.",
   "NUE.FirstLaunchKB": "N’oubliez pas d’explorer tous les onglets disponibles dans cette barre latérale, et pour plus d’informations, vous pouvez consulter la série <a href=\"https://foundryvtt.com/article/tutorial/\" target=\"_blank\">Gamemaster Tutorial</a> (en Anglais) dans la <a href=\"https://foundryvtt.com/kb/\" target=\"_blank\">Base de connaissances</a>.",
   "NUE.FirstLaunchTroubleshooting": "Si la boîte de dialogue « Liens d’invitation » indique que votre connexion est fermée, vous devrez peut-être configurer la redirection de port. Vous trouverez des instructions à ce sujet sur le site officiel : <a href=\"https://foundryvtt.com/article/port-forwarding/\" target=\"_blank\">Port Forwarding Guide</a> (en Anglais) ou sur le wiki en Français : <a href=\"https://foundryvtt.wiki/fr/pour-commencer/pbcnx/\" target=\"_blank\">Impossible de se connecter à distance</a>. Si vous avez toujours besoin d’aide, vous pouvez également chercher du support : Sur le Discord officiel <b>Anglais</b> : postez un message dans <a href=\"https://discord.com/channels/170995199584108546/689889940590690323\" target=\"_blank\">#install-and-connection</a> pour les problèmes d’invitation, <a href=\"https://discord.com/channels/170995199584108546/486930822465716249\" target=\"_blank\">#troubleshooting</a> pour les problèmes généraux avec le logiciel, ou <a href=\"https://discord.com/channels/170995199584108546/713259405667205193\" target=\"_blank\">#core-how-to</a> pour une aide plus générique sur Foundry VTT. Sur le serveur Discord <b>Francophone</b> de FoundryVTT : <a href=\"https://discord.gg/pPSDNJk\" target=\"_blank\">La Fonderie</a>.",
+  
   "PLAYERS": {
     "Title": "Joueurs",
     "List": "Liste de joueurs",
@@ -1670,6 +1738,7 @@
     "LATENCY": "Latence",
     "FPS": "IPS"
   },
+
   "PLAYLIST.Delete": "Supprimer la playlist",
   "PLAYLIST.Edit": "Éditer la playlist",
   "PLAYLIST.DefaultChannel": "Canal de playlist audio",
@@ -1718,6 +1787,7 @@
     "CONTROLS": "Contrôles de volume utilisateur",
     "TOOLTIP": "Volume : {volume}%"
   },
+
   "PLAYLIST_SOUND.Update": "Mettre à jour les pistes",
   "PLAYLIST_SOUND.FIELDS": {
     "name.label": "Nom de la piste",
@@ -1728,6 +1798,7 @@
     "fade.label": "Durée du fondu",
     "description.label": "Description du son"
   },
+  
   "SCENE.Accessibility": "Restriction d’accès",
   "SCENE.AccessibilityGM": "MJ Uniquement",
   "SCENE.AccessibilityAll": "Tous les joueurs",
@@ -1924,11 +1995,13 @@
       "environment": "Luminosité de l’environnement"
     }
   },
+
   "SCENE_NAVIGATION": {
     "COLLAPSE": "Réduire la navigation",
     "EXPAND": "Développer la navigation",
     "LABEL": "Scene Navigation"
   },
+  
   "GRID.STYLES": {
     "SolidLines": "Lignes pleines",
     "DashedLines": "Lignes en tirets",
@@ -1937,6 +2010,7 @@
     "DiamondPoints": "Points en losange",
     "RoundPoints": "Points ronds"
   },
+
   "SERVER_SETTINGS": {
     "Title": "Configuration de l’application",
     "Warning": "Les paramètres suivants personnalisent le comportement de Foundry Virtual Tabletop. Les modifications nécessiteront le redémarrage du serveur.",
@@ -1983,9 +2057,10 @@
         "label": "Langue par défaut",
         "hint": "Vous pouvez choisir une langue par défaut pour l’application en choisissant un module qui fournit les fichiers de traduction de base pour cette langue."
       },
+      "upnp.label": "Activer UPnP",
       "port": {
         "label": "Port",
-        "hint": "Vous pouvez choisir le port utilisé par Foundry Virtual Tabletop pour le trafic de connexion TCP et activer ou désactiver Universal Plug and Play (UPnP)."
+        "hint": "Choisissez le port que Foundry Virtual Tabletop utilise pour le trafic de connexion TCP et activez ou désactivez l'Universal Plug and Play (UPnP)."
       },
       "compressStatic": {
         "label": "Compresser les fichiers statiques",
@@ -2018,11 +2093,13 @@
       }
     }
   },
+
   "SETTINGS.CombatConfigN": "Traqueur de combat",
   "SETTINGS.CombatConfigL": "Configurer le suivi de combat",
   "SETTINGS.CombatConfigH": "Paramètres relatifs au combat et au suivi.",
   "SETTINGS.CombatThemeN": "Thème du combat",
   "SETTINGS.CombatThemeL": "L’ensemble des sons qui seront joués lorsque le combat commence, lorsque votre tour sera le prochain, et pendant votre tour.",
+  
   "SETTINGS.Issues": "Problèmes/Questions",
   "SETTINGS.Title": "Paramètres de la partie",
   "SETTINGS.Update": "Mettre à jour le logiciel",
@@ -2116,6 +2193,7 @@
   "SETTINGS.GridDiagonalsAlternating1": "Alterné (1/2/1)",
   "SETTINGS.GridDiagonalsAlternating2": "Alterné (2/1/2)",
   "SETTINGS.GridDiagonalsIllegal": "Illégal (∞)",
+
   "SETTINGS.UI": {
     "MENU": {
       "name": "Configuration de l’interface utilisateur",
@@ -2170,6 +2248,7 @@
       }
     }
   },
+
   "SETUP": {
     "NavLabel": "Onglets de configuration",
     "CoreVersion": "Version du logiciel (core)",
@@ -2237,14 +2316,17 @@
     "FavoritePackage": "Favoris",
     "Verified": "Le package est vérifié pour cette version de Foundry",
     "ErrorTimeout": "La requête vers {url} a expiré après {timeout}s",
+
     "WarningsTitle": "Avertissements sur des packages",
     "WarningsNone": "Vous n’avez pas d’avertissements !",
     "WarningsManage": "Gérer les packages",
+
     "ManifestUpdate": "Version plus récente disponible à une nouvelle URL d’installation",
     "ManifestUpdateAvailable": "Une version plus récente de « {package} » est disponible à une URL d’installation différente. Cela se produit lorsque l’emplacement d’hébergement du package ou l’auteur a changé.",
     "PriorManifestUrl": "URL du manifeste précédent (Version {version})",
     "UpdatedManifestUrl": "URL du manifeste mise à jour (Version {version})",
     "SwapToTheUpdatedManifest": "Souhaitez-vous passer à la nouvelle URL du manifeste ? (ceci est recommandé)",
+    
     "CurrentVersion": "Version actuelle",
     "ForceUpdate": "Forcer la mise à jour ?",
     "DependencyNotInstalled": "Cette dépendance n’est pas installée",
@@ -2290,6 +2372,7 @@
     "ViewPackagePage": "Voir la page du package",
     "ViewPackageWebsite": "Voir la page du package",
     "ViewPackageChangelog": "Voir le journal des modifications (Changelog)",
+    
     "PackageHasDependenciesSingular": "{title} a une dépendance qui n’est pas encore installée.",
     "PackageHasDependenciesPlural": "{title} a {number} dépendances qui n’ont pas encore été installées.",
     "PackageRequiredDependencies": "Ces dépendances sont nécessaires et le package ne fonctionnera pas sans elles :",
@@ -2333,6 +2416,7 @@
     "PackageIncompatibleSystemsBulkPrompt": "Les modules suivants n’ont pas été mis à jour car cela les aurait rendus incompatibles avec un ou plusieurs systèmes installés. Voulez-vous les mettre à jour quand même ?",
     "PackageIncompatibleWithSystems": "{module} <em>incompatible avec</em> {systems}",
     "ConfirmCodeLabel": "Tapez exactement « {code} » pour continuer",
+    
     "WorldLaunchConnect": "Chargement des données du monde",
     "WorldLaunchMigrate": "Migration des données du monde",
     "WorldLaunchConnectPackage": "Chargement des données du package",
@@ -2341,6 +2425,7 @@
     "WorldLaunchMigrateSystem": "Effectuer la migration du système",
     "WorldLaunchCleanWorld": "Nettoyage des données du monde",
     "WorldLaunchExtractDemo": "Extraction des données de démonstration",
+    
     "UpdateDownloadingS": "Téléchargement de la mise à jour en cours",
     "UpdateDownloadingC": "Téléchargement fini",
     "UpdateExtractingS": "Extraction de la mise à jour en cours",
@@ -2364,6 +2449,7 @@
     "UpdatedPackages": "Journal des mises à jour",
     "Package": "Packages",
     "VersionChange": "Changement de version",
+    
     "WorldMigrationRequiredTitle": "Migration des données du monde",
     "WorldCoreMigrationRequired": "<p>En chargeant le monde <strong>{world}</strong>, celui-ci va migrer son modèle de données d’une ancienne version du logiciel (<code>{oldVersion}</code>) vers la version <strong>{newVersion}</strong> actuellement installé.</p>",
     "WorldSystemMigrationRequired": "<p>Ce monde a été lancé pour la dernière fois avec une version du système plus ancienne (<code>{oldVersion}</code>) que la version du système actuellement installée <strong>{newVersion}</strong> et peut nécessiter une migration du système.</p>",
@@ -2373,15 +2459,19 @@
     "WorldMigrationCreateBackup": "Créer une sauvegarde avant de migrer ?",
     "WorldMigrationBegin": "Début de la migration",
     "WorldMigrationInProcess": "Les données de votre monde sont en cours de migration pour être compatibles avec la {version}. Cela peut prendre un certain temps. Veuillez rester patient et ne pas fermer le logiciel.",
+    
     "AdminAccess": "Foundry Virtual Tabletop &bull; Accès Administrateur",
     "AdminPasswordPrompt": "Un mot de passe restreint l’accès à cet écran de configuration.",
     "AdminPasswordForgot": "Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser en <a href=\"https://foundryvtt.com/article/reset-admin-password/\" target=\"_blank\">suivant ces instructions</a>.",
     "AdminLogIn": "Connexion",
     "AdminLogout": "Déconnexion (Admin)",
+    
     "UPNPLabel": "Activer UPnP",
+    
     "News": "Actualités",
     "FeaturedContent": "Contenu à l’honneur",
     "NoFeaturedContent": "Aucune recommandation de contenu n’a été reçue du serveur web de foundryvtt.com.",
+    
     "BACKUPS": {
       "Backup": "Sauvegarde",
       "BackingUp": "Sauvegarde en cours",
@@ -2442,7 +2532,7 @@
       "RestoreSnapshotUnchangedPackages": "<strong>1</strong> package a été ajouté après la prise de l’instantané et restera inchangé après la restauration de l’instantané.",
       "RestoreSnapshotUnchangedPackagesPl": "<strong>{count}</strong> packages ont été ajoutés après la prise de l’instantané et resteront inchangés après la restauration de l’instantané.",
       "Snapshot": "Instantané",
-      "TakeBackup": "Sauvegarder",
+      "TakeBackup": "Créer une sauvegarde",
       "VersionFormat": "Version {version}",
       "Num": "{number} sauvegarde",
       "NumPl": "{number} sauvegardes",
@@ -2489,6 +2579,16 @@
         "World": "Le système de ce monde a été vérifié pour la dernière fois pour la version du core FVTT {verified}"
       }
     },
+    "INSTALL_PACKAGE": {
+      "ManifestIncompatible": {
+        "Title": "Avertissement de compatibilité",
+        "Warning": [
+          "Le {packageType} à l’URL fournie n’est pas compatible avec la version actuelle de Foundry Virtual Tabletop.",
+          "Êtes-vous sûr de vouloir poursuivre l’installation ?"
+        ]
+      },
+      "ManifestWrongPackageType": "L’URL fournie ne semble pas pointer vers un {packageType}."
+    },
     "UPDATE_NOTES": {
       "Title": "Notes de mise à jour : {release}",
       "FullList": "Voir la <a href=\"{url}\" target=\"_blank\">liste complète</a> des notes de version.",
@@ -2497,9 +2597,11 @@
       "PreviewCompatibilityHint": "En utilisant le bouton « Prévisualiser la compatibilité » ci-dessous, vous pouvez vérifier si tous vos mondes, systèmes et modules sont pris en charge par la version {version} de Foundry Virtual Tabletop."
     }
   },
+
   "THEME.foundry": "Foundry Virtual Tabletop",
   "THEME.fantasy": "Fantasy classique",
   "THEME.scifi": "Science Fiction",
+
   "PACKAGE": {
     "Type": {
       "world": "Monde",
@@ -2625,6 +2727,8 @@
       "dataPath.label": "Chemin des données"
     }
   },
+
+
   "PACKAGECONFIG": {
     "All": "Tous",
     "Reset": "Réinitialiser les valeurs par défaut",
@@ -2636,6 +2740,7 @@
       "unmapped": "Non répertorié"
     }
   },
+
   "JOIN": {
     "CurrentPlayers": "Joueurs présents",
     "HeaderJoin": "Rejoindre la partie",
@@ -2651,6 +2756,7 @@
     "ErrorBanned": "{user} n’a pas la permission d’accéder à ce monde !",
     "LoginSuccess": "Connexion réussie en tant que {user}, chargement du monde !"
   },
+
   "SHEETS.ConfigureSheet": "Configurer la fiche",
   "SHEETS.ConfigureTitle": "{prefix} : Configuration de la feuille",
   "SHEETS.ThisSheet": "Cette fiche",
@@ -2665,6 +2771,7 @@
   "SHEETS.CopyUuid": "Copier l’UUID du document",
   "SHEETS.Theme": "Thème",
   "SHEETS.ThemeHint": "Tous les thèmes ne sont pas disponibles pour chaque feuille.",
+  
   "SOUND": {
     "ConfigTitle": "Configuration du son ambiant",
     "PathPlaceholder": "chemin/vers/audio.mp3",
@@ -2675,6 +2782,7 @@
       "REVERB": "Réverbération"
     }
   },
+
   "FOLDER.Clear": "Retirer du dossier",
   "FOLDER.Collapse": "Réduire tous les dossiers",
   "FOLDER.Delete": "Supprimer le dossier et son contenu",
@@ -2712,6 +2820,7 @@
     "color.label": "Couleur du dossier",
     "sorting.label": "Mode de tri"
   },
+
   "OWNERSHIP": {
     "Title": "Configuration des droits : {object}",
     "NONE": "Aucun",
@@ -2729,6 +2838,7 @@
     "Legend": "Propriétaire",
     "Save": "Sauvegarder"
   },
+
   "PERMISSION.Title": "Configuration des permissions utilisateur",
   "PERMISSION.Configure": "Configurer les droits",
   "PERMISSION.ConfigureLabel": "Ouvrir la Configuration des droits",
@@ -2787,6 +2897,7 @@
   "PERMISSION.QueryUser": "Interroger les utilisateurs",
   "PERMISSION.QueryUserHint": "Autoriser les utilisateurs ayant ce rôle à interroger d’autres utilisateurs.",
   "PERMISSION.WarningNoCreate": "Vous n’avez pas de privilèges suffisants pour créer un {document}.",
+  
   "REGION": {
     "TABS": {
       "identity": "Identité",
@@ -2931,6 +3042,7 @@
       "NoControlledWalls": "Vous ne contrôlez aucun mur !"
     }
   },
+
   "BEHAVIOR": {
     "SECTIONS": {
       "identity": "Identité du comportement",
@@ -3072,10 +3184,12 @@
       }
     }
   },
+
   "RULER.MovementNotAllowed": "La trajectoire mesurée n’est pas autorisée",
   "RULER.MovementCollision": "La tentative de déplacement entre en collision avec au moins un mur.",
   "RULER.MovementNoPermission": "Vous n’avez pas la permission de déplacer ce token.",
   "RULER.MovementLocked": "Ce token ne peut pas être déplacé car il est verrouillé.",
+
   "SIDEBAR.Import": "Importer les données",
   "SIDEBAR.NavLabel": "Onglets de la barre de menu latérale",
   "SIDEBAR.TabJournal": "Journaux",
@@ -3100,6 +3214,7 @@
   "SIDEBAR.DirectoryTitle": "Répertoire de {type}",
   "SIDEBAR.Documentation": "Documentation Foundry VTT (anglais)",
   "SIDEBAR.Wiki": "Wiki Communautaire Foundry VTT (multilingue)",
+
   "SIDEBAR.ACTIONS.CREATE": {
     "Actor": "Créer un acteur",
     "Adventure": "Créer une aventure",
@@ -3113,10 +3228,12 @@
     "RollTable": "Créer une table",
     "Scene": "Créer une scène"
   },
+
   "SIDEBAR.COMPENDIUM.LABELS": {
     "Ownership": "Propriété non par défaut",
     "Locked": "Verrouillé"
   },
+
   "SIDEBAR.SETTINGS": {
     "LABELS": {
       "Build": "Version",
@@ -3142,40 +3259,47 @@
       "Wiki": "Pages Wiki de la communauté"
     }
   },
-  "SUPPORT.Title": "Détails du support",
-  "SUPPORT.Places": "Où trouver de l’aide",
-  "SUPPORT.Discord": "Pour rejoindre d’autres utilisateurs de Foundry VTT, ou pour obtenir de l’aide de nos formidables assistants communautaires, rejoignez-nous sur <a href=\"https://discord.gg/pPSDNJk\" target=\"_blank\" rel=\"nofollow\">Discord</a>.",
-  "SUPPORT.BugReporting": "Si vous souhaitez signaler un bug, veuillez utiliser la catégorie « Bug Report » disponible sur notre <a href=\"https://foundryvtt.com/contact-us?category=bug\" target=\"_blank\" rel=\"nofollow\">page Contact Us</a>.",
-  "SUPPORT.ReportPrelude": "Lorsque vous demandez de l’aide sur le Discord ou Github, il est utile que nous sachions ce qui se passe dans votre monde. Vous trouverez ci-dessous un rapport à copier-coller que nous vous demandons d’inclure.",
-  "SUPPORT.CopyReport": "Copier le rapport dans le presse-papiers",
-  "SUPPORT.ReportCopied": "Rapport copié",
-  "SUPPORT.OS": "OS",
-  "SUPPORT.Client": "Client",
-  "SUPPORT.GPU": "GPU",
-  "SUPPORT.MaxTextureSize": "Max Texture Size (Taille maximale des textures)",
-  "SUPPORT.LargestTexture": "Texture la plus grande",
-  "SUPPORT.NoDocumentIssues": "Aucun rapport lié aux documents n’a été trouvé.",
-  "SUPPORT.NoClientIssues": "Aucun rapport lié au client n’a été trouvé.",
-  "SUPPORT.NoModuleIssues": "Aucun rapport lié aux modules n’a été trouvé.",
-  "SUPPORT.NoViewedScene": "Aucune scène visualisée",
-  "SUPPORT.ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} sont indisponibles car le module « {name} » est inactif",
-  "SUPPORT.ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} sont indisponibles car un module avec l’ID « {name} » est inactif",
-  "SUPPORT.UnavailableDocuments": {
-    "one": "1 document {document} indisponible",
-    "other": "{count} documents {document} indisponibles"
+
+  "SUPPORT": {
+    "Title": "Détails du support",
+    "Places": "Où trouver de l’aide",
+    "Discord": "Pour rejoindre d’autres utilisateurs de Foundry VTT, ou pour obtenir de l’aide de nos formidables assistants communautaires, rejoignez-nous sur <a href=\"https://discord.gg/pPSDNJk\" target=\"_blank\" rel=\"nofollow\">Discord</a>.",
+    "BugReporting": "Si vous souhaitez signaler un bug, veuillez utiliser la catégorie « Bug Report » disponible sur notre <a href=\"https://foundryvtt.com/contact-us?category=bug\" target=\"_blank\" rel=\"nofollow\">page Contact Us</a>.",
+    "ReportPrelude": "Lorsque vous demandez de l’aide sur le Discord ou Github, il est utile que nous sachions ce qui se passe dans votre monde. Vous trouverez ci-dessous un rapport à copier-coller que nous vous demandons d’inclure.",
+    "CopyReport": "Copier le rapport dans le presse-papiers",
+    "ReportCopied": "Rapport copié",
+    "OS": "OS",
+    "Client": "Client",
+    "Screen": "Dimensions de l'écran",
+    "Viewport": "Dimensions de la fenêtre",
+    "Dimensions": "{width} × {height}",
+    "GPU": "GPU",
+    "MaxTextureSize": "Max Texture Size (Taille maximale des textures)",
+    "LargestTexture": "Texture la plus grande",
+    "NoDocumentIssues": "Aucun rapport lié aux documents n’a été trouvé.",
+    "NoClientIssues": "Aucun rapport lié au client n’a été trouvé.",
+    "NoModuleIssues": "Aucun rapport lié aux modules n’a été trouvé.",
+    "NoViewedScene": "Aucune scène visualisée",
+    "ModuleSubTypesUnavailableName": "<strong>{count}</strong> {document} sont indisponibles car le module « {name} » est inactif",
+    "ModuleSubTypesUnavailableNoName": "<strong>{count}</strong> {document} sont indisponibles car un module avec l’ID « {name} » est inactif",
+    "UnavailableDocuments": {
+      "one": "1 document {document} indisponible",
+      "other": "{count} documents {document} indisponibles"
+    },
+    "WorldScripts": "Scripts du monde",
+    "GenerateFullReport": "Générer un rapport complet",
+    "GenerateFullReportHint": "Un rapport complet contient des informations plus détaillées sur vos modules et compendiums installés et peut prendre du temps à générer.",
+    "WorldData": "Données du monde",
+    "CompendiumData": "Données du compendium",
+    "ActiveModules": "Modules actifs",
+    "TABS": {
+      "support": "Détails du support",
+      "documents": "Problèmes de document",
+      "client": "Problèmes du client",
+      "modules": "Problèmes de module"
+    }
   },
-  "SUPPORT.WorldScripts": "Scripts du monde",
-  "SUPPORT.GenerateFullReport": "Générer un rapport complet",
-  "SUPPORT.GenerateFullReportHint": "Un rapport complet contient des informations plus détaillées sur vos modules et compendiums installés et peut prendre du temps à générer.",
-  "SUPPORT.WorldData": "Données du monde",
-  "SUPPORT.CompendiumData": "Données du compendium",
-  "SUPPORT.ActiveModules": "Modules actifs",
-  "SUPPORT.TABS": {
-    "support": "Détails du support",
-    "documents": "Problèmes de document",
-    "client": "Problèmes du client",
-    "modules": "Problèmes de module"
-  },
+
   "TABLE": {
     "AnimateSetting": "Animation des tables aléatoires",
     "AnimateSettingHint": "Un lancer sur une table aléatoire affiche une animation de style « roulette ».",
@@ -3214,6 +3338,7 @@
       "displayRoll.label": "Afficher le résultat du jet dans le tchat"
     }
   },
+
   "TABLE_RESULT": {
     "Details": "Détails",
     "ACTIONS": {
@@ -3232,6 +3357,7 @@
       "range.label": "Plage"
     }
   },
+
   "TEMPLATE.ConeTypeSetting": "Type de gabarit cône",
   "TEMPLATE.ConeTypeSettingHint": "Définit la zone d’effet pour les gabarits en cône.",
   "TEMPLATE.ConeTypeFlat": "Plat",
@@ -3256,6 +3382,7 @@
     "fillColor.label": "Couleur de remplissage",
     "texture.label": "Texture du remplissage"
   },
+
   "TILE.ConfigTitle": "Configuration de la tuile",
   "TILE.Dimensions": "Dimensions",
   "TILE.Scale": "Échelle de la tuile",
@@ -3308,6 +3435,8 @@
       "volume.label": "Volume de la vidéo"
     }
   },
+
+
   "TIME": {
     "Day": {
       "one": "Jour",
@@ -3342,6 +3471,7 @@
       "abbr": "a"
     }
   },
+
   "TOKEN.Assign": "Assigner le token",
   "TOKEN.AssignWarn": "Vous devez sélectionner un token existant pour l’attribuer comme nouvelle configuration du prototype.",
   "TOKEN.AssignSuccess": "Mise à jour du prototype de configuration des tokens pour {name}",
@@ -3493,16 +3623,19 @@
     "bar1.attribute.label": "Attribut de la barre 1",
     "bar2.attribute.label": "Attribut de la barre 2"
   },
+
   "TOKEN.DISPOSITION.HOSTILE": "Hostile",
   "TOKEN.DISPOSITION.NEUTRAL": "Neutre",
   "TOKEN.DISPOSITION.FRIENDLY": "Amical",
   "TOKEN.DISPOSITION.SECRET": "Secret",
+
   "TOKEN.DISPLAY_NONE": "Jamais affiché",
   "TOKEN.DISPLAY_CONTROL": "Lorsqu’il est contrôlé",
   "TOKEN.DISPLAY_OWNER_HOVER": "Survolé par le propriétaire",
   "TOKEN.DISPLAY_HOVER": "Survolé par n’importe qui",
   "TOKEN.DISPLAY_OWNER": "Toujours pour le propriétaire",
   "TOKEN.DISPLAY_ALWAYS": "Toujours pour tout le monde",
+
   "TOKEN.SHAPES.ELLIPSE.label": "Ellipse",
   "TOKEN.SHAPES.ELLIPSE_1.label": "Ellipse (Variante 1)",
   "TOKEN.SHAPES.ELLIPSE_2.label": "Ellipse (Variante 2)",
@@ -3512,6 +3645,7 @@
   "TOKEN.SHAPES.RECTANGLE.label": "Rectangle",
   "TOKEN.SHAPES.RECTANGLE_1.label": "Rectangle (Variante 1)",
   "TOKEN.SHAPES.RECTANGLE_2.label": "Rectangle (Variante 2)",
+
   "TOKEN.Adjectives.ambitious": "Ambitieux",
   "TOKEN.Adjectives.angry": "En colère",
   "TOKEN.Adjectives.annoyed": "Agacé",
@@ -3610,6 +3744,7 @@
   "TOKEN.Adjectives.vindictive": "Vindicatif",
   "TOKEN.Adjectives.worried": "Inquiet",
   "TOKEN.Adjectives.zen": "Zen",
+
   "TOKEN.SightNavLabel": "Onglets de configuration de la vue",
   "TOKEN.SightHeaderBasic": "Configuration standard",
   "TOKEN.SightHeaderAdvanced": "Options avancées",
@@ -3619,6 +3754,7 @@
   "TOKEN.DetectionEnabled": "Activé",
   "TOKEN.DetectionAdd": "Ajouter le mode de détection",
   "TOKEN.DetectionRemove": "Suppression du mode de détection",
+
   "TOKEN.RING": {
     "EFFECTS": {
       "BKG_WAVE": "Vague de fond",
@@ -3666,25 +3802,41 @@
       "walk.label": "Marche"
     }
   },
-  "TYPES.Base": "Base",
-  "TYPES.Cards.deck": "Pioche",
-  "TYPES.Cards.hand": "Main",
-  "TYPES.Cards.pile": "Défausse",
-  "TYPES.JournalEntryPage.image": "Image",
-  "TYPES.JournalEntryPage.pdf": "PDF",
-  "TYPES.JournalEntryPage.text": "Texte",
-  "TYPES.JournalEntryPage.video": "Vidéo",
-  "TYPES.Macro.chat": "Tchat",
-  "TYPES.Macro.script": "Script",
-  "TYPES.RegionBehavior.adjustDarknessLevel": "Modifier le niveau d’obscurité",
-  "TYPES.RegionBehavior.displayScrollingText": "Afficher le texte défilant",
-  "TYPES.RegionBehavior.executeMacro": "Exécuter une macro",
-  "TYPES.RegionBehavior.executeScript": "Exécuter un script",
-  "TYPES.RegionBehavior.modifyMovementCost": "Modifier le coût de déplacement",
-  "TYPES.RegionBehavior.pauseGame": "Mettre le jeu en pause",
-  "TYPES.RegionBehavior.suppressWeather": "Supprimer les effets météo",
-  "TYPES.RegionBehavior.teleportToken": "Téléporter le token",
-  "TYPES.RegionBehavior.toggleBehavior": "Basculer le comportement",
+
+"TYPES": {
+  "Base": "Base",
+  "Cards": {
+    "deck": "Pioche",
+    "hand": "Main",
+    "pile": "Défausse"
+  },
+  "JournalEntryPage": {
+    "image": "Image",
+    "pdf": "PDF",
+    "text": "Texte",
+    "video": "Vidéo"
+  },
+  "Macro": {
+    "chat": "Tchat",
+    "script": "Script"
+  },
+  "RegionBehavior": {
+    "adjustDarknessLevel": "Modifier le niveau d'obscurité",
+    "displayScrollingText": "Afficher le texte défilant",
+    "executeMacro": "Exécuter une macro",
+    "executeScript": "Exécuter un script",
+    "modifyMovementCost": "Modifier le coût de déplacement",
+    "pauseGame": "Mettre le jeu en pause",
+    "suppressWeather": "Supprimer les effets météo",
+    "teleportToken": "Téléporter le token",
+    "toggleBehavior": "Basculer le comportement"
+  },
+  "TableResult": {
+    "document": "Document",
+    "text": "Texte"
+  }
+ },
+
   "DETECTION.LightPerception": "Perception de la lumière",
   "DETECTION.BasicSight": "Vision dans le noir",
   "DETECTION.SeeInvisibility": "Voir l’invisibilité",
@@ -3692,11 +3844,13 @@
   "DETECTION.FeelTremor": "Ressentir les tremblements",
   "DETECTION.SenseAll": "Tout ressentir",
   "DETECTION.SeeAll": "Tout voir",
+
   "TEXTURE_DATA.FIT.fill": "Remplir",
   "TEXTURE_DATA.FIT.contain": "Contenir",
   "TEXTURE_DATA.FIT.cover": "Couvrir",
   "TEXTURE_DATA.FIT.width": "Pleine largeur",
   "TEXTURE_DATA.FIT.height": "Pleine hauteur",
+
   "TOURS": {
     "NavLabel": "Onglets de configuration des présentations",
     "ShowMeHow": "Montre-moi comment",
@@ -3718,6 +3872,7 @@
     "SuggestedTitle": "Prochaine présentation suggérée",
     "SuggestedDescription": "<p>Vous avez terminé la présentation <strong>{currentTitle}</strong>.</p><p>Nous vous proposons de poursuivre avec la présentation <strong>{nextTitle}</strong>. Souhaitez-vous poursuivre ? </p>"
   },
+
   "USER": {
     "FIELDS": {
       "name": {
@@ -3763,6 +3918,7 @@
     "RoleGamemaster": "Maître de Jeu",
     "GM": "MJ"
   },
+
   "USERS.AccessKey": "Code d’accès",
   "USERS.Role": "Rôle du joueur",
   "USERS.UserName": "Nom de l’utilisateur",
@@ -3776,6 +3932,8 @@
   "USERS.NoGMError": "Vous devez avoir configuré au moins un Maître de Jeu dans votre monde.",
   "USERS.DeleteWarning": "Ce joueur sera définitivement supprimé du monde de jeu.",
   "USERS.DeleteGMWarning": "Vous êtes sur le point de supprimer un Maître de Jeu !",
+  
+  
   "VISION.ModeBlindness": "Aveugle",
   "VISION.ModeBasicVision": "Vision standard",
   "VISION.ModeDetectInvisibility": "Détection de l’invisibilité",
@@ -3783,6 +3941,7 @@
   "VISION.ModeMonochromatic": "Monochromatique",
   "VISION.ModeTremorsense": "Perception des vibrations",
   "VISION.ModeLightAmplification": "Lumière amplifiée",
+
   "WALL.FIELDS": {
     "c.label": "Coordonnées du mur",
     "light.label": "Lumière",
@@ -3863,6 +4022,7 @@
   "WALL.DoorSounds.WoodBasic": "Bois, Basique",
   "WALL.DoorSounds.WoodCreaky": "Bois, Grinçant",
   "WALL.DoorSounds.WoodHeavy": "Bois, Lourd",
+
   "WEBRTC": {
     "Title": "Configuration audio/vidéo",
     "MenuLabel": "Configurer audio/vidéo",
@@ -3979,12 +4139,14 @@
       "server": "Serveur"
     }
   },
+
   "WEATHER.Rain": "Pluie",
   "WEATHER.RainStorm": "Pluie orageuse",
   "WEATHER.Snow": "Neige",
   "WEATHER.Blizzard": "Blizzard",
   "WEATHER.AutumnLeaves": "Feuilles d’automne",
   "WEATHER.Fog": "Brouillard",
+  
   "WORLD": {
     "JOIN_THEMES": {
       "default": "Défaut",
