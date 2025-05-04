@@ -1,3 +1,6 @@
+13.334.1
+- Mise à jour pour la vesion 13.340
+
 12.331.6
 - Ajout des traductions pour EFFECT.StatusHover, EFFECT.StatusBurrow, HUD.OpenConfig, CONTROLS.DrawingRole, HUD.ToggleTargetState, HUD.WarningEffectNoActor
 
