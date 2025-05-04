@@ -6,27 +6,27 @@
   "steps": [
     {
       "id": "overview",
-      "selector": ".control-tools",
+      "selector": "#scene-controls-layers",
       "title": "CANVASCONTROLS.OverviewTitle",
       "content": "CANVASCONTROLS.OverviewContent"
     },
     {
       "id": "tokens",
-      "selector": "[data-control=\"token\"]",
+      "selector": "#scene-controls [data-control=\"tokens\"]",
       "title": "CANVASCONTROLS.TokensTitle",
       "content": "CANVASCONTROLS.TokensContent",
       "layer": "tokens"
     },
     {
       "id": "measure",
-      "selector": "[data-canvas-layer=\"templates\"]",
+      "selector": "#scene-controls [data-control=\"templates\"]",
       "title": "CANVASCONTROLS.MeasureTitle",
       "content": "CANVASCONTROLS.MeasureContent",
       "layer": "templates"
     },
     {
       "id": "tile",
-      "selector": "[data-control=\"tiles\"]",
+      "selector": "#scene-controls [data-control=\"tiles\"]",
       "title": "CANVASCONTROLS.TileTitle",
       "content": "CANVASCONTROLS.TileContent",
       "restricted": true,
@@ -34,7 +34,7 @@
     },
     {
       "id": "drawings",
-      "selector": "[data-control=\"drawings\"]",
+      "selector": "#scene-controls [data-control=\"drawings\"]",
       "title": "CANVASCONTROLS.DrawingsTitle",
       "content": "CANVASCONTROLS.DrawingsContent",
       "restricted": true,
@@ -42,7 +42,7 @@
     },
     {
       "id": "walls",
-      "selector": "[data-control=\"walls\"]",
+      "selector": "#scene-controls [data-control=\"walls\"]",
       "title": "CANVASCONTROLS.WallsTitle",
       "content": "CANVASCONTROLS.WallsContent",
       "restricted": true,
@@ -50,7 +50,7 @@
     },
     {
       "id": "lighting",
-      "selector": "[data-control=\"lighting\"]",
+      "selector": "#scene-controls [data-control=\"lighting\"]",
       "title": "CANVASCONTROLS.LightingTitle",
       "content": "CANVASCONTROLS.LightingContent",
       "restricted": true,
@@ -58,7 +58,7 @@
     },
     {
       "id": "sounds",
-      "selector": "[data-control=\"sounds\"]",
+      "selector": "#scene-controls [data-control=\"sounds\"]",
       "title": "CANVASCONTROLS.SoundsTitle",
       "content": "CANVASCONTROLS.SoundsContent",
       "restricted": true,
@@ -66,7 +66,7 @@
     },
     {
       "id": "notes",
-      "selector": "[data-control=\"notes\"]",
+      "selector": "#scene-controls [data-control=\"notes\"]",
       "title": "CANVASCONTROLS.NotesTitle",
       "content": "CANVASCONTROLS.NotesContent",
       "layer": "notes"

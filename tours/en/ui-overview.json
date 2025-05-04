@@ -25,29 +25,22 @@
       "tooltipDirection": "UP"
     },
     {
-      "id": "hotbarCollapse",
-      "selector": "#bar-toggle",
-      "title": "UIOVERVIEW.HotbarCollapseTitle",
-      "content": "UIOVERVIEW.HotbarCollapseContent",
-      "tooltipDirection": "UP"
-    },
-    {
       "id": "players",
-      "selector": "#players",
+      "selector": "#players-active",
       "title": "UIOVERVIEW.PlayersTitle",
       "content": "UIOVERVIEW.PlayersContent",
       "tooltipDirection": "UP"
     },
     {
       "id": "canvasControls",
-      "selector": "#controls",
+      "selector": "#scene-controls",
       "title": "UIOVERVIEW.CanvasControlsTitle",
       "content": "UIOVERVIEW.CanvasControlsContent",
       "tooltipDirection": "CENTER"
     },
     {
       "id": "navigation",
-      "selector": "#navigation",
+      "selector": "#scene-navigation",
       "title": "UIOVERVIEW.NavigationTitle",
       "content": "UIOVERVIEW.NavigationContent",
       "tooltipDirection": "CENTER"

@@ -12,14 +12,14 @@
     },
     {
       "id": "help",
-      "selector": "#settings-documentation",
+      "selector": "section[data-help-docs]",
       "title": "WELCOME.HelpTitle",
       "content": "WELCOME.HelpContent",
       "sidebarTab": "settings"
     },
     {
       "id": "tours",
-      "selector": "button[data-action=\"tours\"]",
+      "selector": "button[data-action=openApp][data-app=tours]",
       "title": "WELCOME.ToursTitle",
       "content": "WELCOME.ToursContent",
       "sidebarTab": "settings"

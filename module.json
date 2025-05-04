@@ -4,9 +4,9 @@
   "version": "#{VERSION}#",
   "description": "<p>Traduction en Français du Core FoundryVTT.</p> <p> *** Rejoignez la communauté Discord FR - La Fonderie - :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "12"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
   },
   "coreTranslation": true,
   "authors": [
@@ -65,9 +65,7 @@
       "name": "DjLeChuck"
     }
   ],
-  "scripts": [
-    "./scripts/bouton-sidebar.js"
-  ],
+  "scripts": [],
   "styles": [],
   "packs": [],
   "languages": [
