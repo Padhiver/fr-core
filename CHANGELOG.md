@@ -1,3 +1,6 @@
+13.340.1
+- Mise à jour pour la version 13.340
+
 12.331.7
 - Traduction de quelques clés manquantes sur le combat tracker (traqueur de combat) et dans la configuration des tuiles de superposition.
 
