@@ -450,9 +450,11 @@
       "drawn.label": "Piochée(s)",
       "face.label": "Face",
       "faces": {
-        "name.label": "Nom de la face",
-        "img.label": "Image de la face",
-        "text.label": "Texte de la face"
+        "element": {
+          "name.label": "Nom de la face",
+          "img.label": "Image de la face",
+          "text.label": "Texte de la face"
+        }
       },
       "back": {
         "name.label": "Nom du dos",
@@ -633,6 +635,7 @@
   "COMPENDIUM.ToggleLocked": {
     "Option": "Basculer le verrouillage d’édition",
     "Title": "Basculer le verrouillage d’édition : {compendium}",
+    "Unlock": "Déverrouiller",
     "Warning": "Vous essayez de déverrouiller pour éditer un compendium qui n’appartient pas à ce monde. Toutes les modifications que vous apportez dans ce pack de compendium peuvent être perdues si le système ou le module qui le possède est mis à jour. Vous pouvez dupliquer le compendium vers votre monde à la place. Voulez-vous continuer ?"
   },
   "COMPENDIUM.CannotViewWarning": "Vous ne disposez pas d’autorisations suffisantes pour consulter ce compendium.",
@@ -664,7 +667,6 @@
     "TargetSelect": "Sélection de cibles",
     "TargetSelectP": "Ciblez tous les tokens que vous pouvez voir.",
     "BasicMeasure": "Règle",
-    "BasicMeasureWaypoints": "Placer des points de repère",
     "GroupMeasure": "Outils de gabarit",
     "MeasureType": "Type de gabarit",
     "MeasureConfigHint": "Configurer le placement et l’affichage du gabarit.",
@@ -812,10 +814,10 @@
     "Drop": "Déposer",
     "KeyHighlight": "Identifier les objets",
     "KeyPan": "Déplacer la scène",
-    "ZoomIn": "Ascension verticale ou zoom dans le canevas",
-    "ZoomOut": "Descendre verticalement ou faire un zoom arrière sur le canevas",
-    "KeyCycle": "Ràz Vue ou aller au token (cycle)",
-    "KeyMove": "Déplacer au clavier (tokens ou tuiles)",
+    "KeyZoomIn": "Zoomer",
+    "KeyZoomOut": "Dézoomer",
+    "KeyCycle": "Token suivant ou réinitialiser la vue",    
+    "KeyMove": "Déplacer au clavier (tokens ou tuiles)",    
     "KeyMoveDiag": "Déplacement en diagonal",
     "KeyMoveFace": "Orientation",
     "KeyDelete": "Supprimer les objets sélectionnés",
@@ -823,11 +825,8 @@
     "KeyPaste": "Coller les éléments de la scène",
     "KeyUndo": "Annuler la dernière opération sur la scène",
     "KeyHotbar": "Raccourcis de la barre de raccourcis",
-    "RulerTitle": "Affichage des distances",
-    "RulerMeasure": "Afficher la distance avec une règle",
-    "RulerWaypoint": "Placer un point intermédiaire de mesure",
-    "RulerMove": "Déplacer le token en suivant le chemin mesuré",
-    "RulerWhile": "en mesurant depuis le token",
+    "RulerPlaceWaypoint": "Placer un point de passage",
+    "RulerRemoveWaypoint": "Supprimer un point de passage",
     "ObjectSheet": "Ouvrir la feuille associée à l’objet",
     "ObjectHUD": "Afficher le HUD de l’objet (si applicable)",
     "ObjectConfig": "Ouvrir la feuille de configuration de l’objet",
@@ -839,6 +838,7 @@
     "MouseWheel": "Molette",
     "DragDrop": "Glisser-déposer",
     "UnconstrainedMovement": "Déplacement sans contrainte",
+    "UnconstrainedMovementP": "Si actif, les tokens peuvent être déplacés à travers les murs et les terrains impassables.",
     "TokenHeader": "Contrôles des tokens",
     "TokenPlaceHidden": "Placer un token caché (MJ)",
     "TokenTarget": "Sélectionner un token comme cible (non possédé)",
@@ -1149,9 +1149,9 @@
     "RequiresGenerationReinstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible, mais elle ne peut pas être installée depuis l'application Foundry Virtual Tabletop car il s'agit d'une mise à jour de nouvelle génération qui doit être installée manuellement en réinstallant le logiciel depuis le site <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
     "RequiresElectronReinstall": "La version {version} de Foundry Virtual Tabletop est désormais disponible, mais elle ne peut pas être installée depuis l'application Foundry Virtual Tabletop car elle inclut une nouvelle version d'Electron qui ne peut être installée qu'en réinstallant manuellement le logiciel depuis le site <a href=\"https://foundryvtt.com/me/licenses\" target=\"_blank\">foundryvtt.com</a>.",
     "RESOLUTION": {
-      "Window": "Foundry Virtual Tabletop nécessite une résolution d'écran de {reqWidth}px par {reqHeight}px ou plus. Votre affichage a une résolution de {curWidth}px par {curHeight}px. Vous devez augmenter votre résolution ou utiliser un autre périphérique d'affichage, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
-      "Scale": "Foundry Virtual Tabletop nécessite des dimensions d'écran utilisables de {reqWidth}px par {reqHeight}px ou plus. Les dimensions de cette fenêtre sont de {curWidth}px par {curHeight}px. Un facteur de zoom est actuellement appliqué au niveau du système d'exploitation ou du navigateur, ce qui réduit la taille effective de votre fenêtre. Vous devez agrandir la taille de votre fenêtre ou réduire le facteur de zoom appliqué à votre navigateur, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
-      "Screen": "Foundry Virtual Tabletop nécessite des dimensions d'écran utilisables de {reqWidth}px par {reqHeight}px ou plus. Les dimensions actuelles de cette fenêtre sont de {curWidth}px par {curHeight}. Vous devez agrandir la taille de votre fenêtre, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement."
+      "Screen": "Foundry Virtual Tabletop nécessite une résolution d'écran de {reqWidth}px par {reqHeight}px ou plus. Votre écran a une résolution de {curWidth}px par {curHeight}px. Vous devez augmenter votre résolution ou utiliser un autre périphérique d'affichage, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
+      "Scale": "Foundry Virtual Tabletop nécessite une fenêtre utilisable de dimensions {reqWidth}px par {reqHeight}px ou plus. Les dimensions actuelles de cette fenêtre sont de {curWidth}px par {curHeight}px. Un facteur de zoom est actuellement appliqué au niveau du système d'exploitation ou du navigateur, ce qui réduit la taille effective de votre fenêtre. Vous devez agrandir la taille de votre fenêtre ou réduire le facteur de zoom appliqué à votre navigateur, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement.",
+      "Window": "Foundry Virtual Tabletop nécessite une fenêtre utilisable de dimensions {reqWidth}px par {reqHeight}px ou plus. Les dimensions actuelles de cette fenêtre sont de {curWidth}px par {curHeight}px. Vous devez agrandir la taille de votre fenêtre, sinon certaines fonctionnalités du logiciel ne fonctionneront pas correctement."
     }
   },
   
@@ -1279,6 +1279,7 @@
     "TraverseBack": "Revenir en arrière",
     "NoResults": "Aucun résultat dans ce répertoire.",
     "Upload": "Télécharger",
+    "CannotUpload": "Vous n’avez pas la permission de télécharger des fichiers dans ce répertoire.",
     "Search": "Rechercher",
     "ErrorTooLarge": "Le fichier que vous avez tenté de télécharger est trop volumineux pour le serveur proxy .",
     "ErrorSomethingWrong": "Il y a eu un problème avec la demande de téléchargement de fichiers.",
@@ -1407,6 +1408,7 @@
   "JOURNAL.ConfigureCategoriesTitle": "Catégories {name}",
   "JOURNAL.CategoryName": "Nom de la catégorie",
   "JOURNAL.Uncategorized": "Sans catégorie",
+  "JOURNAL.UnnamedCategory": "<Catégorie sans nom>",
   
   "JOURNALENTRYPAGE.DefaultPageSheet": "Type de page {page} par défaut",
   "JOURNALENTRYPAGE.Format": "Format",
@@ -2453,7 +2455,7 @@
     "WorldMigrationRequiredTitle": "Migration des données du monde",
     "WorldCoreMigrationRequired": "<p>En chargeant le monde <strong>{world}</strong>, celui-ci va migrer son modèle de données d’une ancienne version du logiciel (<code>{oldVersion}</code>) vers la version <strong>{newVersion}</strong> actuellement installé.</p>",
     "WorldSystemMigrationRequired": "<p>Ce monde a été lancé pour la dernière fois avec une version du système plus ancienne (<code>{oldVersion}</code>) que la version du système actuellement installée <strong>{newVersion}</strong> et peut nécessiter une migration du système.</p>",
-    "WorldMigrationSystemUnavailable": "<p>La version installée du <strong>{system}</strong> (<code>{systemVersion}</code>) du système de jeu n’est pas vérifiée comme étant compatible avec cette version du logiciel. Le succès de la migration ne peut être garanti.</p>",
+    "WorldMigrationSystemUnavailable": "<p>La version installée du système <strong>{system}</strong> (<code>{systemVersion}</code>) n’a pas été vérifiée comme compatible avec cette version de Foundry. Le succès de la migration ne peut être garanti.</p>",
     "WorldMigrationDisableModules": "<p>Veuillez mettre à jour votre système de jeu et les modules installés avant de migrer votre monde. Dans le cadre de cette migration, tous les modules seront désactivés. Vous pourrez les réactiver une fois la migration terminée.</p>",
     "WorldMigrationBackupPrompt": "<p><strong>Il n’est pas possible d’inverser ce processus</strong>. Il est recommandé de sauvegarder vos données des mondes (data) préalablement. Vous aurez besoin d’une sauvegarde si vous souhaitez restaurer à une version antérieure.</p>",
     "WorldMigrationCreateBackup": "Créer une sauvegarde avant de migrer ?",
@@ -2701,12 +2703,15 @@
         "hint": "URL d’un site web où l’on peut trouver plus de détails sur ce package."
       },
       "authors": {
-        "name.label": "Nom de l’auteur",
-        "discord.label": "Nom d’utilisateur Discord",
-        "email.label": "Adresse électronique",
-        "url.label": "URL du site web"
+        "element": {
+          "name": "Nom de l’auteur",
+          "discord": "Nom d’utilisateur Discord",
+          "email": "Adresse électronique",
+          "url": "URL du site web"
+        }
       },
       "packs": {
+        "element": {
         "name": {
           "label": "Nom",
           "hint": "Chaîne alphanumérique unique, sans caractères spéciaux, qui identifie le compendium.",
@@ -2718,7 +2723,8 @@
           "label": "Système requis",
           "hint": "Les compendiums d’acteurs, d’objets ou d’aventures (qui contiennent des acteurs ou des items) doivent indiquer le système de jeu spécifique pour lequel ils sont conçus."
         }
-      },
+      }
+    },
       "compatibility": {
         "minimum.label": "Version minimale",
         "verified.label": "Version vérifiée",

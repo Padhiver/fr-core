@@ -1,3 +1,12 @@
+13.344.1
+- Mise à jour pour la version 13.344
+
+13.342.2
+- Correction pour les clés ZoomIn et ZoomOut renommées KeyZoomIn et KeyZoomOut
+
+13.342.1
+- Pas de changement, alignement sur la version de Foundry
+
 13.340.1
 - Mise à jour pour la version 13.340
 
