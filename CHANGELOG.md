@@ -1,3 +1,7 @@
+13.346.1
+- Mise à jour pour la version 13.346
+- Correction de PackageDependenciesAutomaticPlural (merci Rectulo)
+
 13.344.1
 - Mise à jour pour la version 13.344
 

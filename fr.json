@@ -841,7 +841,7 @@
     "UnconstrainedMovementP": "Si actif, les tokens peuvent être déplacés à travers les murs et les terrains impassables.",
     "TokenHeader": "Contrôles des tokens",
     "TokenPlaceHidden": "Placer un token caché (MJ)",
-    "TokenTarget": "Sélectionner un token comme cible (non possédé)",
+    "TokenTarget": "Sélectionner un token (non possédé) comme cible",
     "TokenPlaceHiddenCreate": "lors de la création d’un token.",
     "TooltipDismiss": "Enlever le verrouillage de l’info-bulle",
     "TooltipLock": "Verrouiller l’info-bulle",
@@ -885,7 +885,8 @@
   },
 
   "DICE": {
-    "ErrorNonNumeric": "La formule du lancer de dés {formula} n’a pas produit de résultat numérique.",
+    "ErrorNonNumeric": "La formule du lancer de dés \"{formula}\" n’a pas produit de résultat numérique.",
+    "ErrorNotParsable": "La formule du lancer de dés \"{formula}\" n’est pas une chaîne de caractères.",
     "ManualRoll": "Jet manuel",
     "RollResolution": "Résolution du jet",
     "SubmitRoll": "Soumettre le jet",
@@ -1062,8 +1063,8 @@
   "EFFECT.MODE_OVERRIDE": "Surcharger",
   "EFFECT.TransferLegacy": "Transférer l’effet à l’acteur",
   "EFFECT.TransferHintLegacy": "Si cette case est cochée, cet effet sera copié sur l’acteur lorsque l’élément parent de cet effet est créé sur un acteur, et supprimé si cet élément est supprimé.",
-  "EFFECT.DurationTurns": "Durée de l’effet (tours)",
-  "EFFECT.StartTurns": "Tour de départ de l’effet",
+  "EFFECT.DurationTurns": "Durée de l’effet (Combat)",
+  "EFFECT.StartTurns": "Début de l’effet",
   "EFFECT.ChangeKey": "Clé d’attribut",
   "EFFECT.ChangeMode": "Changer le mode",
   "EFFECT.ChangeValue": "Valeur",
@@ -1279,11 +1280,11 @@
     "TraverseBack": "Revenir en arrière",
     "NoResults": "Aucun résultat dans ce répertoire.",
     "Upload": "Télécharger",
-    "CannotUpload": "Vous n’avez pas la permission de télécharger des fichiers dans ce répertoire.",
+    "CannotUpload": "Le téléchargement vers ce dossier est interdit car le contenu peut être écrasé lors des mises à jour. Téléchargez plutôt dans votre dossier \"assets\" ou un autre emplacement autorisé.",
     "Search": "Rechercher",
-    "ErrorTooLarge": "Le fichier que vous avez tenté de télécharger est trop volumineux pour le serveur proxy .",
+    "ErrorTooLarge": "Le fichier que vous avez tenté de télécharger est trop volumineux pour le serveur proxy.",
     "ErrorSomethingWrong": "Il y a eu un problème avec la demande de téléchargement de fichiers.",
-    "WarnUploadModules": "Vous avez téléchargé des fichiers dans un répertoire de module ou de système. Généralement c’est <strong>dangereux</strong> car les mises à jour du système ou du module vont supprimer ces fichiers.",
+    "WarnUploadModules": "Vous avez téléchargé des fichiers dans un répertoire de module ou de système. Généralement, c’est <strong>dangereux</strong> car les mises à jour du système ou du module vont supprimer ces fichiers.",
     "AlreadyFavorited": "{path} est déjà dans vos favoris.",
     "TitleAny": "Explorateur de fichiers",
     "TitleFolder": "Liste des répertoires",
@@ -2027,6 +2028,11 @@
       "request2": "Vous pouvez modifier vos préférences concernant le partage des données d’utilisation à tout moment dans le menu Configuration de l’application en cliquant sur l’icône <i class=\"fas fa-cogs\"></i> en haut à droite de cet écran.",
       "yes": "Autoriser le partage",
       "no": "Refuser le partage"
+    },    
+    "ChangePassword": {
+      "label": "Changer le mot de passe",
+      "hint": "Entrez le mot de passe administrateur actuel.",
+      "title": "Entrez le mot de passe actuel"
     },
     "SECTIONS": {
       "FVTTConfig": "Configuration de Foundry VTT",
@@ -2195,6 +2201,9 @@
   "SETTINGS.GridDiagonalsAlternating1": "Alterné (1/2/1)",
   "SETTINGS.GridDiagonalsAlternating2": "Alterné (2/1/2)",
   "SETTINGS.GridDiagonalsIllegal": "Illégal (∞)",
+
+  "SETTINGS.UniversalKeybindingsN": "Raccourcis universels (expérimental)",
+  "SETTINGS.UniversalKeybindingsL": "Faire correspondre les raccourcis par le caractère que vous tapez au lieu de la position physique de la touche. Améliore le support pour les dispositions AZERTY, QWERTZ, Kana et d'autres dispositions. Il s'agit d'une fonctionnalité expérimentale. Un rechargement est requis.",
 
   "SETTINGS.UI": {
     "MENU": {
@@ -2381,8 +2390,8 @@
     "PackageOptionalDependencies": "Ces dépendances sont facultatives, mais peuvent améliorer les fonctionnalités du package s’il est installé :",
     "PackageDependenciesTitle": "Installer les dépendances du package",
     "PackageInstallDependencies": "Vous ne serez peut-être pas en mesure d’utiliser ce package si ces dépendances ne sont pas présentes. Souhaitez-vous les installer automatiquement ?",
-    "PackageDependenciesAutomaticSingular": "Installer la dépendance automatiquement",
-    "PackageDependenciesAutomaticPlural": "Installer {number} dépendances automatiquement",
+    "PackageDependenciesAutomaticSingular": "Installer la dépendance sélectionnée automatiquement",
+    "PackageDependenciesAutomaticPlural": "Installer les dépendances sélectionnées automatiquement",
     "PackageDependenciesManualSingular": "Installer la dépendance manuellement",
     "PackageDependenciesManualPlural": "Installer toutes les dépendances manuellement",
     "PackageDependenciesCouldNotInstallSingular": "Une dépendance doit être installée manuellement.",
@@ -2444,11 +2453,15 @@
     "UpdateWarningWillDisable": "Cette mise à jour est une nouvelle version majeure de Foundry Virtual Tabletop. Son installation nécessitera la désactivation de certains modules potentiellement incompatible sans mise à jour de ceux-ci.",
     "UpdateButtonDownload": "Télécharger la mise à jour {display}",
     "UpdateInfoAvailable": "Une mise à jour de Foundry Virtual Tabletop vers la version {display} est disponible !",
-    "UpdateNoUpdateMode": "Vous n’êtes pas autorisé à mettre à jour cette instance de Foundry Virtual Tabletop car elle a été lancée en mode --noupdate.",
     "UpdateNotAvailable": "Aucune mise à jour du logiciel n’est actuellement disponible sur le canal de mise à jour demandé.",
     "UpdateNoArchive": "Il n’existe aucune mise à jour à installer",
     "UpdateLicenseInvalid": "Votre clé de licence Foundry Virtual Tabletop n’est pas valide.",
     "UpdatedPackages": "Journal des mises à jour",
+    "NoUpdateMode": {
+      "Label": "Mises à jour désactivées",
+      "Hint": "Vous n’êtes pas autorisé à mettre à jour cette instance de Foundry Virtual Tabletop car elle a été lancée en mode --noupdate."
+    },
+
     "Package": "Packages",
     "VersionChange": "Changement de version",
     
@@ -2596,7 +2609,7 @@
       "FullList": "Voir la <a href=\"{url}\" target=\"_blank\">liste complète</a> des notes de version.",
       "BeginDownload": "Débuter le téléchargement",
       "NewGenerationHint": "Avant de procéder à la mise à jour, pensez à prendre un instantané de tous les packages installés, au cas où vous auriez besoin de revenir en arrière.",
-      "PreviewCompatibilityHint": "En utilisant le bouton « Prévisualiser la compatibilité » ci-dessous, vous pouvez vérifier si tous vos mondes, systèmes et modules sont pris en charge par la version {version} de Foundry Virtual Tabletop."
+      "PreviewCompatibilityHint": "En utilisant le bouton \"Prévisualiser la compatibilité\" ci-dessous, vous pouvez vérifier si tous vos mondes, systèmes et modules sont pris en charge par la version {version} de Foundry Virtual Tabletop."
     }
   },
 
